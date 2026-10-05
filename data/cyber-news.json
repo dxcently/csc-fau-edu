@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-05T12:10:19+05:30",
+    "source": "The Hacker News",
+    "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+    "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html"
+  },
+  {
     "date": "2026-10-04T17:58:01-04:00",
     "source": "BleepingComputer",
     "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
@@ -22,12 +28,6 @@
     "source": "BleepingComputer",
     "title": "Anthropic asks Claude users to share voice data for AI model training",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/"
-  },
-  {
-    "date": "2026-10-03T20:08:46+05:30",
-    "source": "The Hacker News",
-    "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
-    "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html"
   },
   {
     "date": "2026-10-03T19:12:34-04:00",
