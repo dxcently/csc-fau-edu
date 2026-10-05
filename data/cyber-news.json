@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-05T13:39:23+05:30",
+    "source": "The Hacker News",
+    "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+    "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
+  },
+  {
     "date": "2026-10-05T12:10:19+05:30",
     "source": "The Hacker News",
     "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
@@ -22,12 +28,6 @@
     "source": "The Hacker News",
     "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
     "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html"
-  },
-  {
-    "date": "2026-10-04T12:50:32+05:30",
-    "source": "The Hacker News",
-    "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
-    "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html"
   },
   {
     "date": "2026-10-04T06:53:21-04:00",
