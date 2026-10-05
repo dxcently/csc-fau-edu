@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-05T21:51:52+05:30",
+    "source": "The Hacker News",
+    "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+    "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html"
+  },
+  {
     "date": "2026-10-05T19:50:43+05:30",
     "source": "The Hacker News",
     "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
     "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html"
-  },
-  {
-    "date": "2026-10-05T17:16:25+05:30",
-    "source": "The Hacker News",
-    "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
-    "url": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html"
   },
   {
     "date": "2026-10-05T13:19:53-04:00",
