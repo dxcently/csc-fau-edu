@@ -55,5 +55,65 @@
     "lead": "10 AM work session, goal: done by October",
     "room": "CM 22 Room 150",
     "id": 8
+  },
+  {
+    "date": "2026-09-29",
+    "title": "Career Fair Prep",
+    "track": "career",
+    "lead": "Resume reviews, certs, study resources",
+    "room": "CM 22 Room 125",
+    "id": 9
+  },
+  {
+    "date": "2026-10-01",
+    "title": "CyberPatriot Practice Image Day",
+    "track": "compete",
+    "lead": "Started at 6 PM",
+    "room": "CM 22 Room 125",
+    "id": 10
+  },
+  {
+    "date": "2026-10-06",
+    "title": "NCCI Data Center Tour",
+    "track": "career",
+    "lead": "Arrive 5–5:30, photo ID, business casual",
+    "room": "NCCI, Boca Raton",
+    "id": 11
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Infrastructure Showcase + Practice Competition",
+    "track": "build, compete",
+    "lead": "CCDC/NCAE prep",
+    "room": "CM 22 Room 125",
+    "id": 12
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Guest speaker: Zachary Bright",
+    "track": "learn",
+    "lead": "Red Team Manager @ ADT",
+    "id": 13
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Guest speaker: Kyle Ryan",
+    "track": "learn",
+    "lead": "Red Team Manager @ NextEra Energy",
+    "id": 14
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Guest speaker: Delia Drumm",
+    "track": "learn",
+    "lead": "Senior Technical Manager @ Microsoft",
+    "id": 15
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Guest speaker: Rod Soto",
+    "track": "learn",
+    "lead": "Splunk, creator of the SFISSA CTF",
+    "id": 16
   }
 ]
