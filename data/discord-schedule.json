@@ -73,6 +73,14 @@
     "id": 10
   },
   {
+    "date": "2026-10-03",
+    "title": "WRCCDC Invitational #1",
+    "track": "Compete",
+    "room": "CM 22 Room 150",
+    "lead": "Lab room behind a gated door — arrive on time or wait for an officer",
+    "id": 17
+  },
+  {
     "date": "2026-10-06",
     "title": "NCCI Data Center Tour",
     "track": "career",
@@ -96,11 +104,30 @@
     "id": 13
   },
   {
+    "date": "2026-10-16",
+    "title": "UB Lockdown — registration deadline",
+    "track": "Compete",
+    "id": 18
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Horse Plinko CTF (HPCC4) @ UCF — Oct 17–18",
+    "track": "Compete",
+    "room": "UCF, Orlando",
+    "id": 19
+  },
+  {
     "date": "2026-10-22",
     "title": "Guest speaker: Kyle Ryan",
     "track": "learn",
     "lead": "Red Team Manager @ NextEra Energy",
     "id": 14
+  },
+  {
+    "date": "2026-10-24",
+    "title": "UB Lockdown",
+    "track": "Compete",
+    "id": 20
   },
   {
     "date": "2026-10-29",
@@ -110,10 +137,41 @@
     "id": 15
   },
   {
+    "date": "2026-10-31",
+    "title": "WRCCDC Invitational #2",
+    "track": "Compete",
+    "room": "CM 22 Room 150",
+    "lead": "Lab room behind a gated door — arrive on time or wait for an officer",
+    "id": 21
+  },
+  {
     "date": "2026-11-05",
     "title": "Guest speaker: Rod Soto",
     "track": "learn",
     "lead": "Splunk, creator of the SFISSA CTF",
     "id": 16
+  },
+  {
+    "date": "2026-11-13",
+    "title": "CyberForce Competition @ Tinley Park, IL — Nov 13–14",
+    "track": "Compete",
+    "room": "Tinley Park, IL",
+    "id": 22
+  },
+  {
+    "date": "2026-11-21",
+    "title": "WRCCDC Invitational #3",
+    "track": "Compete",
+    "room": "CM 22 Room 150",
+    "lead": "Lab room behind a gated door — arrive on time or wait for an officer",
+    "id": 23
+  },
+  {
+    "date": "2027-01-09",
+    "title": "WRCCDC Invitational #4",
+    "track": "Compete",
+    "room": "CM 22 Room 150",
+    "lead": "Lab room behind a gated door — arrive on time or wait for an officer",
+    "id": 24
   }
 ]

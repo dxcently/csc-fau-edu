@@ -50,56 +50,6 @@ type = "home"
 # when the page builds.
 # ---------------------------------------------------------------------------
 
-[[params.sessions]]
-  date  = "2026-10-03"
-  title = "WRCCDC Invitational #1"
-  track = "Compete"
-  room  = "CM 22 Room 150"
-  lead  = "Lab room behind a gated door — arrive on time or wait for an officer"
-
-[[params.sessions]]
-  date  = "2026-10-16"
-  title = "UB Lockdown — registration deadline"
-  track = "Compete"
-
-[[params.sessions]]
-  date  = "2026-10-17"
-  title = "Horse Plinko CTF (HPCC4) @ UCF — Oct 17–18"
-  track = "Compete"
-  room  = "UCF, Orlando"
-
-[[params.sessions]]
-  date  = "2026-10-24"
-  title = "UB Lockdown"
-  track = "Compete"
-
-[[params.sessions]]
-  date  = "2026-10-31"
-  title = "WRCCDC Invitational #2"
-  track = "Compete"
-  room  = "CM 22 Room 150"
-  lead  = "Lab room behind a gated door — arrive on time or wait for an officer"
-
-[[params.sessions]]
-  date  = "2026-11-13"
-  title = "CyberForce Competition @ Tinley Park, IL — Nov 13–14"
-  track = "Compete"
-  room  = "Tinley Park, IL"
-
-[[params.sessions]]
-  date  = "2026-11-21"
-  title = "WRCCDC Invitational #3"
-  track = "Compete"
-  room  = "CM 22 Room 150"
-  lead  = "Lab room behind a gated door — arrive on time or wait for an officer"
-
-[[params.sessions]]
-  date  = "2027-01-09"
-  title = "WRCCDC Invitational #4"
-  track = "Compete"
-  room  = "CM 22 Room 150"
-  lead  = "Lab room behind a gated door — arrive on time or wait for an officer"
-
 [params.schedule]
   semester = "Fall 2026"
   note     = "Tuesdays, Thursdays 5–7 PM in CM 22. Topics can shift — check Discord."
