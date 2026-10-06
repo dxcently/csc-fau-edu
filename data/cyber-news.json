@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html"
   },
   {
+    "date": "2026-10-06T15:21:53-04:00",
+    "source": "BleepingComputer",
+    "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/"
+  },
+  {
     "date": "2026-10-06T13:34:59-04:00",
     "source": "BleepingComputer",
     "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "ASOS confirms data breach after “HACKED” in-app notifications",
     "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/"
-  },
-  {
-    "date": "2026-10-06T11:16:44-04:00",
-    "source": "BleepingComputer",
-    "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/"
   },
   {
     "date": "2026-09-28T15:08:57+00:00",
