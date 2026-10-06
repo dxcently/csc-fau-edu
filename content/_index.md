@@ -54,6 +54,8 @@ type = "home"
   date  = "2026-10-03"
   title = "WRCCDC Invitational #1"
   track = "Compete"
+  room  = "CM 22 Room 150"
+  lead  = "Lab room behind a gated door — arrive on time or wait for an officer"
 
 [[params.sessions]]
   date  = "2026-10-16"
@@ -75,6 +77,8 @@ type = "home"
   date  = "2026-10-31"
   title = "WRCCDC Invitational #2"
   track = "Compete"
+  room  = "CM 22 Room 150"
+  lead  = "Lab room behind a gated door — arrive on time or wait for an officer"
 
 [[params.sessions]]
   date  = "2026-11-13"
@@ -86,11 +90,15 @@ type = "home"
   date  = "2026-11-21"
   title = "WRCCDC Invitational #3"
   track = "Compete"
+  room  = "CM 22 Room 150"
+  lead  = "Lab room behind a gated door — arrive on time or wait for an officer"
 
 [[params.sessions]]
   date  = "2027-01-09"
   title = "WRCCDC Invitational #4"
   track = "Compete"
+  room  = "CM 22 Room 150"
+  lead  = "Lab room behind a gated door — arrive on time or wait for an officer"
 
 [params.schedule]
   semester = "Fall 2026"
