@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
   },
   {
+    "date": "2026-10-07T16:50:13-04:00",
+    "source": "BleepingComputer",
+    "title": "Hackers hijack Google domains after breaching ccTLD registries",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/"
+  },
+  {
     "date": "2026-10-07T13:48:45+00:00",
     "source": "Krebs on Security",
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
     "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/"
-  },
-  {
-    "date": "2026-10-07T10:01:11-04:00",
-    "source": "BleepingComputer",
-    "title": "Ransomware has a new target. Is your backup ready?",
-    "url": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/"
   },
   {
     "date": "2026-09-28T15:08:57+00:00",
