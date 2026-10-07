@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-07T12:27:54+05:30",
+    "source": "The Hacker News",
+    "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+    "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html"
+  },
+  {
     "date": "2026-10-07T00:08:55+05:30",
     "source": "The Hacker News",
     "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
     "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html"
-  },
-  {
-    "date": "2026-10-06T17:27:00+05:30",
-    "source": "The Hacker News",
-    "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
-    "url": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html"
   },
   {
     "date": "2026-10-06T17:00:27-04:00",
