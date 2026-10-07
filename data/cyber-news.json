@@ -12,6 +12,12 @@
     "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html"
   },
   {
+    "date": "2026-10-07T07:37:07-04:00",
+    "source": "BleepingComputer",
+    "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
+    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/"
+  },
+  {
     "date": "2026-10-07T06:35:15-04:00",
     "source": "BleepingComputer",
     "title": "Musician sent to prison for $10 million streaming fraud using AI bots",
@@ -28,12 +34,6 @@
     "source": "The Hacker News",
     "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
     "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html"
-  },
-  {
-    "date": "2026-10-06T17:00:27-04:00",
-    "source": "BleepingComputer",
-    "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
-    "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/"
   },
   {
     "date": "2026-09-28T15:08:57+00:00",
