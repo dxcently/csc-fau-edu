@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
   },
   {
+    "date": "2026-10-07T13:48:45+00:00",
+    "source": "Krebs on Security",
+    "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+    "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/"
+  },
+  {
     "date": "2026-10-07T08:49:01-04:00",
     "source": "BleepingComputer",
     "title": "Hackers exploit critical Atlassian flaw after public PoC release",
@@ -46,11 +52,5 @@
     "source": "Krebs on Security",
     "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
     "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/"
-  },
-  {
-    "date": "2026-09-16T18:14:22+00:00",
-    "source": "Krebs on Security",
-    "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-    "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/"
   }
 ]
