@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-10-07T21:04:53+05:30",
+    "source": "The Hacker News",
+    "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+    "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html"
+  },
+  {
+    "date": "2026-10-07T21:03:51+05:30",
+    "source": "The Hacker News",
+    "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+    "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html"
+  },
+  {
     "date": "2026-10-07T17:27:05+05:30",
     "source": "The Hacker News",
     "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
     "url": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html"
-  },
-  {
-    "date": "2026-10-07T17:26:56+05:30",
-    "source": "The Hacker News",
-    "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
-    "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html"
-  },
-  {
-    "date": "2026-10-07T17:19:26+05:30",
-    "source": "The Hacker News",
-    "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
-    "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
   },
   {
     "date": "2026-10-07T13:48:45+00:00",
