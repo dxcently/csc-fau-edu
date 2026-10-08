@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-08T02:32:16-04:00",
+    "source": "BleepingComputer",
+    "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
+    "url": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/"
+  },
+  {
     "date": "2026-10-08T00:18:17+05:30",
     "source": "The Hacker News",
     "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
     "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/"
-  },
-  {
-    "date": "2026-10-07T16:50:13-04:00",
-    "source": "BleepingComputer",
-    "title": "Hackers hijack Google domains after breaching ccTLD registries",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/"
   },
   {
     "date": "2026-10-07T13:48:45+00:00",
