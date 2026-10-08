@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-08T11:16:20+05:30",
+    "source": "The Hacker News",
+    "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+    "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html"
+  },
+  {
     "date": "2026-10-08T02:32:16-04:00",
     "source": "BleepingComputer",
     "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
@@ -16,12 +22,6 @@
     "source": "The Hacker News",
     "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
     "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html"
-  },
-  {
-    "date": "2026-10-07T21:47:44+05:30",
-    "source": "The Hacker News",
-    "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-    "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
   },
   {
     "date": "2026-10-07T19:04:37-04:00",
