@@ -1,21 +1,27 @@
 [
   {
+    "date": "2026-10-08T20:56:56+05:30",
+    "source": "The Hacker News",
+    "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
+    "url": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html"
+  },
+  {
+    "date": "2026-10-08T19:42:34+05:30",
+    "source": "The Hacker News",
+    "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+    "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html"
+  },
+  {
     "date": "2026-10-08T16:00:00+05:30",
     "source": "The Hacker News",
     "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
     "url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html"
   },
   {
-    "date": "2026-10-08T15:16:32+05:30",
-    "source": "The Hacker News",
-    "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
-    "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html"
-  },
-  {
-    "date": "2026-10-08T13:12:04+05:30",
-    "source": "The Hacker News",
-    "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
-    "url": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html"
+    "date": "2026-10-08T11:26:33-04:00",
+    "source": "BleepingComputer",
+    "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/"
   },
   {
     "date": "2026-10-08T10:00:10-04:00",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
     "url": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/"
-  },
-  {
-    "date": "2026-10-08T08:08:16-04:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft Teams to get support for third-party deepfake detection tools",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/"
   },
   {
     "date": "2026-10-07T13:48:45+00:00",
