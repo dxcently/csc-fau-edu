@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-08T15:16:32+05:30",
+    "source": "The Hacker News",
+    "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+    "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html"
+  },
+  {
     "date": "2026-10-08T13:12:04+05:30",
     "source": "The Hacker News",
     "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
     "url": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html"
-  },
-  {
-    "date": "2026-10-08T11:16:20+05:30",
-    "source": "The Hacker News",
-    "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
-    "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html"
   },
   {
     "date": "2026-10-08T02:32:16-04:00",
