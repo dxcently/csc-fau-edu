@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-10-08T13:12:04+05:30",
+    "source": "The Hacker News",
+    "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
+    "url": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html"
+  },
+  {
+    "date": "2026-10-08T13:11:44+05:30",
+    "source": "The Hacker News",
+    "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+    "url": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html"
+  },
+  {
     "date": "2026-10-08T11:16:20+05:30",
     "source": "The Hacker News",
     "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
@@ -10,18 +22,6 @@
     "source": "BleepingComputer",
     "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
     "url": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/"
-  },
-  {
-    "date": "2026-10-08T00:18:17+05:30",
-    "source": "The Hacker News",
-    "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
-    "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html"
-  },
-  {
-    "date": "2026-10-07T23:13:20+05:30",
-    "source": "The Hacker News",
-    "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
-    "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html"
   },
   {
     "date": "2026-10-07T19:04:37-04:00",
