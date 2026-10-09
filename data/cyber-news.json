@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-09T17:00:00+05:30",
+    "source": "The Hacker News",
+    "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+    "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html"
+  },
+  {
     "date": "2026-10-09T14:33:24+05:30",
     "source": "The Hacker News",
     "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
     "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html"
-  },
-  {
-    "date": "2026-10-09T13:41:33+05:30",
-    "source": "The Hacker News",
-    "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-    "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
   },
   {
     "date": "2026-10-09T07:14:28-04:00",
