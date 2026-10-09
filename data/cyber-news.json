@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-09T23:15:26+05:30",
+    "source": "The Hacker News",
+    "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+    "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html"
+  },
+  {
     "date": "2026-10-09T21:59:55+05:30",
     "source": "The Hacker News",
     "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
     "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html"
-  },
-  {
-    "date": "2026-10-09T18:29:22+05:30",
-    "source": "The Hacker News",
-    "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
-    "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html"
   },
   {
     "date": "2026-10-09T13:17:23-04:00",
