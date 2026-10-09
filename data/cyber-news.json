@@ -6,6 +6,12 @@
     "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html"
   },
   {
+    "date": "2026-10-09T04:27:42-04:00",
+    "source": "BleepingComputer",
+    "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
+    "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/"
+  },
+  {
     "date": "2026-10-09T01:41:04-04:00",
     "source": "BleepingComputer",
     "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
     "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
-  },
-  {
-    "date": "2026-10-08T16:09:45-04:00",
-    "source": "BleepingComputer",
-    "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
-    "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/"
   },
   {
     "date": "2026-10-07T13:48:45+00:00",
