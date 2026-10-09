@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
   },
   {
+    "date": "2026-10-09T06:12:24-04:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft: Outdated Windows devices will stop receiving security updates",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/"
+  },
+  {
     "date": "2026-10-09T04:27:42-04:00",
     "source": "BleepingComputer",
     "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/"
-  },
-  {
-    "date": "2026-10-08T17:42:51-04:00",
-    "source": "BleepingComputer",
-    "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
   },
   {
     "date": "2026-10-07T13:48:45+00:00",
