@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-09T17:51:51+05:30",
+    "source": "The Hacker News",
+    "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+    "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html"
+  },
+  {
     "date": "2026-10-09T17:00:00+05:30",
     "source": "The Hacker News",
     "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
     "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html"
-  },
-  {
-    "date": "2026-10-09T13:56:17+05:30",
-    "source": "The Hacker News",
-    "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
-    "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html"
   },
   {
     "date": "2026-10-09T08:32:16-04:00",
