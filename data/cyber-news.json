@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-10T16:30:00+05:30",
+    "source": "The Hacker News",
+    "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+    "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html"
+  },
+  {
     "date": "2026-10-10T14:48:45+05:30",
     "source": "The Hacker News",
     "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
@@ -16,12 +22,6 @@
     "source": "Krebs on Security",
     "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
     "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
-  },
-  {
-    "date": "2026-10-09T23:15:26+05:30",
-    "source": "The Hacker News",
-    "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-    "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html"
   },
   {
     "date": "2026-10-09T16:31:37-04:00",
