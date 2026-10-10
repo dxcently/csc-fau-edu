@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-10T14:48:45+05:30",
+    "source": "The Hacker News",
+    "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+    "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
+  },
+  {
     "date": "2026-10-10T00:44:28+05:30",
     "source": "The Hacker News",
     "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
@@ -16,12 +22,6 @@
     "source": "The Hacker News",
     "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
     "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html"
-  },
-  {
-    "date": "2026-10-09T21:59:55+05:30",
-    "source": "The Hacker News",
-    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-    "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html"
   },
   {
     "date": "2026-10-09T16:31:37-04:00",
