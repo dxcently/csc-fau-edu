@@ -6,6 +6,12 @@
     "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html"
   },
   {
+    "date": "2026-10-10T00:17:42+00:00",
+    "source": "Krebs on Security",
+    "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+    "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
+  },
+  {
     "date": "2026-10-09T23:15:26+05:30",
     "source": "The Hacker News",
     "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
@@ -46,11 +52,5 @@
     "source": "Krebs on Security",
     "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
     "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
-  },
-  {
-    "date": "2026-09-25T21:44:40+00:00",
-    "source": "Krebs on Security",
-    "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-    "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/"
   }
 ]
