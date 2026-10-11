@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-11T10:23:46-04:00",
+    "source": "BleepingComputer",
+    "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+    "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/"
+  },
+  {
     "date": "2026-10-11T09:54:34+05:30",
     "source": "The Hacker News",
     "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
     "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/"
-  },
-  {
-    "date": "2026-10-10T08:30:39-04:00",
-    "source": "BleepingComputer",
-    "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-    "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/"
   },
   {
     "date": "2026-10-10T00:17:42+00:00",
