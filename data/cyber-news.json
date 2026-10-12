@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-12T20:46:26+05:30",
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+    "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html"
+  },
+  {
     "date": "2026-10-12T17:25:00+05:30",
     "source": "The Hacker News",
     "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
@@ -12,15 +18,9 @@
     "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html"
   },
   {
-    "date": "2026-10-12T16:06:56+05:30",
-    "source": "The Hacker News",
-    "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-    "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
-  },
-  {
     "date": "2026-10-12T12:27:23-04:00",
     "source": "BleepingComputer",
-    "title": "Ledger confirms hardware wallet spy implant behind crypto thefts",
+    "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
     "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
   },
   {
