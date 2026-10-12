@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
   },
   {
+    "date": "2026-10-12T09:09:09-04:00",
+    "source": "BleepingComputer",
+    "title": "GitLab warns of max severity code execution vulnerability",
+    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/"
+  },
+  {
     "date": "2026-10-12T07:58:33-04:00",
     "source": "BleepingComputer",
     "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
     "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/"
-  },
-  {
-    "date": "2026-10-10T11:07:54-04:00",
-    "source": "BleepingComputer",
-    "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-    "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/"
   },
   {
     "date": "2026-10-10T00:17:42+00:00",
