@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-12T12:56:12+05:30",
+    "source": "The Hacker News",
+    "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+    "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html"
+  },
+  {
     "date": "2026-10-11T10:23:46-04:00",
     "source": "BleepingComputer",
     "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
@@ -16,12 +22,6 @@
     "source": "The Hacker News",
     "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
     "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html"
-  },
-  {
-    "date": "2026-10-10T14:48:45+05:30",
-    "source": "The Hacker News",
-    "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-    "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
   },
   {
     "date": "2026-10-10T11:07:54-04:00",
