@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
   },
   {
+    "date": "2026-10-12T11:23:34-04:00",
+    "source": "BleepingComputer",
+    "title": "Cyberattack shuts down refrigerators at French supermarkets",
+    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/"
+  },
+  {
     "date": "2026-10-12T10:00:10-04:00",
     "source": "BleepingComputer",
     "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
     "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/"
-  },
-  {
-    "date": "2026-10-12T09:09:09-04:00",
-    "source": "BleepingComputer",
-    "title": "GitLab warns of max severity code execution vulnerability",
-    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/"
   },
   {
     "date": "2026-10-10T00:17:42+00:00",
