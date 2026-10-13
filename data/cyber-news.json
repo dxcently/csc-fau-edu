@@ -12,6 +12,12 @@
     "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
   },
   {
+    "date": "2026-10-13T23:24:53+00:00",
+    "source": "Krebs on Security",
+    "title": "Microsoft Patches More Than 1,400 Security Flaws",
+    "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/"
+  },
+  {
     "date": "2026-10-13T23:03:11+05:30",
     "source": "The Hacker News",
     "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
@@ -46,11 +52,5 @@
     "source": "Krebs on Security",
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
     "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/"
-  },
-  {
-    "date": "2026-09-28T15:08:57+00:00",
-    "source": "Krebs on Security",
-    "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-    "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
   }
 ]
