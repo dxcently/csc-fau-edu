@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-13T21:48:18+05:30",
+    "source": "The Hacker News",
+    "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+    "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html"
+  },
+  {
     "date": "2026-10-13T18:42:32+05:30",
     "source": "The Hacker News",
     "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
     "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html"
-  },
-  {
-    "date": "2026-10-13T16:39:10+05:30",
-    "source": "The Hacker News",
-    "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-    "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html"
   },
   {
     "date": "2026-10-13T11:45:50-04:00",
