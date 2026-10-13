@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html"
   },
   {
+    "date": "2026-10-13T11:20:20-04:00",
+    "source": "BleepingComputer",
+    "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
+    "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/"
+  },
+  {
     "date": "2026-10-13T10:01:11-04:00",
     "source": "BleepingComputer",
     "title": "The MFA Gaps Attackers are Still Exploiting",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
     "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/"
-  },
-  {
-    "date": "2026-10-12T16:13:52-04:00",
-    "source": "BleepingComputer",
-    "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
-    "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/"
   },
   {
     "date": "2026-10-10T00:17:42+00:00",
