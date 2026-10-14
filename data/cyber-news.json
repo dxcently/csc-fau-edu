@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html"
   },
   {
+    "date": "2026-10-14T14:22:49+00:00",
+    "source": "Krebs on Security",
+    "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+    "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
+  },
+  {
     "date": "2026-10-14T10:27:01-04:00",
     "source": "BleepingComputer",
     "title": "Microsoft fixes VPN issues caused by September Windows updates",
@@ -46,11 +52,5 @@
     "source": "Krebs on Security",
     "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
     "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
-  },
-  {
-    "date": "2026-10-07T13:48:45+00:00",
-    "source": "Krebs on Security",
-    "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-    "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/"
   }
 ]
