@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
   },
   {
+    "date": "2026-10-14T06:48:09-04:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/"
+  },
+  {
     "date": "2026-10-13T23:24:53+00:00",
     "source": "Krebs on Security",
     "title": "Microsoft Patches More Than 1,400 Security Flaws",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
     "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/"
-  },
-  {
-    "date": "2026-10-13T17:16:34-04:00",
-    "source": "BleepingComputer",
-    "title": "Anthropic warns self-replicating AI could spread to your smart devices",
-    "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/"
   },
   {
     "date": "2026-10-10T00:17:42+00:00",
