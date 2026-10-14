@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-14T13:16:57+05:30",
+    "source": "The Hacker News",
+    "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+    "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html"
+  },
+  {
     "date": "2026-10-14T11:22:28+05:30",
     "source": "The Hacker News",
     "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
     "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
-  },
-  {
-    "date": "2026-10-14T07:29:25+05:30",
-    "source": "The Hacker News",
-    "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
-    "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html"
   },
   {
     "date": "2026-10-13T23:24:53+00:00",
