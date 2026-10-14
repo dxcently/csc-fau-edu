@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-14T19:17:00.958000+00:00",
+    "author": "Arbittrary",
+    "text": "🛶 Post-Plinko Kayaking Trip: Monday 10/19\n\nSince Plinko is Sat and Sun in Orlando, a few of us are going kayaking Monday the 19th at King’s Landing in Apopka (about 30 min from Orlando). It’s a self-guided paddle on Rock Springs Run, crystal clear spring water, looks super chill.\n\n⚠️ Book your spot online ahead of time. They only hold a couple kayaks for walk-ins and they sell out, so don’t plan on just showing up.\n\nHow to book:\n\nGo here: https://www.kingslandingfl.com/daypaddlekayakrentals\nHit Book Now\nPick Monday, Oct 19 and the time slot we agree on (see below)\n\nPrices (4 hour rental):\n\nSingle kayak: $54\nDouble kayak (2 people): $74\nPaddleboard: $74\nCanoe (3 people): $64\nLocker: $10 (optional)\n\nDouble kayaks and canoes are cheaper per person if you split with someone, so pair up if you want.\n\nGood to know:\n\nThey close at 5pm and anything booked after 1pm won’t get the full 4 hours, so we should go earlier in the day\nReturn shuttle isn’t included, it’s a paddle out and back to the launch\n\nWhat time works for you? React below:\n🌅 Morning (8:30 to 10)\n☀️ Late morning (10 to 12)\n🕐 Early afternoon (12 to 1)\n\n(we should probably do the late morning one)\n\nDrop a ✅ if you’re coming so we know headcount.",
+    "url": "https://discord.com/channels/1265737634744107008/1265738362560450580/1560008546144227422"
+  },
+  {
     "date": "2026-10-13T06:00:22.232000+00:00",
     "author": "shaamad",
     "text": "🌐 GLOBAL ANNOUNCEMENTS\n\n📢 CYBER CLUB — THIS WEEK 🦉🔐\n\nBusy, fun week ahead — meetings both nights, two competitions, and a practice image to grab tonight. Read through 👇\n\n🪟 TONIGHT — Tuesday Meeting | 5–7 PM | CM 22, Rm 125 (behind the library)\nMarcos is running a Windows session, walking through the built-in Windows tools he actually used in competition — Event Viewer, Task Manager, netstat, Local Users & Groups, Defender, and the Windows Firewall. We’ll pull it up live from our practice environment so you can see exactly how it looks in a real defensive scenario. Whether you’ve never touched this stuff or you’re comp-rostered, come hang and get hands-on.\n\n💻 GRAB THE PRACTICE IMAGE — BEFORE TONIGHT\nWe’re practicing on the Cincinnati Zoo image (Windows 10) so you can follow Marcos step by step.\n📥 Download: https://drive.google.com/file/d/1ai3vff_pS_rABc8hsnE_0uv08MOZiB1W/view\n📋 Full image list: https://docs.google.com/spreadsheets/d/1cdVHtk4w5JDJCYy-EO2_ycr0ZqMgUyjFOVDn5Y8eGVw/edit?gid=0#gid=0\nSetup: download → unzip → double-click the .vmx to open it in VMware (install Workstation Player/Pro, or Fusion on Mac, first). If it won’t launch: VMware → Open a Virtual Machine → pick the .vmx. Ping the chat if it won’t boot and we’ll fix it before the meeting.\n\n🎯 Thursday Meeting | 5–7 PM | CM 22, Rm 125 — HORSE PLINKO PRACTICE LAB\nScheduling note: Zach Bright’s talk moved to Oct 27, so Thursday is now a hands-on Plinko prep lab. We’ll run practice images, cover scripting basics, and — since our WRCCDC env with the scoring engine is live — I’ll stage a real attack so you can watch defense happen in real time. Easily one of our most useful sessions. Come even if you’re not competing — this is how you actually learn it.\n\n🏆 TWO COMPETITIONS — big opportunities:\n\nHorse Plinko (HPCC4) — this weekend @ UCF. Beginner-friendly cyber defense comp. Great first competition if you’ve been wanting to try one.\nUBlockdown — defensive comp, run right here in our lab room, 6-person teams, and I want two teams. 👇\n\n🚨 URGENT — UBLOCKDOWN SIGNUPS CLOSE FRIDAY 🚨\nIf you want in, you MUST sign up by Friday — competition is Sat Oct 24. Spots are limited to two 6-person teams, so drop your name / DM me ASAP. Don’t sit on this — once it’s full, it’s full. Even if you’re doing Plinko, do this one too.\n\n👉 All prep and environment details, are in the competition chat — head there if you’re competing (or even thinking about it).\n\n📅 Speaker lineup: Zachary Bright (ADT) → Oct 27 · Kyle Ryan (Red Team Mgr, NextEra) & Delia Drumm (Microsoft) later this month. \n\nQuestions? Drop them here or DM me. Let’s have a great week 🔥",
@@ -52,11 +58,5 @@
     "author": "shaamad",
     "text": "zoom link",
     "url": "https://discord.com/channels/1265737634744107008/1265738362560450580/1554598821785374822"
-  },
-  {
-    "date": "2026-09-29T21:00:40.298000+00:00",
-    "author": "shaamad",
-    "text": "https://fau-edu.zoom.us/j/81113971603?pwd=ZLr39FbEbbFdyYeCatJPOHZ99XZL2Y.1",
-    "url": "https://discord.com/channels/1265737634744107008/1265738362560450580/1554598813962993734"
   }
 ]
