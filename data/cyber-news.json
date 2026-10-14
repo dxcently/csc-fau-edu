@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-14T11:22:28+05:30",
+    "source": "The Hacker News",
+    "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+    "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html"
+  },
+  {
     "date": "2026-10-14T10:04:43+05:30",
     "source": "The Hacker News",
     "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
     "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html"
-  },
-  {
-    "date": "2026-10-13T23:50:57+05:30",
-    "source": "The Hacker News",
-    "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
-    "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html"
   },
   {
     "date": "2026-10-13T23:24:53+00:00",
