@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-10-14T13:16:57+05:30",
+    "date": "2026-10-14T16:49:02+05:30",
     "source": "The Hacker News",
-    "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
-    "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html"
+    "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+    "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html"
   },
   {
-    "date": "2026-10-14T11:22:28+05:30",
+    "date": "2026-10-14T16:38:22+05:30",
     "source": "The Hacker News",
-    "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
-    "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html"
+    "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+    "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html"
   },
   {
-    "date": "2026-10-14T10:04:43+05:30",
+    "date": "2026-10-14T16:30:00+05:30",
     "source": "The Hacker News",
-    "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
-    "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
+    "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+    "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html"
   },
   {
     "date": "2026-10-14T06:48:09-04:00",
