@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-14T07:29:25+05:30",
+    "source": "The Hacker News",
+    "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+    "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html"
+  },
+  {
     "date": "2026-10-13T23:50:57+05:30",
     "source": "The Hacker News",
     "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
@@ -16,12 +22,6 @@
     "source": "Krebs on Security",
     "title": "Microsoft Patches More Than 1,400 Security Flaws",
     "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/"
-  },
-  {
-    "date": "2026-10-13T23:03:11+05:30",
-    "source": "The Hacker News",
-    "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-    "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html"
   },
   {
     "date": "2026-10-13T18:33:02-04:00",
