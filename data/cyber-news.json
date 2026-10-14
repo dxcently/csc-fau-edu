@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-14T10:04:43+05:30",
+    "source": "The Hacker News",
+    "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+    "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
+  },
+  {
     "date": "2026-10-14T07:29:25+05:30",
     "source": "The Hacker News",
     "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
     "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html"
-  },
-  {
-    "date": "2026-10-13T23:33:18+05:30",
-    "source": "The Hacker News",
-    "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-    "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
   },
   {
     "date": "2026-10-13T23:24:53+00:00",
