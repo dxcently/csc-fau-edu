@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html"
   },
   {
+    "date": "2026-10-15T16:25:04-04:00",
+    "source": "BleepingComputer",
+    "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/"
+  },
+  {
     "date": "2026-10-15T15:48:43-04:00",
     "source": "BleepingComputer",
     "title": "Android gets AI defenses against messaging scams, fake calls",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/"
-  },
-  {
-    "date": "2026-10-15T13:12:31-04:00",
-    "source": "BleepingComputer",
-    "title": "Fake Arch Linux packages push malware with root privileges",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/"
   },
   {
     "date": "2026-10-14T14:22:49+00:00",
