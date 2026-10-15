@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-15T11:47:58+05:30",
+    "source": "The Hacker News",
+    "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+    "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
+  },
+  {
     "date": "2026-10-15T00:08:56+05:30",
     "source": "The Hacker News",
     "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
     "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html"
-  },
-  {
-    "date": "2026-10-14T22:39:15+05:30",
-    "source": "The Hacker News",
-    "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
-    "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html"
   },
   {
     "date": "2026-10-14T18:56:47-04:00",
