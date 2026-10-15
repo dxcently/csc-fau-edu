@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-15T16:12:16+05:30",
+    "source": "The Hacker News",
+    "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+    "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html"
+  },
+  {
     "date": "2026-10-15T14:15:10+05:30",
     "source": "The Hacker News",
     "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
     "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html"
-  },
-  {
-    "date": "2026-10-15T12:13:08+05:30",
-    "source": "The Hacker News",
-    "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
-    "url": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html"
   },
   {
     "date": "2026-10-15T05:10:20-04:00",
