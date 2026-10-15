@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-15T19:41:36+05:30",
+    "source": "The Hacker News",
+    "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+    "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html"
+  },
+  {
     "date": "2026-10-15T18:28:05+05:30",
     "source": "The Hacker News",
     "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
     "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html"
-  },
-  {
-    "date": "2026-10-15T17:37:20+05:30",
-    "source": "The Hacker News",
-    "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-    "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html"
   },
   {
     "date": "2026-10-15T10:01:11-04:00",
