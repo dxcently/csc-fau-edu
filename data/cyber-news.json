@@ -1,27 +1,27 @@
 [
   {
-    "date": "2026-10-15T11:47:58+05:30",
+    "date": "2026-10-15T14:15:10+05:30",
     "source": "The Hacker News",
-    "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
-    "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
+    "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+    "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html"
+  },
+  {
+    "date": "2026-10-15T12:37:05+05:30",
+    "source": "The Hacker News",
+    "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+    "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html"
+  },
+  {
+    "date": "2026-10-15T12:13:08+05:30",
+    "source": "The Hacker News",
+    "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+    "url": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html"
   },
   {
     "date": "2026-10-15T04:06:47-04:00",
     "source": "BleepingComputer",
     "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
     "url": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/"
-  },
-  {
-    "date": "2026-10-15T00:08:56+05:30",
-    "source": "The Hacker News",
-    "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
-    "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html"
-  },
-  {
-    "date": "2026-10-14T23:08:31+05:30",
-    "source": "The Hacker News",
-    "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
-    "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html"
   },
   {
     "date": "2026-10-14T18:56:47-04:00",
