@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-16T00:45:45.580000+00:00",
+    "author": "shaamad",
+    "text": "🔴 1. UBLOCKDOWN — URGENT, SIGNUPS CLOSE FRIDAY\n📅 Competition: Saturday, Oct 24\nIf you want in, you MUST sign up by Friday. Spots are capped at two 6-person teams, so drop your name or DM me ASAP. Do not sit on this, once it’s full it’s full. Even if you’re doing Plinko, do this one too.\n\n━━━━━━━━━━━━━━━\n\n🟦 2. OPERATION: HORIZON’S EDGE — NCRC-U Collegiate CTF\n📅 Oct 19 to Oct 23 | 🧑‍💻 Jeopardy-style CTF (30 hours, all virtual)\nYou can play in teams of 2 to 6. Each person still registers and logs in with their own account, but you work the challenges together as a team.\n🗓️ The plan: we’re going to form teams and kick this off together at the Tuesday club meeting on the 20th, then keep running it as long as we can. Come through, grab a team, and let’s rack up flags.\n⚠️ Register TODAY so you’re ready (orientation is the 16th, window opens the 19th). Challenge areas: network recon, web security, credentials, forensics, cryptography, reverse engineering, Windows/Linux. U.S. citizenship required.\n💼 Why you should actually do this: I talked to the organizers at the career fair, and people who compete are getting interviews. That is a real opportunity, take it.\n🔗 Register: https://forms.osi.apps.mil/pages/responsepage.aspx?id=D9fm-kuVEUiStgUw1vhMQ3VG59pVFWZNq32QTUjTerdUM1cxMDNHWVBOUjA3QTBFTE9OR0tWUzNGNS4u&origin=QRCode&route=shorturl\n\n━━━━━━━━━━━━━━━\n\n🟢 3. CPTC — Collegiate Penetration Testing Competition\n📅 Road trip to Augusta, GA — leave Fri Nov 6, compete Sat Nov 7\nThis is the pen testing competition. Your team acts as a real pen test firm hired to assess a client’s network, then write a professional report. One of the best things you can put on a resume if you want offensive security or consulting.\n👥 Team: 6 players + 2 alternates. We currently need 3 more members and 1 more alternate.\nIf you want to break into pen testing, this is the one. DM me if you’re interested!\n\n━━━━━━━━━━━━━━━\n\n✅ Bottom line: DM me with which ones you want in on. UBlockdown is the hard deadline (Friday) so handle that first, and register for the CTF today so we can hit the ground running Tuesday.",
+    "url": "https://discord.com/channels/1265737634744107008/1265738362560450580/1560453665071038594"
+  },
+  {
     "date": "2026-10-15T21:07:44.903000+00:00",
     "author": "shaamad",
     "text": "https://fau-edu.zoom.us/j/81113971603?pwd=ZLr39FbEbbFdyYeCatJPOHZ99XZL2Y.1",
@@ -52,11 +58,5 @@
     "author": "shaamad",
     "text": "https://fau-edu.zoom.us/j/81113971603?pwd=ZLr39FbEbbFdyYeCatJPOHZ99XZL2Y.1",
     "url": "https://discord.com/channels/1265737634744107008/1265738362560450580/1555341251212222626"
-  },
-  {
-    "date": "2026-10-01T19:28:16.780000+00:00",
-    "author": "shaamad",
-    "text": "📢 Club Today — Starting at 6 PM!\nHeads up: today's meeting starts at 6 PM instead of 5 due to some scheduling stuff on my end. Sorry for the short notice!\n🛡️ Still on for today: CyberPatriot Practice Images\nWe're still doing practice images; come secure some VMs with us! Bring your laptop 💻\n📊 Practice images: https://docs.google.com/spreadsheets/d/1cdVHtk4w5JDJCYy-EO2_ycr0ZqMgUyjFOVDn5Y8eGVw/edit?gid=735920429\n💿 VMware installers: https://drive.google.com/drive/folders/1Lf7qnJSXf9q1KHE8IzPvySEZRyUHutfL\n\n👉 Which images to grab:\n🐧 Linux: Age of Pirates\n🪟 Windows: Jason *or* Santa's Workshop\n\nTo load: unzip, then double-click the .vmx file (looks like a text file) — it imports straight into VMware.\n🍎 Mac users: VMware Fusion can work, but it's iffy (especially on M-series Macs), so it's best to pair up with a Windows user.\n🏢 Reminder: NCCI Data Center Tour — Next Tue, Oct 6\n📝 PLEASE FILL OUT THE FORM to lock your spot — spots are limited!\nhttps://docs.google.com/forms/d/e/1FAIpQLSc_l3btxSU0p6k9FXOoWLNUjA354A0cXY1pS4WTIWWJMlPrKg/viewform\n🪪 Government-issued ID required (student ID is NOT enough).\n🤔 Question: Do we want to do WRCCDC?\nWe've got a ton of competitions lined up, so I want your take. WRCCDC would be good practice, but we'll have 3 more shots at practice before CCDC season starts, and honestly our setup isn't ideal for it right now (VPNs, hardware, etc.).\nSo — worth doing anyway, or save our energy for the others? Drop your vote/thoughts below! 👇 If enough people are down, we'll make it happen.",
-    "url": "https://discord.com/channels/1265737634744107008/1265738362560450580/1555300338494603497"
   }
 ]
