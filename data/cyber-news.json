@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-10-16T12:25:55+05:30",
+    "source": "The Hacker News",
+    "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+    "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html"
+  },
+  {
+    "date": "2026-10-16T12:23:09+05:30",
+    "source": "The Hacker News",
+    "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+    "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html"
+  },
+  {
     "date": "2026-10-16T10:29:36+05:30",
     "source": "The Hacker News",
     "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
@@ -10,18 +22,6 @@
     "source": "BleepingComputer",
     "title": "BeyondTrust patches zero-day exploited in attacks since August",
     "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/"
-  },
-  {
-    "date": "2026-10-16T01:54:36+05:30",
-    "source": "The Hacker News",
-    "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-    "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html"
-  },
-  {
-    "date": "2026-10-16T00:19:33+05:30",
-    "source": "The Hacker News",
-    "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-    "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html"
   },
   {
     "date": "2026-10-15T16:25:04-04:00",
