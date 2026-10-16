@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-16T17:00:00+05:30",
+    "source": "The Hacker News",
+    "title": "AI Decision Models and Their Impact on AI SOC Platforms",
+    "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html"
+  },
+  {
     "date": "2026-10-16T12:25:55+05:30",
     "source": "The Hacker News",
     "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
     "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html"
-  },
-  {
-    "date": "2026-10-16T10:29:36+05:30",
-    "source": "The Hacker News",
-    "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-    "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html"
   },
   {
     "date": "2026-10-16T08:01:29-04:00",
