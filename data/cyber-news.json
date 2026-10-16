@@ -6,6 +6,12 @@
     "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html"
   },
   {
+    "date": "2026-10-16T02:18:08-04:00",
+    "source": "BleepingComputer",
+    "title": "BeyondTrust patches zero-day exploited in attacks since August",
+    "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/"
+  },
+  {
     "date": "2026-10-16T01:54:36+05:30",
     "source": "The Hacker News",
     "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Android gets AI defenses against messaging scams, fake calls",
     "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/"
-  },
-  {
-    "date": "2026-10-15T14:20:59-04:00",
-    "source": "BleepingComputer",
-    "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/"
   },
   {
     "date": "2026-10-14T14:22:49+00:00",
