@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html"
   },
   {
+    "date": "2026-10-16T04:44:22-04:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft: October Windows update may break Smart App Control",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/"
+  },
+  {
     "date": "2026-10-16T03:37:35-04:00",
     "source": "BleepingComputer",
     "title": "BAE Systems cyberattack disrupts US federal court operations",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "BeyondTrust patches zero-day exploited in attacks since August",
     "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/"
-  },
-  {
-    "date": "2026-10-15T16:25:04-04:00",
-    "source": "BleepingComputer",
-    "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/"
   },
   {
     "date": "2026-10-14T14:22:49+00:00",
