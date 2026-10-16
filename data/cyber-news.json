@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-16T10:29:36+05:30",
+    "source": "The Hacker News",
+    "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+    "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html"
+  },
+  {
     "date": "2026-10-16T01:54:36+05:30",
     "source": "The Hacker News",
     "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
     "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html"
-  },
-  {
-    "date": "2026-10-15T21:31:57+05:30",
-    "source": "The Hacker News",
-    "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
-    "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html"
   },
   {
     "date": "2026-10-15T16:25:04-04:00",
