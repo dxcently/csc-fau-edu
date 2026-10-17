@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-17T11:46:46+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+    "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
+  },
+  {
     "date": "2026-10-16T23:18:45+05:30",
     "source": "The Hacker News",
     "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
     "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html"
-  },
-  {
-    "date": "2026-10-16T21:46:44+05:30",
-    "source": "The Hacker News",
-    "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
-    "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html"
   },
   {
     "date": "2026-10-16T16:00:59-04:00",
