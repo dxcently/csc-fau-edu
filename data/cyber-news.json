@@ -12,6 +12,12 @@
     "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
   },
   {
+    "date": "2026-10-17T10:32:48-04:00",
+    "source": "BleepingComputer",
+    "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+    "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/"
+  },
+  {
     "date": "2026-10-16T23:18:45+05:30",
     "source": "The Hacker News",
     "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Targeted ads installed Candiru spyware in zero-click attacks",
     "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/"
-  },
-  {
-    "date": "2026-10-16T09:50:59-04:00",
-    "source": "BleepingComputer",
-    "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
-    "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/"
   },
   {
     "date": "2026-10-14T14:22:49+00:00",
