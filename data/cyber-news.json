@@ -12,6 +12,12 @@
     "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
   },
   {
+    "date": "2026-10-17T11:18:51-04:00",
+    "source": "BleepingComputer",
+    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
+  },
+  {
     "date": "2026-10-17T10:32:48-04:00",
     "source": "BleepingComputer",
     "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
     "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/"
-  },
-  {
-    "date": "2026-10-16T13:20:03-04:00",
-    "source": "BleepingComputer",
-    "title": "Targeted ads installed Candiru spyware in zero-click attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/"
   },
   {
     "date": "2026-10-14T14:22:49+00:00",
