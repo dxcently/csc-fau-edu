@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-18T13:53:02+05:30",
+    "source": "The Hacker News",
+    "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+    "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
+  },
+  {
     "date": "2026-10-17T16:41:56+05:30",
     "source": "The Hacker News",
     "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
@@ -22,12 +28,6 @@
     "source": "BleepingComputer",
     "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
     "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/"
-  },
-  {
-    "date": "2026-10-16T23:18:45+05:30",
-    "source": "The Hacker News",
-    "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-    "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html"
   },
   {
     "date": "2026-10-16T16:00:59-04:00",
