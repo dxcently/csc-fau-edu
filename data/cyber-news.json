@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html"
   },
   {
+    "date": "2026-10-19T13:48:56+00:00",
+    "source": "Krebs on Security",
+    "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+    "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
+  },
+  {
     "date": "2026-10-19T08:44:44-04:00",
     "source": "BleepingComputer",
     "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
@@ -46,11 +52,5 @@
     "source": "Krebs on Security",
     "title": "Microsoft Patches More Than 1,400 Security Flaws",
     "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/"
-  },
-  {
-    "date": "2026-10-10T00:17:42+00:00",
-    "source": "Krebs on Security",
-    "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-    "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
   }
 ]
