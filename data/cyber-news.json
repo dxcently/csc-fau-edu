@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-19T15:36:40+05:30",
+    "source": "The Hacker News",
+    "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+    "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html"
+  },
+  {
     "date": "2026-10-19T11:59:44+05:30",
     "source": "The Hacker News",
     "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
@@ -16,12 +22,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/"
-  },
-  {
-    "date": "2026-10-18T13:53:02+05:30",
-    "source": "The Hacker News",
-    "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-    "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
   },
   {
     "date": "2026-10-18T10:23:16-04:00",
