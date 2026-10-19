@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html"
   },
   {
+    "date": "2026-10-19T17:24:51-04:00",
+    "source": "BleepingComputer",
+    "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+    "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/"
+  },
+  {
     "date": "2026-10-19T15:40:58-04:00",
     "source": "BleepingComputer",
     "title": "Hackers hijack AOMEI update servers to secretly spread malware",
@@ -34,12 +40,6 @@
     "source": "Krebs on Security",
     "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
     "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
-  },
-  {
-    "date": "2026-10-19T13:27:15-04:00",
-    "source": "BleepingComputer",
-    "title": "OpenCode hack exposes API keys amid AI distillation attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/"
   },
   {
     "date": "2026-10-14T14:22:49+00:00",
