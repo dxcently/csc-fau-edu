@@ -12,6 +12,12 @@
     "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
   },
   {
+    "date": "2026-10-19T04:58:41-04:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/"
+  },
+  {
     "date": "2026-10-18T13:53:02+05:30",
     "source": "The Hacker News",
     "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
-  },
-  {
-    "date": "2026-10-17T10:32:48-04:00",
-    "source": "BleepingComputer",
-    "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-    "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/"
   },
   {
     "date": "2026-10-14T14:22:49+00:00",
