@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-10-19T11:59:44+05:30",
+    "source": "The Hacker News",
+    "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+    "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html"
+  },
+  {
+    "date": "2026-10-19T11:37:08+05:30",
+    "source": "The Hacker News",
+    "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+    "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
+  },
+  {
     "date": "2026-10-18T13:53:02+05:30",
     "source": "The Hacker News",
     "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
@@ -10,18 +22,6 @@
     "source": "BleepingComputer",
     "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
-  },
-  {
-    "date": "2026-10-17T16:41:56+05:30",
-    "source": "The Hacker News",
-    "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-    "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html"
-  },
-  {
-    "date": "2026-10-17T11:46:46+05:30",
-    "source": "The Hacker News",
-    "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-    "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
   },
   {
     "date": "2026-10-17T11:18:51-04:00",
