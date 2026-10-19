@@ -24,6 +24,12 @@
     "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
   },
   {
+    "date": "2026-10-19T09:49:24-04:00",
+    "source": "BleepingComputer",
+    "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+    "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/"
+  },
+  {
     "date": "2026-10-19T08:44:44-04:00",
     "source": "BleepingComputer",
     "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/"
-  },
-  {
-    "date": "2026-10-18T10:23:16-04:00",
-    "source": "BleepingComputer",
-    "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
   },
   {
     "date": "2026-10-14T14:22:49+00:00",
