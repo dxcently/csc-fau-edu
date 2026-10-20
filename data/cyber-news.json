@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html"
   },
   {
+    "date": "2026-10-20T07:31:22-04:00",
+    "source": "BleepingComputer",
+    "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+    "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/"
+  },
+  {
     "date": "2026-10-20T07:18:35-04:00",
     "source": "BleepingComputer",
     "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Revolut outage disrupts online banking operations worldwide",
     "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/"
-  },
-  {
-    "date": "2026-10-19T17:49:48-04:00",
-    "source": "BleepingComputer",
-    "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-    "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/"
   },
   {
     "date": "2026-10-19T13:48:56+00:00",
