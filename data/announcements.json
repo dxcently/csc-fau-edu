@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-10-20T15:51:07.940000+00:00",
+    "author": "shaamad",
+    "text": "🖕🏾",
+    "url": "https://discord.com/channels/1265737634744107008/1265738362560450580/1562131061025013791"
+  },
+  {
+    "date": "2026-10-20T15:51:06.638000+00:00",
+    "author": "shaamad",
+    "text": "u weren’t on the winning team 😂🤔",
+    "url": "https://discord.com/channels/1265737634744107008/1265738362560450580/1562131055564030145"
+  },
+  {
     "date": "2026-10-20T15:38:32.866000+00:00",
     "author": "!",
     "text": "Till the real troops step in",
@@ -46,17 +58,5 @@
     "author": "shaamad",
     "text": "🌐 GLOBAL ANNOUNCEMENTS\n\n📢 CYBER CLUB — THIS WEEK 🦉🔐\n\nBusy, fun week ahead — meetings both nights, two competitions, and a practice image to grab tonight. Read through 👇\n\n🪟 TONIGHT — Tuesday Meeting | 5–7 PM | CM 22, Rm 125 (behind the library)\nMarcos is running a Windows session, walking through the built-in Windows tools he actually used in competition — Event Viewer, Task Manager, netstat, Local Users & Groups, Defender, and the Windows Firewall. We’ll pull it up live from our practice environment so you can see exactly how it looks in a real defensive scenario. Whether you’ve never touched this stuff or you’re comp-rostered, come hang and get hands-on.\n\n💻 GRAB THE PRACTICE IMAGE — BEFORE TONIGHT\nWe’re practicing on the Cincinnati Zoo image (Windows 10) so you can follow Marcos step by step.\n📥 Download: https://drive.google.com/file/d/1ai3vff_pS_rABc8hsnE_0uv08MOZiB1W/view\n📋 Full image list: https://docs.google.com/spreadsheets/d/1cdVHtk4w5JDJCYy-EO2_ycr0ZqMgUyjFOVDn5Y8eGVw/edit?gid=0#gid=0\nSetup: download → unzip → double-click the .vmx to open it in VMware (install Workstation Player/Pro, or Fusion on Mac, first). If it won’t launch: VMware → Open a Virtual Machine → pick the .vmx. Ping the chat if it won’t boot and we’ll fix it before the meeting.\n\n🎯 Thursday Meeting | 5–7 PM | CM 22, Rm 125 — HORSE PLINKO PRACTICE LAB\nScheduling note: Zach Bright’s talk moved to Oct 27, so Thursday is now a hands-on Plinko prep lab. We’ll run practice images, cover scripting basics, and — since our WRCCDC env with the scoring engine is live — I’ll stage a real attack so you can watch defense happen in real time. Easily one of our most useful sessions. Come even if you’re not competing — this is how you actually learn it.\n\n🏆 TWO COMPETITIONS — big opportunities:\n\nHorse Plinko (HPCC4) — this weekend @ UCF. Beginner-friendly cyber defense comp. Great first competition if you’ve been wanting to try one.\nUBlockdown — defensive comp, run right here in our lab room, 6-person teams, and I want two teams. 👇\n\n🚨 URGENT — UBLOCKDOWN SIGNUPS CLOSE FRIDAY 🚨\nIf you want in, you MUST sign up by Friday — competition is Sat Oct 24. Spots are limited to two 6-person teams, so drop your name / DM me ASAP. Don’t sit on this — once it’s full, it’s full. Even if you’re doing Plinko, do this one too.\n\n👉 All prep and environment details, are in the competition chat — head there if you’re competing (or even thinking about it).\n\n📅 Speaker lineup: Zachary Bright (ADT) → Oct 27 · Kyle Ryan (Red Team Mgr, NextEra) & Delia Drumm (Microsoft) later this month. \n\nQuestions? Drop them here or DM me. Let’s have a great week 🔥",
     "url": "https://discord.com/channels/1265737634744107008/1265738362560450580/1559445675891097680"
-  },
-  {
-    "date": "2026-10-08T21:54:37.869000+00:00",
-    "author": "shaamad",
-    "text": "login for machines \n\nadministrators/OMGaTREX1?\nroot/OMGaTREX1?",
-    "url": "https://discord.com/channels/1265737634744107008/1265738362560450580/1557873884110520472"
-  },
-  {
-    "date": "2026-10-08T21:14:12.175000+00:00",
-    "author": "shaamad",
-    "text": "im not sure about doing a zoom today but we can meet in the discord vc chat and try to help everyone with this practice comp. The link to log in is below and make sure to access these links after logging into our authentik\n\nhttps://auth.minerva-csc.club/\nminerva-pilot-team01\ndinosaur01\n\nhttps://pve.minerva-csc.club/minerva/sso/proxmox\n\nhttps://quotient.minerva-csc.club/auth/oidc/login",
-    "url": "https://discord.com/channels/1265737634744107008/1265738362560450580/1557863710012477461"
   }
 ]
