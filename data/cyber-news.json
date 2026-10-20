@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-20T13:51:29+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+    "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html"
+  },
+  {
     "date": "2026-10-20T12:41:45+05:30",
     "source": "The Hacker News",
     "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
     "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html"
-  },
-  {
-    "date": "2026-10-20T09:35:58+05:30",
-    "source": "The Hacker News",
-    "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-    "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html"
   },
   {
     "date": "2026-10-20T05:46:44-04:00",
