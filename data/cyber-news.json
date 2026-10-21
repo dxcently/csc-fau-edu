@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-22T00:27:34+05:30",
+    "source": "The Hacker News",
+    "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+    "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html"
+  },
+  {
     "date": "2026-10-21T23:31:57+05:30",
     "source": "The Hacker News",
     "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
     "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html"
-  },
-  {
-    "date": "2026-10-21T19:30:00+05:30",
-    "source": "The Hacker News",
-    "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
-    "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
