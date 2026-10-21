@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html"
   },
   {
+    "date": "2026-10-21T04:36:24-04:00",
+    "source": "BleepingComputer",
+    "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
+  },
+  {
     "date": "2026-10-20T21:01:50-04:00",
     "source": "BleepingComputer",
     "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
     "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/"
-  },
-  {
-    "date": "2026-10-20T16:56:43-04:00",
-    "source": "BleepingComputer",
-    "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
-    "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/"
   },
   {
     "date": "2026-10-19T13:48:56+00:00",
