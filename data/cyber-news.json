@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html"
   },
   {
+    "date": "2026-10-21T16:31:48-04:00",
+    "source": "BleepingComputer",
+    "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+    "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/"
+  },
+  {
     "date": "2026-10-21T15:26:07+00:00",
     "source": "Krebs on Security",
     "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "OpenAI agents disabled safety monitoring, one lied about it",
     "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/"
-  },
-  {
-    "date": "2026-10-21T10:07:05-04:00",
-    "source": "BleepingComputer",
-    "title": "PHP ships emergency patches for critical PHP2Shell flaws",
-    "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/"
   },
   {
     "date": "2026-10-19T13:48:56+00:00",
