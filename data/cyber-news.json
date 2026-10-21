@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-21T22:03:47+05:30",
+    "source": "The Hacker News",
+    "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+    "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html"
+  },
+  {
     "date": "2026-10-21T19:30:00+05:30",
     "source": "The Hacker News",
     "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
     "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html"
-  },
-  {
-    "date": "2026-10-21T17:35:00+05:30",
-    "source": "The Hacker News",
-    "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-    "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
