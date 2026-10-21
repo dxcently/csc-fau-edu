@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html"
   },
   {
+    "date": "2026-10-21T15:26:07+00:00",
+    "source": "Krebs on Security",
+    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+    "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
+  },
+  {
     "date": "2026-10-21T10:07:05-04:00",
     "source": "BleepingComputer",
     "title": "PHP ships emergency patches for critical PHP2Shell flaws",
@@ -46,11 +52,5 @@
     "source": "Krebs on Security",
     "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
     "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
-  },
-  {
-    "date": "2026-10-13T23:24:53+00:00",
-    "source": "Krebs on Security",
-    "title": "Microsoft Patches More Than 1,400 Security Flaws",
-    "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/"
   }
 ]
