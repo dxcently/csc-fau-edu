@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html"
   },
   {
+    "date": "2026-10-20T21:01:50-04:00",
+    "source": "BleepingComputer",
+    "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+    "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/"
+  },
+  {
     "date": "2026-10-20T20:46:42-04:00",
     "source": "BleepingComputer",
     "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
     "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/"
-  },
-  {
-    "date": "2026-10-20T15:33:02-04:00",
-    "source": "BleepingComputer",
-    "title": "Zeabur shutting down after second security breach in two months",
-    "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/"
   },
   {
     "date": "2026-10-19T13:48:56+00:00",
