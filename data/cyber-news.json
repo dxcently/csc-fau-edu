@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html"
   },
   {
+    "date": "2026-10-21T06:14:53-04:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft says October updates didn’t actually fix VPN issues",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/"
+  },
+  {
     "date": "2026-10-21T04:36:24-04:00",
     "source": "BleepingComputer",
     "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
     "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/"
-  },
-  {
-    "date": "2026-10-20T20:46:42-04:00",
-    "source": "BleepingComputer",
-    "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
-    "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/"
   },
   {
     "date": "2026-10-19T13:48:56+00:00",
