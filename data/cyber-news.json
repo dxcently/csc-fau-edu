@@ -24,6 +24,12 @@
     "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
   },
   {
+    "date": "2026-10-21T14:34:42-04:00",
+    "source": "BleepingComputer",
+    "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/"
+  },
+  {
     "date": "2026-10-21T12:26:53-04:00",
     "source": "BleepingComputer",
     "title": "OpenAI agents disabled safety monitoring, one lied about it",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "PHP ships emergency patches for critical PHP2Shell flaws",
     "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/"
-  },
-  {
-    "date": "2026-10-21T10:00:10-04:00",
-    "source": "BleepingComputer",
-    "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
-    "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/"
   },
   {
     "date": "2026-10-19T13:48:56+00:00",
