@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html"
   },
   {
+    "date": "2026-10-21T17:43:27-04:00",
+    "source": "BleepingComputer",
+    "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+    "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/"
+  },
+  {
     "date": "2026-10-21T16:31:48-04:00",
     "source": "BleepingComputer",
     "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/"
-  },
-  {
-    "date": "2026-10-21T12:26:53-04:00",
-    "source": "BleepingComputer",
-    "title": "OpenAI agents disabled safety monitoring, one lied about it",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/"
   },
   {
     "date": "2026-10-19T13:48:56+00:00",
