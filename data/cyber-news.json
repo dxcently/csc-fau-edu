@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-21T18:45:09+05:30",
+    "source": "The Hacker News",
+    "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+    "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html"
+  },
+  {
     "date": "2026-10-21T17:35:00+05:30",
     "source": "The Hacker News",
     "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
     "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html"
-  },
-  {
-    "date": "2026-10-21T16:06:53+05:30",
-    "source": "The Hacker News",
-    "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-    "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html"
   },
   {
     "date": "2026-10-21T08:20:34-04:00",
