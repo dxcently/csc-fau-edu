@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html"
   },
   {
+    "date": "2026-10-22T13:18:22-04:00",
+    "source": "BleepingComputer",
+    "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+  },
+  {
     "date": "2026-10-22T11:49:32-04:00",
     "source": "BleepingComputer",
     "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Machine speed attacks require machine speed detection and response",
     "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/"
-  },
-  {
-    "date": "2026-10-22T09:09:12-04:00",
-    "source": "BleepingComputer",
-    "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
-    "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
