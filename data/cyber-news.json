@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html"
   },
   {
+    "date": "2026-10-22T17:25:31-04:00",
+    "source": "BleepingComputer",
+    "title": "Railway warns devs to rotate secrets after potential breach",
+    "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
+  },
+  {
     "date": "2026-10-22T16:22:45-04:00",
     "source": "BleepingComputer",
     "title": "Capcom confirms data breach affecting 11.7 million accounts",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
     "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/"
-  },
-  {
-    "date": "2026-10-22T13:18:22-04:00",
-    "source": "BleepingComputer",
-    "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
