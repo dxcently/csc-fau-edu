@@ -1,27 +1,27 @@
 [
   {
-    "date": "2026-10-22T09:51:26+05:30",
+    "date": "2026-10-22T13:58:48+05:30",
     "source": "The Hacker News",
-    "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-    "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
+    "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+    "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html"
+  },
+  {
+    "date": "2026-10-22T13:17:22+05:30",
+    "source": "The Hacker News",
+    "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+    "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html"
+  },
+  {
+    "date": "2026-10-22T12:08:31+05:30",
+    "source": "The Hacker News",
+    "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+    "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html"
   },
   {
     "date": "2026-10-22T04:27:11-04:00",
     "source": "BleepingComputer",
     "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
     "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/"
-  },
-  {
-    "date": "2026-10-22T00:27:34+05:30",
-    "source": "The Hacker News",
-    "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-    "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html"
-  },
-  {
-    "date": "2026-10-21T23:31:57+05:30",
-    "source": "The Hacker News",
-    "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-    "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html"
   },
   {
     "date": "2026-10-21T18:16:26-04:00",
