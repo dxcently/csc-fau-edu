@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-22T19:08:22+05:30",
+    "source": "The Hacker News",
+    "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+    "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html"
+  },
+  {
     "date": "2026-10-22T17:15:00+05:30",
     "source": "The Hacker News",
     "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
     "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html"
-  },
-  {
-    "date": "2026-10-22T16:14:05+05:30",
-    "source": "The Hacker News",
-    "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
-    "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html"
   },
   {
     "date": "2026-10-22T10:02:12-04:00",
