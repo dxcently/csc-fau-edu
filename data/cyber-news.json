@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-22T09:51:26+05:30",
+    "source": "The Hacker News",
+    "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+    "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
+  },
+  {
     "date": "2026-10-22T00:27:34+05:30",
     "source": "The Hacker News",
     "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
     "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html"
-  },
-  {
-    "date": "2026-10-21T22:03:47+05:30",
-    "source": "The Hacker News",
-    "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-    "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html"
   },
   {
     "date": "2026-10-21T18:16:26-04:00",
