@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-10-22T16:45:42+05:30",
+    "source": "The Hacker News",
+    "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+    "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html"
+  },
+  {
+    "date": "2026-10-22T16:14:05+05:30",
+    "source": "The Hacker News",
+    "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+    "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html"
+  },
+  {
     "date": "2026-10-22T13:58:48+05:30",
     "source": "The Hacker News",
     "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
     "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html"
-  },
-  {
-    "date": "2026-10-22T13:17:22+05:30",
-    "source": "The Hacker News",
-    "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-    "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html"
-  },
-  {
-    "date": "2026-10-22T12:08:31+05:30",
-    "source": "The Hacker News",
-    "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-    "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html"
   },
   {
     "date": "2026-10-22T04:27:11-04:00",
