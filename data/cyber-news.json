@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html"
   },
   {
+    "date": "2026-10-22T11:49:32-04:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/"
+  },
+  {
     "date": "2026-10-22T10:02:12-04:00",
     "source": "BleepingComputer",
     "title": "Machine speed attacks require machine speed detection and response",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
     "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/"
-  },
-  {
-    "date": "2026-10-22T07:41:48-04:00",
-    "source": "BleepingComputer",
-    "title": "GitLab warns of new max severity code execution vulnerability",
-    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
