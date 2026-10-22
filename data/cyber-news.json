@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html"
   },
   {
+    "date": "2026-10-22T09:09:12-04:00",
+    "source": "BleepingComputer",
+    "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+    "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/"
+  },
+  {
     "date": "2026-10-22T07:41:48-04:00",
     "source": "BleepingComputer",
     "title": "GitLab warns of new max severity code execution vulnerability",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
     "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/"
-  },
-  {
-    "date": "2026-10-21T18:16:26-04:00",
-    "source": "BleepingComputer",
-    "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-    "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
