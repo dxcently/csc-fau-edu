@@ -97,6 +97,14 @@
     "id": 12
   },
   {
+    "date": "2026-10-13",
+    "title": "Windows defense tools",
+    "track": "learn",
+    "lead": "Marcos on Event Viewer, netstat, Defender, Firewall",
+    "room": "CM 22 Room 125",
+    "id": 25
+  },
+  {
     "date": "2026-10-15",
     "title": "Guest speaker: Zachary Bright",
     "track": "learn",
@@ -114,7 +122,15 @@
     "title": "Horse Plinko CTF (HPCC4) @ UCF — Oct 17–18",
     "track": "Compete",
     "room": "UCF, Orlando",
-    "id": 19
+    "id": 19,
+    "lead": "Won 1st place 🏆"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Horse Plinko debrief + UB Lockdown prep",
+    "track": "general",
+    "lead": "Also on Zoom",
+    "id": 26
   },
   {
     "date": "2026-10-22",
@@ -128,7 +144,8 @@
     "date": "2026-10-24",
     "title": "UB Lockdown",
     "track": "Compete",
-    "id": 20
+    "id": 20,
+    "lead": "9 AM · two 6-person teams"
   },
   {
     "date": "2026-10-29",
