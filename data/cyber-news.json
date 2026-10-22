@@ -6,6 +6,12 @@
     "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
   },
   {
+    "date": "2026-10-22T04:27:11-04:00",
+    "source": "BleepingComputer",
+    "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+    "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/"
+  },
+  {
     "date": "2026-10-22T00:27:34+05:30",
     "source": "The Hacker News",
     "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
     "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/"
-  },
-  {
-    "date": "2026-10-21T16:31:48-04:00",
-    "source": "BleepingComputer",
-    "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-    "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
