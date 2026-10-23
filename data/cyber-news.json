@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-10-23T13:20:01+05:30",
+    "source": "The Hacker News",
+    "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+    "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html"
+  },
+  {
+    "date": "2026-10-23T13:10:45+05:30",
+    "source": "The Hacker News",
+    "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+    "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+  },
+  {
     "date": "2026-10-23T00:35:35+05:30",
     "source": "The Hacker News",
     "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
     "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html"
-  },
-  {
-    "date": "2026-10-23T00:35:17+05:30",
-    "source": "The Hacker News",
-    "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-    "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html"
-  },
-  {
-    "date": "2026-10-22T23:42:43+05:30",
-    "source": "The Hacker News",
-    "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-    "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html"
   },
   {
     "date": "2026-10-22T17:25:31-04:00",
