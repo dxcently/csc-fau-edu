@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-23T19:20:56+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+    "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
+  },
+  {
     "date": "2026-10-23T16:55:43+05:30",
     "source": "The Hacker News",
     "title": "PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
     "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
-  },
-  {
-    "date": "2026-10-23T15:06:00+05:30",
-    "source": "The Hacker News",
-    "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-    "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html"
   },
   {
     "date": "2026-10-23T10:00:10-04:00",
