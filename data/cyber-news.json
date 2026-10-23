@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-10-23T16:55:43+05:30",
+    "source": "The Hacker News",
+    "title": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+    "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
+  },
+  {
+    "date": "2026-10-23T16:41:23+05:30",
+    "source": "The Hacker News",
+    "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+    "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
+  },
+  {
     "date": "2026-10-23T15:06:00+05:30",
     "source": "The Hacker News",
     "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
     "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html"
-  },
-  {
-    "date": "2026-10-23T14:10:43+05:30",
-    "source": "The Hacker News",
-    "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-    "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html"
-  },
-  {
-    "date": "2026-10-23T14:05:45+05:30",
-    "source": "The Hacker News",
-    "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-    "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html"
   },
   {
     "date": "2026-10-22T17:25:31-04:00",
