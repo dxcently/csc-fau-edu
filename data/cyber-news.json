@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
   },
   {
+    "date": "2026-10-23T14:54:41-04:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/"
+  },
+  {
     "date": "2026-10-23T13:05:07-04:00",
     "source": "BleepingComputer",
     "title": "Microsoft: Windows Server 2016 reaches end of support in January",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Quest Diagnostics confirms data breach exposed patient records",
     "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/"
-  },
-  {
-    "date": "2026-10-23T11:38:05-04:00",
-    "source": "BleepingComputer",
-    "title": "PHP shares mitigation for new RCE vulnerability with no patch",
-    "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
