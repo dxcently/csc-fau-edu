@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html"
   },
   {
+    "date": "2026-10-23T10:00:10-04:00",
+    "source": "BleepingComputer",
+    "title": "You gave your AI agent access, but who is giving it orders?",
+    "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/"
+  },
+  {
     "date": "2026-10-23T08:48:00-04:00",
     "source": "BleepingComputer",
     "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Railway warns devs to rotate secrets after potential breach",
     "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
-  },
-  {
-    "date": "2026-10-22T16:22:45-04:00",
-    "source": "BleepingComputer",
-    "title": "Capcom confirms data breach affecting 11.7 million accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
