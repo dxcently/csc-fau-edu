@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-24T00:20:13+05:30",
+    "source": "The Hacker News",
+    "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+    "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
+  },
+  {
     "date": "2026-10-23T23:24:08+05:30",
     "source": "The Hacker News",
     "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
     "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
-  },
-  {
-    "date": "2026-10-23T19:20:56+05:30",
-    "source": "The Hacker News",
-    "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-    "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
   },
   {
     "date": "2026-10-23T14:54:41-04:00",
