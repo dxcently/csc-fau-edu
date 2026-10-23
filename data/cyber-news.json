@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
   },
   {
+    "date": "2026-10-23T12:40:07-04:00",
+    "source": "BleepingComputer",
+    "title": "Quest Diagnostics confirms data breach exposed patient records",
+    "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/"
+  },
+  {
     "date": "2026-10-23T11:38:05-04:00",
     "source": "BleepingComputer",
     "title": "PHP shares mitigation for new RCE vulnerability with no patch",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "You gave your AI agent access, but who is giving it orders?",
     "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/"
-  },
-  {
-    "date": "2026-10-23T08:48:00-04:00",
-    "source": "BleepingComputer",
-    "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-    "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
