@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
   },
   {
+    "date": "2026-10-23T16:55:05-04:00",
+    "source": "BleepingComputer",
+    "title": "Abandoned Popcorn Time app exposed millions of device to RCE attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/"
+  },
+  {
     "date": "2026-10-23T14:54:41-04:00",
     "source": "BleepingComputer",
     "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft: Windows Server 2016 reaches end of support in January",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/"
-  },
-  {
-    "date": "2026-10-23T12:40:07-04:00",
-    "source": "BleepingComputer",
-    "title": "Quest Diagnostics confirms data breach exposed patient records",
-    "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
