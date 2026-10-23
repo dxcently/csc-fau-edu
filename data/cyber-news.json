@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-10-23T23:24:08+05:30",
+    "source": "The Hacker News",
+    "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+    "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html"
+  },
+  {
+    "date": "2026-10-23T23:20:47+05:30",
+    "source": "The Hacker News",
+    "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+    "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
+  },
+  {
     "date": "2026-10-23T19:20:56+05:30",
     "source": "The Hacker News",
     "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
     "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
-  },
-  {
-    "date": "2026-10-23T16:55:43+05:30",
-    "source": "The Hacker News",
-    "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-    "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
-  },
-  {
-    "date": "2026-10-23T16:41:23+05:30",
-    "source": "The Hacker News",
-    "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-    "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
   },
   {
     "date": "2026-10-23T13:05:07-04:00",
