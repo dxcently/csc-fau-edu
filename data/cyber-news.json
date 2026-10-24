@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-24T11:55:57+05:30",
+    "source": "The Hacker News",
+    "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+    "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
+  },
+  {
     "date": "2026-10-24T00:20:13+05:30",
     "source": "The Hacker News",
     "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
     "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html"
-  },
-  {
-    "date": "2026-10-23T23:20:47+05:30",
-    "source": "The Hacker News",
-    "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-    "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
   },
   {
     "date": "2026-10-23T16:55:05-04:00",
