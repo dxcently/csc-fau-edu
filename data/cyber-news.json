@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-10-24T14:34:24+05:30",
+    "source": "The Hacker News",
+    "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+    "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html"
+  },
+  {
+    "date": "2026-10-24T14:15:56+05:30",
+    "source": "The Hacker News",
+    "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+    "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html"
+  },
+  {
     "date": "2026-10-24T11:55:57+05:30",
     "source": "The Hacker News",
     "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
     "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
-  },
-  {
-    "date": "2026-10-24T00:20:13+05:30",
-    "source": "The Hacker News",
-    "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-    "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
-  },
-  {
-    "date": "2026-10-23T23:24:08+05:30",
-    "source": "The Hacker News",
-    "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-    "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html"
   },
   {
     "date": "2026-10-23T16:55:05-04:00",
