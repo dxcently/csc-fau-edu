@@ -6,6 +6,12 @@
     "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"
   },
   {
+    "date": "2026-10-25T11:49:38-04:00",
+    "source": "BleepingComputer",
+    "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+    "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
+  },
+  {
     "date": "2026-10-24T16:39:29+05:30",
     "source": "The Hacker News",
     "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
     "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/"
-  },
-  {
-    "date": "2026-10-23T14:54:41-04:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
