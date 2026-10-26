@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-26T23:42:22+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+    "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html"
+  },
+  {
     "date": "2026-10-26T23:15:57+05:30",
     "source": "The Hacker News",
     "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
     "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html"
-  },
-  {
-    "date": "2026-10-26T19:36:13+05:30",
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-    "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html"
   },
   {
     "date": "2026-10-26T15:26:20-04:00",
