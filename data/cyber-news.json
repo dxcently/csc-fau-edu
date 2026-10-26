@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-26T15:24:02+05:30",
+    "source": "The Hacker News",
+    "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+    "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html"
+  },
+  {
     "date": "2026-10-26T14:05:51+05:30",
     "source": "The Hacker News",
     "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
     "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
-  },
-  {
-    "date": "2026-10-26T11:33:48+05:30",
-    "source": "The Hacker News",
-    "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-    "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html"
   },
   {
     "date": "2026-10-26T06:26:52-04:00",
