@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-26T16:53:56+05:30",
+    "source": "The Hacker News",
+    "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+    "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html"
+  },
+  {
     "date": "2026-10-26T15:24:02+05:30",
     "source": "The Hacker News",
     "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
     "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
-  },
-  {
-    "date": "2026-10-26T13:19:46+05:30",
-    "source": "The Hacker News",
-    "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-    "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
   },
   {
     "date": "2026-10-26T06:26:52-04:00",
