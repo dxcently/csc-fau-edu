@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-10-26T23:15:57+05:30",
+    "source": "The Hacker News",
+    "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+    "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html"
+  },
+  {
+    "date": "2026-10-26T21:22:40+05:30",
+    "source": "The Hacker News",
+    "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+    "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html"
+  },
+  {
     "date": "2026-10-26T19:36:13+05:30",
     "source": "The Hacker News",
     "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
     "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html"
-  },
-  {
-    "date": "2026-10-26T17:22:41+05:30",
-    "source": "The Hacker News",
-    "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-    "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html"
-  },
-  {
-    "date": "2026-10-26T16:53:56+05:30",
-    "source": "The Hacker News",
-    "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-    "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html"
   },
   {
     "date": "2026-10-26T12:27:57-04:00",
