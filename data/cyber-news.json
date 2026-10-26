@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html"
   },
   {
+    "date": "2026-10-26T16:46:49-04:00",
+    "source": "BleepingComputer",
+    "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/"
+  },
+  {
     "date": "2026-10-26T15:26:20-04:00",
     "source": "BleepingComputer",
     "title": "DreamHost forces password resets in ongoing \"incident\"",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
     "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/"
-  },
-  {
-    "date": "2026-10-26T11:38:24-04:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
