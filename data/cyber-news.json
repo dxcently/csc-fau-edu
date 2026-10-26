@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-26T19:36:13+05:30",
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+    "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html"
+  },
+  {
     "date": "2026-10-26T17:22:41+05:30",
     "source": "The Hacker News",
     "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
     "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html"
-  },
-  {
-    "date": "2026-10-26T15:24:02+05:30",
-    "source": "The Hacker News",
-    "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-    "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html"
   },
   {
     "date": "2026-10-26T10:00:10-04:00",
