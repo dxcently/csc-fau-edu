@@ -6,6 +6,12 @@
     "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html"
   },
   {
+    "date": "2026-10-26T05:19:57-04:00",
+    "source": "BleepingComputer",
+    "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+    "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+  },
+  {
     "date": "2026-10-25T23:14:09+05:30",
     "source": "The Hacker News",
     "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
     "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
-  },
-  {
-    "date": "2026-10-23T16:55:05-04:00",
-    "source": "BleepingComputer",
-    "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
