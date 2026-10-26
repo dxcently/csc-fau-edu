@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html"
   },
   {
+    "date": "2026-10-26T06:26:52-04:00",
+    "source": "BleepingComputer",
+    "title": "Kali Linux 2026.3 released with 7 new tools, desktop updates",
+    "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-7-new-tools-desktop-updates/"
+  },
+  {
     "date": "2026-10-26T05:19:57-04:00",
     "source": "BleepingComputer",
     "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
     "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
-  },
-  {
-    "date": "2026-10-24T10:17:32-04:00",
-    "source": "BleepingComputer",
-    "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-    "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
