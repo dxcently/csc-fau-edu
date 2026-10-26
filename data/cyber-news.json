@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-26T11:33:48+05:30",
+    "source": "The Hacker News",
+    "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+    "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html"
+  },
+  {
     "date": "2026-10-25T23:14:09+05:30",
     "source": "The Hacker News",
     "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
     "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
-  },
-  {
-    "date": "2026-10-25T12:24:29+05:30",
-    "source": "The Hacker News",
-    "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-    "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"
   },
   {
     "date": "2026-10-25T11:49:38-04:00",
