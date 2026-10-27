@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html"
   },
   {
+    "date": "2026-10-27T16:57:25-04:00",
+    "source": "BleepingComputer",
+    "title": "Hackers hijack Convertr analytics script to steal payment card data",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/"
+  },
+  {
     "date": "2026-10-27T14:20:28-04:00",
     "source": "BleepingComputer",
     "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
     "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/"
-  },
-  {
-    "date": "2026-10-27T10:09:46-04:00",
-    "source": "BleepingComputer",
-    "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-    "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
