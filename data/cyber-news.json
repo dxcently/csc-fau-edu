@@ -12,6 +12,12 @@
     "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html"
   },
   {
+    "date": "2026-10-27T04:20:54-04:00",
+    "source": "BleepingComputer",
+    "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/"
+  },
+  {
     "date": "2026-10-26T23:42:22+05:30",
     "source": "The Hacker News",
     "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
     "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/"
-  },
-  {
-    "date": "2026-10-26T16:46:49-04:00",
-    "source": "BleepingComputer",
-    "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
