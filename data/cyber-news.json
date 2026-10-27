@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html"
   },
   {
+    "date": "2026-10-27T12:15:39-04:00",
+    "source": "BleepingComputer",
+    "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+    "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/"
+  },
+  {
     "date": "2026-10-27T10:09:46-04:00",
     "source": "BleepingComputer",
     "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
     "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/"
-  },
-  {
-    "date": "2026-10-27T06:36:12-04:00",
-    "source": "BleepingComputer",
-    "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
-    "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
