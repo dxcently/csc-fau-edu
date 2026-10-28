@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html"
   },
   {
+    "date": "2026-10-28T10:48:32-04:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/"
+  },
+  {
     "date": "2026-10-28T10:00:00-04:00",
     "source": "BleepingComputer",
     "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
     "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
-  },
-  {
-    "date": "2026-10-28T08:19:57-04:00",
-    "source": "BleepingComputer",
-    "title": "Hackers now scanning systems for recently-patched Oracle flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
