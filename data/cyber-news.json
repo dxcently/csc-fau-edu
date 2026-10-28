@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html"
   },
   {
+    "date": "2026-10-28T12:00:00-04:00",
+    "source": "BleepingComputer",
+    "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+    "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/"
+  },
+  {
     "date": "2026-10-28T10:48:32-04:00",
     "source": "BleepingComputer",
     "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
     "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
-  },
-  {
-    "date": "2026-10-28T09:50:59-04:00",
-    "source": "BleepingComputer",
-    "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
-    "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
