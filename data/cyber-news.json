@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html"
   },
   {
+    "date": "2026-10-28T12:45:47-04:00",
+    "source": "BleepingComputer",
+    "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+    "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/"
+  },
+  {
     "date": "2026-10-28T12:00:00-04:00",
     "source": "BleepingComputer",
     "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/"
-  },
-  {
-    "date": "2026-10-28T10:00:00-04:00",
-    "source": "BleepingComputer",
-    "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
-    "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
