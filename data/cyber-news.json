@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-10-29T13:54:22+05:30",
+    "date": "2026-10-29T16:14:46+05:30",
     "source": "The Hacker News",
-    "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-    "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+    "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+    "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
   },
   {
-    "date": "2026-10-29T11:52:33+05:30",
+    "date": "2026-10-29T15:56:33+05:30",
     "source": "The Hacker News",
-    "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-    "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html"
+    "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+    "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html"
   },
   {
-    "date": "2026-10-29T11:20:17+05:30",
+    "date": "2026-10-29T14:35:39+05:30",
     "source": "The Hacker News",
-    "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-    "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html"
+    "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+    "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html"
   },
   {
     "date": "2026-10-28T16:47:22-04:00",
