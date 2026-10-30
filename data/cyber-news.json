@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html"
   },
   {
+    "date": "2026-10-30T09:00:32-04:00",
+    "source": "BleepingComputer",
+    "title": "CISA says max severity GitLab flaw now exploited in the wild",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
+  },
+  {
     "date": "2026-10-30T07:20:26-04:00",
     "source": "BleepingComputer",
     "title": "Microsoft finally fixes VPN issues caused by September updates",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/"
-  },
-  {
-    "date": "2026-10-30T05:18:13-04:00",
-    "source": "BleepingComputer",
-    "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-    "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
