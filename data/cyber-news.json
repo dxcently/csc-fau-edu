@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-30T09:44:59+05:30",
+    "source": "The Hacker News",
+    "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+    "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html"
+  },
+  {
     "date": "2026-10-30T00:41:58+05:30",
     "source": "The Hacker News",
     "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
     "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html"
-  },
-  {
-    "date": "2026-10-29T20:50:29+05:30",
-    "source": "The Hacker News",
-    "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-    "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html"
   },
   {
     "date": "2026-10-29T19:35:52-04:00",
