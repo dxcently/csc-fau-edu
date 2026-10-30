@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-30T14:25:47+05:30",
+    "source": "The Hacker News",
+    "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+    "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+  },
+  {
     "date": "2026-10-30T13:15:30+05:30",
     "source": "The Hacker News",
     "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
     "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html"
-  },
-  {
-    "date": "2026-10-30T09:44:59+05:30",
-    "source": "The Hacker News",
-    "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-    "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html"
   },
   {
     "date": "2026-10-30T06:16:07-04:00",
