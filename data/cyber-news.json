@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-30T12:57:05+05:30",
+    "source": "The Hacker News",
+    "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+    "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html"
+  },
+  {
     "date": "2026-10-30T09:44:59+05:30",
     "source": "The Hacker News",
     "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
     "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html"
-  },
-  {
-    "date": "2026-10-29T21:27:05+05:30",
-    "source": "The Hacker News",
-    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-    "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html"
   },
   {
     "date": "2026-10-29T19:35:52-04:00",
