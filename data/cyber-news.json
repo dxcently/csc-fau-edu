@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html"
   },
   {
+    "date": "2026-10-30T10:36:54-04:00",
+    "source": "BleepingComputer",
+    "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+    "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
+  },
+  {
     "date": "2026-10-30T10:00:10-04:00",
     "source": "BleepingComputer",
     "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "CISA says max severity GitLab flaw now exploited in the wild",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
-  },
-  {
-    "date": "2026-10-30T07:20:26-04:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft finally fixes VPN issues caused by September updates",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
