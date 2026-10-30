@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-30T22:28:44+05:30",
+    "source": "The Hacker News",
+    "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+    "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html"
+  },
+  {
     "date": "2026-10-30T20:47:28+05:30",
     "source": "The Hacker News",
     "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
     "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
-  },
-  {
-    "date": "2026-10-30T17:51:56+05:30",
-    "source": "The Hacker News",
-    "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-    "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html"
   },
   {
     "date": "2026-10-30T11:58:20-04:00",
