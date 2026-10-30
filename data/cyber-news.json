@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
   },
   {
+    "date": "2026-10-30T17:09:46-04:00",
+    "source": "BleepingComputer",
+    "title": "Linux kernel exploit enables remote root attacks on MPTCP servers",
+    "url": "https://www.bleepingcomputer.com/news/security/linux-kernel-exploit-enables-remote-root-attacks-on-mptcp-servers/"
+  },
+  {
     "date": "2026-10-30T11:58:20-04:00",
     "source": "BleepingComputer",
     "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
     "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
-  },
-  {
-    "date": "2026-10-30T10:00:10-04:00",
-    "source": "BleepingComputer",
-    "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
-    "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
