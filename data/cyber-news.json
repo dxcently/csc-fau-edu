@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-30T13:15:30+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+    "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+  },
+  {
     "date": "2026-10-30T12:57:05+05:30",
     "source": "The Hacker News",
     "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
     "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html"
-  },
-  {
-    "date": "2026-10-30T00:41:58+05:30",
-    "source": "The Hacker News",
-    "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-    "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html"
   },
   {
     "date": "2026-10-29T19:35:52-04:00",
