@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html"
   },
   {
+    "date": "2026-10-30T11:58:20-04:00",
+    "source": "BleepingComputer",
+    "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+    "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/"
+  },
+  {
     "date": "2026-10-30T10:36:54-04:00",
     "source": "BleepingComputer",
     "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
     "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/"
-  },
-  {
-    "date": "2026-10-30T09:00:32-04:00",
-    "source": "BleepingComputer",
-    "title": "CISA says max severity GitLab flaw now exploited in the wild",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
