@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html"
   },
   {
+    "date": "2026-10-31T08:50:09-04:00",
+    "source": "BleepingComputer",
+    "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+    "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/"
+  },
+  {
     "date": "2026-10-30T17:09:46-04:00",
     "source": "BleepingComputer",
     "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
     "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/"
-  },
-  {
-    "date": "2026-10-30T10:36:54-04:00",
-    "source": "BleepingComputer",
-    "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-    "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
