@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-01T14:57:53-05:00",
+    "source": "BleepingComputer",
+    "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/"
+  },
+  {
     "date": "2026-11-01T14:21:31+05:30",
     "source": "The Hacker News",
     "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/"
-  },
-  {
-    "date": "2026-10-31T14:01:12-04:00",
-    "source": "BleepingComputer",
-    "title": "Northflank security breach leads to abuse of customers' AI API keys",
-    "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
