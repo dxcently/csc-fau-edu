@@ -1,18 +1,18 @@
 [
   {
+    "date": "2026-11-01T14:21:31+05:30",
+    "source": "The Hacker News",
+    "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+    "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html"
+  },
+  {
     "date": "2026-11-01T12:55:40+05:30",
     "source": "The Hacker News",
     "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
     "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html"
   },
   {
-    "date": "2026-11-01T12:32:58+05:30",
-    "source": "The Hacker News",
-    "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
-    "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html"
-  },
-  {
-    "date": "2026-11-01T12:14:27+05:30",
+    "date": "2026-11-01T12:33:00+05:30",
     "source": "The Hacker News",
     "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
     "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html"
