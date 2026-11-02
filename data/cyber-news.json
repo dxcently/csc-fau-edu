@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html"
   },
   {
+    "date": "2026-11-02T07:47:00-05:00",
+    "source": "BleepingComputer",
+    "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/"
+  },
+  {
     "date": "2026-11-02T06:28:42-05:00",
     "source": "BleepingComputer",
     "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/"
-  },
-  {
-    "date": "2026-11-01T14:57:53-05:00",
-    "source": "BleepingComputer",
-    "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
