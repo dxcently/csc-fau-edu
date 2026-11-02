@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-02T21:20:26+05:30",
+    "source": "The Hacker News",
+    "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+    "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html"
+  },
+  {
     "date": "2026-11-02T20:16:05+05:30",
     "source": "The Hacker News",
     "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
     "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html"
-  },
-  {
-    "date": "2026-11-02T17:00:00+05:30",
-    "source": "The Hacker News",
-    "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-    "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html"
   },
   {
     "date": "2026-11-02T10:03:07-05:00",
