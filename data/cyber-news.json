@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-03T02:24:31+00:00",
+    "source": "Krebs on Security",
+    "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+    "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
+  },
+  {
     "date": "2026-11-02T22:27:56+05:30",
     "source": "The Hacker News",
     "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
@@ -46,11 +52,5 @@
     "source": "Krebs on Security",
     "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
     "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
-  },
-  {
-    "date": "2026-10-14T14:22:49+00:00",
-    "source": "Krebs on Security",
-    "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-    "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
   }
 ]
