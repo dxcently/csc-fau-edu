@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-03T14:01:48+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html"
+  },
+  {
     "date": "2026-11-03T13:13:07+05:30",
     "source": "The Hacker News",
     "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
     "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html"
-  },
-  {
-    "date": "2026-11-03T11:04:41+05:30",
-    "source": "The Hacker News",
-    "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
   },
   {
     "date": "2026-11-03T02:24:31+00:00",
