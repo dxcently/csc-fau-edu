@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html"
   },
   {
+    "date": "2026-11-03T05:53:25-05:00",
+    "source": "BleepingComputer",
+    "title": "Harvard University data breach exposed info of 851,000 accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/"
+  },
+  {
     "date": "2026-11-03T02:24:31+00:00",
     "source": "Krebs on Security",
     "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
     "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/"
-  },
-  {
-    "date": "2026-11-02T13:16:34-05:00",
-    "source": "BleepingComputer",
-    "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-    "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/"
   },
   {
     "date": "2026-10-21T15:26:07+00:00",
