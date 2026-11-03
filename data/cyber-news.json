@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-03T11:04:41+05:30",
+    "source": "The Hacker News",
+    "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+    "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
+  },
+  {
+    "date": "2026-11-03T11:04:37+05:30",
+    "source": "The Hacker News",
+    "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+    "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html"
+  },
+  {
     "date": "2026-11-03T02:24:31+00:00",
     "source": "Krebs on Security",
     "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
@@ -10,18 +22,6 @@
     "source": "The Hacker News",
     "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
     "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html"
-  },
-  {
-    "date": "2026-11-02T21:20:26+05:30",
-    "source": "The Hacker News",
-    "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-    "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html"
-  },
-  {
-    "date": "2026-11-02T20:16:05+05:30",
-    "source": "The Hacker News",
-    "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-    "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html"
   },
   {
     "date": "2026-11-02T16:40:14-05:00",
