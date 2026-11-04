@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html"
   },
   {
+    "date": "2026-11-04T08:13:20-05:00",
+    "source": "BleepingComputer",
+    "title": "US charges two Canadians accused of hacking US universities",
+    "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/"
+  },
+  {
     "date": "2026-11-04T07:11:05-05:00",
     "source": "BleepingComputer",
     "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/"
-  },
-  {
-    "date": "2026-11-03T17:18:50-05:00",
-    "source": "BleepingComputer",
-    "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/"
   },
   {
     "date": "2026-11-03T02:24:31+00:00",
