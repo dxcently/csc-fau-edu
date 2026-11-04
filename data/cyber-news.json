@@ -1,21 +1,27 @@
 [
   {
-    "date": "2026-11-04T13:47:11+05:30",
+    "date": "2026-11-04T17:37:04+05:30",
     "source": "The Hacker News",
-    "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-    "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html"
+    "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+    "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html"
   },
   {
-    "date": "2026-11-04T13:16:15+05:30",
+    "date": "2026-11-04T17:16:27+05:30",
     "source": "The Hacker News",
-    "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
+    "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+    "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html"
   },
   {
-    "date": "2026-11-04T11:13:11+05:30",
+    "date": "2026-11-04T17:04:20+05:30",
     "source": "The Hacker News",
-    "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-    "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+    "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+    "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html"
+  },
+  {
+    "date": "2026-11-04T07:11:05-05:00",
+    "source": "BleepingComputer",
+    "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/"
   },
   {
     "date": "2026-11-04T04:39:54-05:00",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/"
-  },
-  {
-    "date": "2026-11-03T16:28:44-05:00",
-    "source": "BleepingComputer",
-    "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-    "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/"
   },
   {
     "date": "2026-11-03T02:24:31+00:00",
