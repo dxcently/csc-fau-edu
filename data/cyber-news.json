@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-11-04T13:47:11+05:30",
+    "source": "The Hacker News",
+    "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+    "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html"
+  },
+  {
+    "date": "2026-11-04T13:16:15+05:30",
+    "source": "The Hacker News",
+    "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+    "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
+  },
+  {
     "date": "2026-11-04T11:13:11+05:30",
     "source": "The Hacker News",
     "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
     "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
-  },
-  {
-    "date": "2026-11-04T00:16:38+05:30",
-    "source": "The Hacker News",
-    "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-    "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html"
-  },
-  {
-    "date": "2026-11-03T23:46:19+05:30",
-    "source": "The Hacker News",
-    "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-    "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html"
   },
   {
     "date": "2026-11-03T17:18:50-05:00",
