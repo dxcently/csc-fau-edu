@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html"
   },
   {
+    "date": "2026-11-04T10:00:10-05:00",
+    "source": "BleepingComputer",
+    "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+    "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/"
+  },
+  {
     "date": "2026-11-04T09:42:25-05:00",
     "source": "BleepingComputer",
     "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "US charges two Canadians accused of hacking US universities",
     "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/"
-  },
-  {
-    "date": "2026-11-04T07:11:05-05:00",
-    "source": "BleepingComputer",
-    "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/"
   },
   {
     "date": "2026-11-03T02:24:31+00:00",
