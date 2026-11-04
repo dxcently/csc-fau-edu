@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-04T19:57:52+05:30",
+    "source": "The Hacker News",
+    "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+    "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+  },
+  {
     "date": "2026-11-04T17:37:04+05:30",
     "source": "The Hacker News",
     "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
@@ -12,10 +18,10 @@
     "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html"
   },
   {
-    "date": "2026-11-04T17:04:20+05:30",
-    "source": "The Hacker News",
-    "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-    "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html"
+    "date": "2026-11-04T09:42:25-05:00",
+    "source": "BleepingComputer",
+    "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/"
   },
   {
     "date": "2026-11-04T08:13:20-05:00",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/"
-  },
-  {
-    "date": "2026-11-04T04:39:54-05:00",
-    "source": "BleepingComputer",
-    "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/"
   },
   {
     "date": "2026-11-03T02:24:31+00:00",
