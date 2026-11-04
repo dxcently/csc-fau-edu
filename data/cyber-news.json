@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-11-04T19:57:52+05:30",
+    "date": "2026-11-04T22:30:46+05:30",
     "source": "The Hacker News",
-    "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-    "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+    "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+    "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
   },
   {
-    "date": "2026-11-04T17:37:04+05:30",
+    "date": "2026-11-04T22:30:38+05:30",
     "source": "The Hacker News",
-    "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-    "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html"
+    "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+    "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
   },
   {
-    "date": "2026-11-04T17:16:27+05:30",
+    "date": "2026-11-04T21:36:43+05:30",
     "source": "The Hacker News",
-    "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-    "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html"
+    "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+    "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html"
   },
   {
     "date": "2026-11-04T11:58:46-05:00",
