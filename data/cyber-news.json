@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-04T11:13:11+05:30",
+    "source": "The Hacker News",
+    "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+    "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+  },
+  {
     "date": "2026-11-04T00:16:38+05:30",
     "source": "The Hacker News",
     "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
     "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html"
-  },
-  {
-    "date": "2026-11-03T22:25:58+05:30",
-    "source": "The Hacker News",
-    "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-    "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html"
   },
   {
     "date": "2026-11-03T17:18:50-05:00",
