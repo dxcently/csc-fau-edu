@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-11-05T14:43:28+05:30",
+    "source": "The Hacker News",
+    "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+    "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html"
+  },
+  {
+    "date": "2026-11-05T14:12:03+05:30",
+    "source": "The Hacker News",
+    "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+    "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html"
+  },
+  {
     "date": "2026-11-05T12:36:33+05:30",
     "source": "The Hacker News",
     "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
     "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
-  },
-  {
-    "date": "2026-11-05T10:47:04+05:30",
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html"
-  },
-  {
-    "date": "2026-11-05T10:01:16+05:30",
-    "source": "The Hacker News",
-    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html"
   },
   {
     "date": "2026-11-05T04:36:17+00:00",
