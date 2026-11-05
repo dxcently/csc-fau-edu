@@ -36,6 +36,7 @@ This platform uses a **database-less (DB-less)** static architecture coupled wit
 
 ### 2. How Hugo is Used in This Wiki
 * **Custom Theme Variants:** Customized Relearn variants (`hacker`, `hacker-light`, `cyber`) configured in `hugo.toml` (`params.themeVariant`), allowing users to toggle visual styles with persistent `localStorage` states.
+* **Design Tokens:** The palette is defined once, in `tokens/tokens.json` (W3C Design Tokens format). `python3 scripts/gen-tokens.py` generates the three `assets/css/theme-*.css` files and `tokens/dist/tokens.css` (for other projects) from it, and CI runs `--check` so a hand-edited or stale theme sheet fails the build. See `tokens/README.md`.
 * **Chroma Syntax Highlighting:** Configured with `markup.highlight.noClasses = false` to emit semantic CSS classes mapped to custom theme stylesheets (`chroma-hacker.css`, `chroma-cyber.css`).
 * **Layout & Partial Overrides:** Tailored templates under `layouts/` to build custom homepage components (interactive owl wireframe canvas, terminal hero, live announcements, meeting schedules, and section grids).
 * **Modular Shortcodes:** Reusable shortcodes (`{{< section-grid >}}`, `{{< topic-cards >}}`, `{{< board-feed >}}`, `{{< mark-preview >}}`) for dynamic content presentation without inline HTML.

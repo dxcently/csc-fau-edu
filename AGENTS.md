@@ -243,8 +243,12 @@ content/            every page. Directory structure == URL structure == nav.
   projects/         member projects and guides
   toolbox/          links, cheat sheets, AI pages
   meta/             authoring guide, TODO — docs about the wiki itself
-assets/css/         custom.css (structural) + theme-*.css (palette tokens)
-                    + chroma-*.css (syntax highlighting, one per variant)
+assets/css/         custom.css (structural) + theme-*.css (palette, GENERATED
+                    from tokens/tokens.json) + chroma-*.css (syntax
+                    highlighting, one per variant)
+tokens/             tokens.json — the palette's source; dist/tokens.css for
+                    other repos (GENERATED); README.md
+scripts/            fetch-*.py sync scripts; gen-tokens.py (tokens -> CSS)
 assets/images/      the owl mark — three forms, two grounds each
 assets/js/          custom.js — variant cycle, scramble-reveal, matrix rain
 layouts/            template overrides: home page partials, shortcodes
@@ -268,9 +272,12 @@ before suspecting any content.
 | ---- | ------- |
 | `hugo.toml` | Site config, the three theme variants, sidebar menus, shortcuts |
 | `i18n/en.toml` | UI string overrides (e.g. the sidebar's "Quick Links" title) |
-| `assets/css/theme-hacker.css` | Dark palette — tokens only |
-| `assets/css/theme-hacker-light.css` | Light palette — must define the SAME token set |
-| `assets/css/theme-cyber.css` | Neon green palette — must define the SAME token set |
+| `tokens/tokens.json` | **The palette's source.** Every `--wf-*` and Relearn token, all three variants. Edit this |
+| `scripts/gen-tokens.py` | Generates the three `theme-*.css` and `tokens/dist/tokens.css` from `tokens.json`; `--check` is the CI gate |
+| `assets/css/theme-hacker.css` | Dark palette — GENERATED, do not edit |
+| `assets/css/theme-hacker-light.css` | Light palette — GENERATED, do not edit |
+| `assets/css/theme-cyber.css` | Neon green palette — GENERATED, do not edit |
+| `tokens/dist/tokens.css` | The `--wf-*` palette of every variant in one file, for other repos — GENERATED |
 | `assets/css/custom.css` | Structure. No colour literals; every value is a `--wf-*` token |
 
 `baseURL` in `hugo.toml` is still the placeholder `https://example.org/`. It
@@ -317,10 +324,23 @@ over `relref`; a bare `relref` in a link target emits a build warning.
 
 ### Styling
 
-Palette tokens are `--wf-*`, defined in `assets/css/theme-hacker.css`.
+Palette tokens are `--wf-*`, defined in `tokens/tokens.json` (format and
+structure: `tokens/README.md`). `assets/css/theme-*.css` are generated from it:
+change a colour by editing the JSON and running
+
+```bash
+python3 scripts/gen-tokens.py          # rewrites theme-*.css and tokens/dist/tokens.css
+python3 scripts/gen-tokens.py --check  # CI runs this; exit 1 means the files are stale
+```
+
+then commit the JSON and the regenerated files together. **Never hand-edit
+`theme-*.css`** — the next run reverts it, and `--check` fails the build.
+Adding a colour token: give every variant its own `$value` or list it in
+`$extensions.csc.inherit` (same colour as `hacker`, on purpose); the generator
+refuses a literal colour with neither. See `tokens/README.md`.
 Structural CSS goes in `assets/css/custom.css`, which loads last and wins.
-**Never put a literal hex value in custom.css** — use a token. The one
-exception is `assets/images/logo.svg`, which renders outside the page where CSS
+**Never put a literal hex value in custom.css** — use a token from
+`tokens.json`. The one exception is `assets/images/logo.svg`, which renders outside the page where CSS
 variables do not exist, so its colors are hardcoded and must be kept in sync by
 hand.
 
@@ -334,11 +354,21 @@ every variant at once and no stylesheet can override it.
 There are three: `hacker` (dark, the first-visit default), `hacker-light`, and
 `cyber`. Adding a fourth means all five of these, in order:
 
-1. `assets/css/theme-<id>.css` — tokens only. It must define **every** token
-   the other variants define. Only one variant sheet is live at a time, so a
-   token you leave out is not inherited from `hacker`; it is undefined, and
-   whatever consumes it falls back to a browser default. Diff the token names
-   against `theme-hacker.css` before you call it done.
+1. `tokens/tokens.json` — add `<id>` (with its header `$description`) to the root
+   `$extensions.csc.variants`
+   list, then give it a value under `variants.<id>` on every token that
+   differs from `hacker` (a token you do not override takes `hacker`'s value).
+   Run `python3 scripts/gen-tokens.py`; it writes `assets/css/theme-<id>.css`
+   and the `tokens/dist/tokens.css` block. Do not write the CSS by hand. Only
+   one variant sheet is live at a time, so every token must exist in every
+   variant. The rule the generator enforces: every literal-colour token (hex,
+   `rgb()`, `rgba()`, `hsl()`) needs, for the new variant, either its own
+   `variants.<id>.$value` or an `inherit` marker (`$extensions.csc.inherit`)
+   meaning "deliberately `hacker`'s colour"; anything else is an error naming
+   the token and variant, so you cannot forget a colour. Aliases and
+   non-colour tokens (fonts, sizes, keywords) with no override take `hacker`'s
+   value. The one deliberate exception to "every token everywhere" is
+   `--wf-fill-solid`, cyber-only via `only`.
 2. `assets/css/chroma-<name>.css`, if you set `--CODE-theme: <name>` — the
    per-variant syntax-highlighting sheet. A name with no matching file is a
    build error.
