@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-05T10:01:16+05:30",
+    "source": "The Hacker News",
+    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html"
+  },
+  {
     "date": "2026-11-05T04:36:17+00:00",
     "source": "Krebs on Security",
     "title": "Want to Rent an Internet Address at the White House?",
@@ -16,12 +22,6 @@
     "source": "The Hacker News",
     "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
     "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
-  },
-  {
-    "date": "2026-11-04T21:36:43+05:30",
-    "source": "The Hacker News",
-    "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-    "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html"
   },
   {
     "date": "2026-11-04T16:31:18-05:00",
