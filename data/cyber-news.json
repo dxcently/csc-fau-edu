@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-05T04:36:17+00:00",
+    "source": "Krebs on Security",
+    "title": "Want to Rent an Internet Address at the White House?",
+    "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/"
+  },
+  {
     "date": "2026-11-04T22:30:46+05:30",
     "source": "The Hacker News",
     "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
@@ -46,11 +52,5 @@
     "source": "Krebs on Security",
     "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
     "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
-  },
-  {
-    "date": "2026-10-19T13:48:56+00:00",
-    "source": "Krebs on Security",
-    "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-    "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
   }
 ]
