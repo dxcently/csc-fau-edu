@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-05T12:36:33+05:30",
+    "source": "The Hacker News",
+    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+    "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
+  },
+  {
     "date": "2026-11-05T10:47:04+05:30",
     "source": "The Hacker News",
     "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
@@ -16,12 +22,6 @@
     "source": "Krebs on Security",
     "title": "Want to Rent an Internet Address at the White House?",
     "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/"
-  },
-  {
-    "date": "2026-11-04T22:30:46+05:30",
-    "source": "The Hacker News",
-    "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-    "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
   },
   {
     "date": "2026-11-04T16:31:18-05:00",
