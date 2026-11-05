@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html"
   },
   {
+    "date": "2026-11-05T10:00:10-05:00",
+    "source": "BleepingComputer",
+    "title": "Closing the Identity Gap at the Service Desk",
+    "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/"
+  },
+  {
     "date": "2026-11-05T04:36:17+00:00",
     "source": "Krebs on Security",
     "title": "Want to Rent an Internet Address at the White House?",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "Vercel rolls out new protection against stolen session cookie attacks",
     "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/"
-  },
-  {
-    "date": "2026-11-04T15:58:19-05:00",
-    "source": "BleepingComputer",
-    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/"
   },
   {
     "date": "2026-11-03T02:24:31+00:00",
