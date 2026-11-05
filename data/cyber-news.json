@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html"
   },
   {
+    "date": "2026-11-05T14:24:26-05:00",
+    "source": "BleepingComputer",
+    "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+    "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/"
+  },
+  {
     "date": "2026-11-05T12:45:29-05:00",
     "source": "BleepingComputer",
     "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Hackers backdoor Linux servers using trojanized CWP web server",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/"
-  },
-  {
-    "date": "2026-11-05T11:12:46-05:00",
-    "source": "BleepingComputer",
-    "title": "DigiCert data breach exposes customer information, identity documents",
-    "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/"
   },
   {
     "date": "2026-11-05T04:36:17+00:00",
