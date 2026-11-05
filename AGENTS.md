@@ -243,8 +243,12 @@ content/            every page. Directory structure == URL structure == nav.
   projects/         member projects and guides
   toolbox/          links, cheat sheets, AI pages
   meta/             authoring guide, TODO — docs about the wiki itself
-assets/css/         custom.css (structural) + theme-*.css (palette tokens)
-                    + chroma-*.css (syntax highlighting, one per variant)
+assets/css/         custom.css (structural) + theme-*.css (palette, GENERATED
+                    from tokens/tokens.json) + chroma-*.css (syntax
+                    highlighting, one per variant)
+tokens/             tokens.json — the palette's source; dist/tokens.css for
+                    other repos (GENERATED); README.md
+scripts/            fetch-*.py sync scripts; gen-tokens.py (tokens -> CSS)
 assets/images/      the owl mark — three forms, two grounds each
 assets/js/          custom.js — variant cycle, scramble-reveal, matrix rain
 layouts/            template overrides: home page partials, shortcodes

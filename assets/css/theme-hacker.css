@@ -54,15 +54,15 @@
 
   /* ---- washes, insets and hairlines used by custom.css — These exist so
      custom.css holds no colour literals of its own, which is what lets a
-     second variant repaint the whole site from this file alone. ---- */
+     second variant repaint the whole site from tokens/tokens.json alone. ---- */
   --wf-wash:         rgba( 30, 144, 255, .055 );  /* faint blue tint fill */
   --wf-wash-hi:      rgba( 30, 144, 255, .10 );  /* the same, stronger */
   /* The top-left ground bloom. Blue, not green: this variant already spends
      green on identity (code, labels, h3) and the bloom sitting behind the
      headline read as a second, competing accent. Lifted blue rather than the
      structure blue in --wf-wash, so the two radials do not flatten into one
-     wash. the blue ground bloom */
-  --wf-wash-alt:     rgba( 127, 196, 255, .07 );
+     wash. */
+  --wf-wash-alt:     rgba( 127, 196, 255, .07 );  /* the blue ground bloom */
   --wf-wash-row:     rgba( 30, 144, 255, .05 );  /* table row hover */
   --wf-now-wash:     rgba( 204, 0, 0, .07 );  /* the one red row */
   --wf-inset:        rgba( 30, 144, 255, .10 );  /* top inner highlight */
@@ -89,7 +89,8 @@
      what stops it reading as a sticker. */
   --wf-logo-halo:    rgba( 30, 144, 255, .07 );
   --wf-logo-glow:    rgba( 30, 144, 255, .16 );
-  --wf-select-bg:    #00BB00;  /* text selection, as a solid block the way a terminal draws it */
+  /* text selection, as a solid block the way a terminal draws it */
+  --wf-select-bg:    #00BB00;
   --wf-select-fg:    #001510;
   --wf-link-line:    rgba( 30, 144, 255, .35 );  /* prose link underline */
   --wf-scroll:       rgba( 30, 144, 255, .35 );
@@ -107,9 +108,8 @@
   --wf-stage-red:       #FF4D4D;
   /* the owl's eyes, beak ridge and chin. Its own token because --wf-stage-fg
      is also the hero HEADLINE, which must stay near-black on a white ground;
-     these are marks inside a drawing and follow different rules. light
-     catching an edge */
-  --wf-stage-mark:      #E8F4FF;
+     these are marks inside a drawing and follow different rules. */
+  --wf-stage-mark:      #E8F4FF;  /* light catching an edge */
   /* CRT scanlines over the hero ground. A UNIFORM texture on purpose: a
      gradient shifts contrast across the panel, so the headline sits on a
      lighter ground at one end than the other and the type reads unevenly.
@@ -142,6 +142,7 @@
   --wf-pad:    1.25rem;
 
   /* ---- RELEARN TOKEN MAP — everything below points at the palette above.
+     ======================================================================
      ---- */
 
   /* ---- brand ---- */

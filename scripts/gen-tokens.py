@@ -69,6 +69,7 @@ def load():
 
 
 def applies(tok, variant):
+    """Does this token exist in this variant? Yes unless `only` excludes it."""
     only = ext(tok["node"]).get("only")
     return only is None or variant in only
 
@@ -78,6 +79,13 @@ def pick(node, variants, variant, field):
     one, else the base (the first variant the token applies to)."""
     over = ext(node).get("variants", {}).get(variant, {})
     return over[field] if field in over else node.get(field)
+
+
+def pick_comment(node, variant):
+    """The block comment above a token: $extensions.csc.comment, overridable
+    per variant like $value and $description."""
+    over = ext(node).get("variants", {}).get(variant, {})
+    return over["comment"] if "comment" in over else ext(node).get("comment")
 
 
 def fmt_value(value, byalias):
@@ -95,15 +103,23 @@ def fmt_value(value, byalias):
 
 
 def comment(text, indent):
-    """A /* ... */ block, wrapped to WIDTH."""
+    """A /* ... */ block, wrapped to WIDTH. In the text, "\\n" starts a new
+    line, an empty line is a blank line, and a line beginning "* " is a bullet."""
     if "*/" in text:
         raise TokenError(f"description contains a comment terminator: {text[:40]}")
     pad = " " * indent
-    lines = textwrap.wrap(text, WIDTH - indent - 3, break_long_words=False,
-                          break_on_hyphens=False)
     out = []
-    for i, ln in enumerate(lines):
-        out.append(pad + ("/* " if i == 0 else "   ") + ln)
+    for para in text.split("\n"):
+        if not para:
+            out.append("")
+            continue
+        bullet = para.startswith("* ")
+        lead = indent + 3 + (2 if bullet else 0)
+        for ln in textwrap.wrap(para, WIDTH - lead, break_long_words=False,
+                                break_on_hyphens=False,
+                                subsequent_indent="  " if bullet else ""):
+            out.append(" " * lead + ln)
+    out[0] = pad + "/* " + out[0].lstrip()
     out[-1] += " */"
     return out
 
@@ -167,6 +183,10 @@ def emit_variant(variants, tokens, byalias, variant, only_tops=None):
                 body[0] += f"  /* {desc} */"
             else:
                 body = comment(desc, 2) + body
+        block = pick_comment(tok["node"], variant)
+        if block:       # a list is several consecutive blocks
+            for text in reversed([block] if isinstance(block, str) else block):
+                body = comment(text, 2) + body
         out += body
     return out
 
@@ -185,14 +205,14 @@ def dist_css(data, variants, tops, tokens, byalias):
         " *",
         " * " + BANNER,
         " *",
-        " * One block per variant, selected by the data-theme-variant attribute on",
-        " * <html>. The first variant (hacker, the site default) also answers a bare",
+        " * One block per variant, selected by the data-r-theme-variant attribute on",
+        " * <html>, the attribute the wiki's own switcher sets. The first variant (hacker, the site default) also answers a bare",
         " * :root, so a page that sets no attribute gets it. Relearn's own --*-color",
         " * map is left out: it only means something inside the wiki.",
         " */",
     ]
     for i, v in enumerate(variants):
-        sel = f":root[data-theme-variant='{v}']"
+        sel = f":root[data-r-theme-variant='{v}']"
         if i == 0:
             sel = ":root,\n" + sel
         lines += ["", sel + " {"]
@@ -201,50 +221,51 @@ def dist_css(data, variants, tops, tokens, byalias):
     return "\n".join(lines) + "\n"
 
 
-def validate(data, variants, tokens, byalias):
+def validate(variants, tokens, byalias):
     errs = []
     for tok in tokens:
-        node = tok["node"]
+        node, path = tok["node"], tok["path"]
         only = ext(node).get("only")
         for v in ext(node).get("variants", {}):
             if v not in variants:
-                errs.append(f"{tok['path']}: unknown variant {v!r}")
-        if only is not None:
-            if any(v not in variants for v in only):
-                errs.append(f"{tok['path']}: only lists an unknown variant")
-            elif node["$value"] is not None and any(
-                    v not in only for v in ext(node).get("variants", {})):
-                errs.append(f"{tok['path']}: variants override a variant outside only")
-        vals = [pick(node, variants, v, "$value") for v in variants if applies(tok, v)]
-        if not vals or any(x is None for x in vals):
-            errs.append(f"{tok['path']}: a variant has no value")
-        for x in vals:
-            for ref in re.findall(r"\{([^{}]+)\}", x) if isinstance(x, str) else []:
-                if ref not in byalias:
-                    errs.append(f"{tok['path']}: alias {{{ref}}} points at nothing")
-    # every wf token must exist in every variant unless it is marked `only`;
-    # that rule is AGENTS.md "Adding a theme variant", enforced here
-    # (applies() already encodes it: no `only` means all variants).
-    # alias cycles
-    for tok in tokens:
-        seen, cur = set(), tok
-        while True:
-            val = pick(cur["node"], variants, variants[0] if applies(cur, variants[0])
-                       else ext(cur["node"])["only"][0], "$value")
-            m = re.fullmatch(r"\{([^{}]+)\}", val) if isinstance(val, str) else None
-            if not m or m.group(1) not in byalias:
-                break
-            if cur["path"] in seen:
-                errs.append(f"alias cycle at {tok['path']}")
-                break
-            seen.add(cur["path"])
-            cur = byalias[m.group(1)]
+                errs.append(f"{path}: unknown variant {v!r}")
+            elif only is not None and v not in only:
+                errs.append(f"{path}: overrides {v!r}, which `only` excludes")
+        if only is not None and any(v not in variants for v in only):
+            errs.append(f"{path}: `only` lists an unknown variant")
+    # Per variant: every live token has a value, every alias resolves, and no
+    # alias chain loops.
+    for v in variants:
+        for tok in tokens:
+            if not applies(tok, v):
+                continue
+            seen, cur = set(), tok
+            while True:
+                val = pick(cur["node"], variants, v, "$value")
+                if val is None:
+                    errs.append(f"{cur['path']}: no value for {v!r}")
+                    break
+                m = re.fullmatch(r"\{([^{}]+)\}", val) if isinstance(val, str) else None
+                if not m:
+                    break
+                target = byalias.get(m.group(1))
+                if target is None:
+                    errs.append(f"{cur['path']}: alias {val} points at nothing")
+                    break
+                if not applies(target, v):
+                    errs.append(f"{cur['path']}: alias {val} has no value in {v!r}")
+                    break
+                if target["path"] in seen or target is tok:
+                    errs.append(f"alias cycle at {tok['path']} in {v!r}")
+                    break
+                seen.add(target["path"])
+                cur = target
     return errs
 
 
 def build():
     data, variants, tops, tokens, byalias = load()
-    errs = validate(data, variants, tokens, byalias)
+    errs = validate(variants, tokens, byalias)
     if errs:
         raise TokenError("\n".join(errs))
     files = {}
@@ -265,6 +286,9 @@ def main(argv):
         print(f"tokens.json: {e}", file=sys.stderr)
         return 1
     stale = []
+    # a theme-*.css with no matching variant is a leftover (or a variant that
+    # was never added to tokens.json); tokens.json does not own it
+    strays = [p for p in sorted(CSS_DIR.glob("theme-*.css")) if p not in files]
     for path, text in files.items():
         have = path.read_text(encoding="utf-8") if path.exists() else None
         if have != text:
@@ -276,12 +300,17 @@ def main(argv):
     if check:
         for p in stale:
             print(f"out of date: {rel(p)}", file=sys.stderr)
-        if stale:
+        for p in strays:
+            print(f"no variant in tokens.json: {rel(p)} (delete it or add the variant)",
+                  file=sys.stderr)
+        if stale or strays:
             print("run: python3 scripts/gen-tokens.py   (then commit the result)",
                   file=sys.stderr)
             return 1
         print(f"{len(files)} generated files match tokens/tokens.json")
         return 0
+    for p in strays:
+        print(f"warning: {rel(p)} matches no variant in tokens.json", file=sys.stderr)
     for p in stale:
         print(f"wrote {rel(p)}")
     if not stale:

@@ -491,7 +491,7 @@ config.
 | ----------------------------- | --------------------------------------------------- |
 | `hugo.toml`                   | Site title, theme variant, sidebar menus, nav links |
 | `i18n/en.toml`                | UI string overrides (e.g. sidebar section title)    |
-| `assets/css/theme-hacker.css` | Color scheme — Base16 Greenscreen palette           |
+| `tokens/tokens.json`          | Color scheme — the palette's source (`scripts/gen-tokens.py` writes `assets/css/theme-*.css` from it) |
 
 ### Adding sidebar shortcut links
 
@@ -510,7 +510,8 @@ The sidebar section title ("Quick Links") is set in `i18n/en.toml`.
 ### Color scheme
 
 The wiki uses a custom **Hacker Terminal** palette — green on black. All colors
-are defined as CSS variables in `assets/css/theme-hacker.css`.
+are defined as design tokens in `tokens/tokens.json`, which
+`scripts/gen-tokens.py` turns into the CSS variables in `assets/css/theme-*.css`.
 
 **Base palette**
 
@@ -542,7 +543,8 @@ are defined as CSS variables in `assets/css/theme-hacker.css`.
 | `--MENU-SECTIONS-BG-color`  | `#001100` | Sidebar background    |
 | `--MENU-VISITED-color`      | `#007700` | Visited sidebar links |
 
-Edit `assets/css/theme-hacker.css` to change any of these. The theme variant is
+Edit `tokens/tokens.json` and run `python3 scripts/gen-tokens.py` to change any of
+these; never edit the generated `assets/css/theme-*.css`. The theme variant is
 wired up in `hugo.toml` via `themeVariant = 'hacker'`.
 
 ---

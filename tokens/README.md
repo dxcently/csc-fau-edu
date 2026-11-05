@@ -45,16 +45,21 @@ name).
   `relearn` (no prefix) maps Relearn's own `--*-color` variables onto it. The
   CSS name is `--` + prefix + the token's key; the groups between are only for
   organising and their names never reach the CSS. Keys are unique per top group.
-- **Descriptions** become the CSS comments: a short one trails the value, a
-  long one goes above it, a group's goes above the group.
+- **Comments.** `$description` is the short note that trails the value (a long
+  one moves above it). `$extensions.csc.comment` is the block comment above
+  the token (a list is several blocks); it overrides per variant too. In a
+  comment, `\n` starts a new line, an empty line is a blank line and a line
+  starting `* ` is a bullet. A group's `$description` is its banner comment.
 
 ## Output
 
 - `assets/css/theme-<variant>.css`: one file per variant, all groups. The
   header comment is the variant's root description.
 - `dist/tokens.css`: every variant's `wf` group in one file, as
-  `:root[data-theme-variant='<id>']` blocks (`hacker` also matches a bare
-  `:root`, so an unattributed page gets the default). The Relearn map is left
+  `:root[data-r-theme-variant='<id>']` blocks, the same attribute the site's
+  switcher sets on `<html>`, so any page sharing that switcher matches. The
+  `hacker` block also answers a bare `:root`, so an unattributed page gets the
+  default. The Relearn map is left
   out. This is the file other repos import; it is committed so they can take it
   from a raw URL or a submodule.
 

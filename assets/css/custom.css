@@ -1,7 +1,8 @@
 /* FAU Cybersecurity Club — structural stylesheet.
  * Auto-loaded by the Relearn theme's custom-header.html partial, AFTER
  * format-html.css, so equal-specificity rules here win.
- * Palette tokens are defined in assets/css/theme-hacker.css as --wf-*.
+ * Palette tokens (--wf-*) are defined in tokens/tokens.json; theme-*.css are
+ * generated from it by scripts/gen-tokens.py, never edited.
  * NEVER put a literal hex value in this file. Use a --wf-* token. */
 
 /* ---------- 4.1 ground ---------- */

@@ -20,9 +20,10 @@
  *      soft neutral shadows, and the headline halo resolves to transparent.
  *   4. The hero does NOT flip — see THE STAGE below.
  *
- * This file is TOKENS ONLY, and it must define EVERY token the dark variant
- * does: only one variant stylesheet is active at a time, so anything missing
- * here is simply undefined. Structural CSS lives in assets/css/custom.css.
+ * This file is TOKENS ONLY. Every variant defines every token (the generator
+ * checks it, see tokens/README.md): only one variant stylesheet is active at a
+ * time, so a token missing here would be undefined. Structural CSS lives in
+ * assets/css/custom.css.
  * (Hugo wraps this file in :root[data-r-theme-variant='hacker-light'] using
  *  native CSS nesting, so any non-:root selector here becomes a descendant.)
  */
@@ -32,13 +33,13 @@
   --wf-bg:          #F4F7FA;  /* page ground, cool paper */
   --wf-bg-raised:   #FFFFFF;  /* sidebar, topbar, panel fill base */
   --wf-bg-code:     #EDF2F7;  /* code block ground */
-  --wf-primary:     #0A6B2C;  /* identity green 6.2:1 */
+  --wf-primary:     #0A6B2C;  /* identity green            6.2:1 */
   --wf-primary-hi:  #0E8A3A;  /* green, lifted */
-  --wf-chrome:      #0B5FC4;  /* structure blue 5.7:1 */
-  --wf-chrome-hi:   #0847A0;  /* blue, deepened on hover 8.1:1 */
-  --wf-text:        #16202B;  /* long-form body copy 15.3:1 */
-  --wf-text-strong: #0A121A;  /* h1, box captions 17.5:1 */
-  --wf-text-muted:  #5A6A78;  /* meta, card descriptions 5.2:1 */
+  --wf-chrome:      #0B5FC4;  /* structure blue            5.7:1 */
+  --wf-chrome-hi:   #0847A0;  /* blue, deepened on hover   8.1:1 */
+  --wf-text:        #16202B;  /* long-form body copy      15.3:1 */
+  --wf-text-strong: #0A121A;  /* h1, box captions         17.5:1 */
+  --wf-text-muted:  #5A6A78;  /* meta, card descriptions   5.2:1 */
   --wf-text-dim:    #44525F;  /* h4-h6 */
   --wf-red:         #CC0000;  /* FAU red — fills and borders */
   --wf-red-text:    #CC0000;  /* and text: 5.5:1 here, no lift needed */
@@ -71,8 +72,8 @@
   --wf-bloom-text:  rgba( 11, 95, 196, .20 );
   /* daylight gets the opposite of a halo: one hard, fully opaque offset
      shadow. No blur, no alpha — the harsh-contrast counterpart to the CRT
-     bloom the dark variants carry. translucent panel fill */
-  --wf-fill:        rgba( 255, 255, 255, .82 );
+     bloom the dark variants carry. */
+  --wf-fill:        rgba( 255, 255, 255, .82 );  /* translucent panel fill */
 
   /* ---- washes, insets and hairlines used by custom.css ---- */
   --wf-wash:         rgba( 11, 95, 196, .045 );
@@ -110,7 +111,8 @@
      what stops it reading as a sticker. */
   --wf-logo-halo:    rgba( 11, 95, 196, .09 );
   --wf-logo-glow:    rgba( 11, 95, 196, .18 );
-  --wf-select-bg:    #0B5FC4;  /* text selection, as a solid block the way a terminal draws it */
+  /* text selection, as a solid block the way a terminal draws it */
+  --wf-select-bg:    #0B5FC4;
   --wf-select-fg:    #FFFFFF;
   --wf-link-line:    rgba( 11, 95, 196, .32 );
   --wf-scroll:       rgba( 11, 95, 196, .30 );
@@ -118,14 +120,18 @@
 
   /* ---- THE STAGE — The hero in daylight. Same composition as the dark
      variant — ground, floor grid, two fog lights, a scrim, the owl — rebuilt
-     for paper: the ground goes white, so the hero reads as a raised panel
-     lifted off the page rather than a hole cut into it; the owl's highlight
-     shapes invert to ink, exactly as they do in images/owl-mark-light.svg —
-     on a dark screen they are light catching an edge, on paper the same job
-     is done by ink; the scrim that fades the grid out goes white instead of
-     black; the glows become soft shadows, and the headline halo goes away
-     entirely. Paper does not glow. the owl sits at higher opacity: dark
-     linework on white needs less help than bright linework on black. ---- */
+     for paper:
+
+       * the ground goes white, so the hero reads as a raised panel lifted off
+         the page rather than a hole cut into it;
+       * the owl's highlight shapes invert to ink, exactly as they do in
+         images/owl-mark-light.svg — on a dark screen they are light catching
+         an edge, on paper the same job is done by ink;
+       * the scrim that fades the grid out goes white instead of black;
+       * the glows become soft shadows, and the headline halo goes away
+         entirely. Paper does not glow.
+       * the owl sits at higher opacity: dark linework on white needs less
+         help than bright linework on black. ---- */
   --wf-stage:           #FFFFFF;
   --wf-stage-fg:        #0A121A;
   --wf-stage-chrome:    #0B5FC4;
@@ -133,9 +139,8 @@
   --wf-stage-red:       #CC0000;
   /* the owl's eyes, beak ridge and chin. Its own token because --wf-stage-fg
      is also the hero HEADLINE, which must stay near-black on a white ground;
-     these are marks inside a drawing and follow different rules. deep blue,
-     NOT black */
-  --wf-stage-mark:      #0847A0;
+     these are marks inside a drawing and follow different rules. */
+  --wf-stage-mark:      #0847A0;  /* deep blue, NOT black */
   /* CRT scanlines over the hero ground. A UNIFORM texture on purpose: a
      gradient shifts contrast across the panel, so the headline sits on a
      lighter ground at one end than the other and the type reads unevenly.
@@ -168,6 +173,7 @@
   --wf-pad:    1.25rem;
 
   /* ---- RELEARN TOKEN MAP — everything below points at the palette above.
+     ======================================================================
      ---- */
 
   /* ---- brand ---- */

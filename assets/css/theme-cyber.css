@@ -25,9 +25,9 @@
  *   4. RED IS UNCHANGED AND STILL BUDGETED. FAU red stays the here/now colour,
  *      max 3 instances per viewport. See design-spec §0.1.
  *
- * This file is TOKENS ONLY, and it must define EVERY token the other two
- * variants do: only one variant stylesheet is active at a time, so anything
- * missing here is simply undefined. Structural CSS lives in
+ * This file is TOKENS ONLY. Every variant defines every token (the generator
+ * checks it, see tokens/README.md): only one variant stylesheet is active at a
+ * time, so a token missing here would be undefined. Structural CSS lives in
  * assets/css/custom.css.
  * (Hugo wraps this file in :root[data-r-theme-variant='cyber'] using native
  *  CSS nesting, so any non-:root selector here becomes a nested descendant.)
@@ -38,13 +38,13 @@
   --wf-bg:          #010805;  /* page ground, green-shifted near-black */
   --wf-bg-raised:   #03120C;  /* sidebar, topbar, panel fill base */
   --wf-bg-code:     #04180F;  /* code block ground */
-  --wf-primary:     #00FF41;  /* identity green, phosphor 14.2:1 */
+  --wf-primary:     #00FF41;  /* identity green, phosphor    14.2:1 */
   --wf-primary-hi:  #7CFFA0;  /* green, lifted (hover on green things) */
-  --wf-chrome:      #00C853;  /* structure green, MID value 8.1:1 */
+  --wf-chrome:      #00C853;  /* structure green, MID value   8.1:1 */
   --wf-chrome-hi:   #5CFF8F;  /* green, lifted (link hover) */
-  --wf-text:        #B4EEC9;  /* long-form body copy 12.4:1 */
+  --wf-text:        #B4EEC9;  /* long-form body copy         12.4:1 */
   --wf-text-strong: #9FFFC0;  /* h1, box captions, emphasis */
-  --wf-text-muted:  #6FAF8E;  /* meta, card descriptions 6.7:1 */
+  --wf-text-muted:  #6FAF8E;  /* meta, card descriptions      6.7:1 */
   --wf-text-dim:    #8AC4A6;  /* h4-h6 */
   --wf-red:         #CC0000;  /* FAU red — FILLS AND BORDERS ONLY */
   --wf-red-text:    #FF4D4D;  /* FAU red lifted — the ONLY red for text */
@@ -80,7 +80,7 @@
 
   /* ---- washes, insets and hairlines used by custom.css — These exist so
      custom.css holds no colour literals of its own, which is what lets a
-     third variant repaint the whole site from this file alone. ---- */
+     third variant repaint the whole site from tokens/tokens.json alone. ---- */
   --wf-wash:         rgba( 0, 255, 65, .045 );  /* faint green tint fill */
   --wf-wash-hi:      rgba( 0, 255, 65, .085 );  /* the same, stronger */
   --wf-wash-alt:     rgba( 0, 200, 83, .05 );  /* the mid-green ground bloom */
@@ -105,7 +105,8 @@
      what stops it reading as a sticker. */
   --wf-logo-halo:    rgba( 0, 255, 65, .07 );
   --wf-logo-glow:    rgba( 0, 255, 65, .16 );
-  --wf-select-bg:    #00FF41;  /* text selection, as a solid block the way a terminal draws it */
+  /* text selection, as a solid block the way a terminal draws it */
+  --wf-select-bg:    #00FF41;
   --wf-select-fg:    #001A0C;
   --wf-link-line:    rgba( 0, 200, 83, .38 );  /* prose link underline */
   --wf-scroll:       rgba( 0, 255, 65, .32 );
@@ -115,19 +116,21 @@
      the page, because it is a composed picture rather than a surface: a
      ground, a floor grid, two fog lights, a scrim and the owl on top. Keeping
      those in their own token set means the hero can be tuned without touching
-     anything else. The split here mirrors the page: --wf-stage-chrome draws
-     the owl wireframe, the corner ticks and the kicker, so it is GREEN — the
-     owl is the one place this variant should look most like a phosphor
-     screen. The tagline and the caret take --wf-stage-accent, which is cyan,
-     so the two lines of hero copy do not collapse into one colour. ---- */
+     anything else.
+
+     The split here mirrors the page: --wf-stage-chrome draws the owl
+     wireframe, the corner ticks and the kicker, so it is GREEN — the owl is
+     the one place this variant should look most like a phosphor screen. The
+     tagline and the caret take --wf-stage-accent, which is cyan, so the two
+     lines of hero copy do not collapse into one colour. ---- */
   /* Translucent, unlike the other two variants: the hero is the largest block
      on a phone, and an opaque ground made it a lid over the matrix rain. The
      canvas is fixed behind all content, so opening the hero is what lets the
-     rain read at all on a narrow screen. Low on purpose: this is the only
-     thing --wf-stage paints (the home hero ground), and dropping its alpha
-     lets the matrix-rain canvas behind #R-body show through the hero. The fog
-     scrim still darkens the lower band where the copy sits, so text stays
-     legible while the rain reads up top. */
+     rain read at all on a narrow screen. */
+  /* Low on purpose: this is the only thing --wf-stage paints (the home hero
+     ground), and dropping its alpha lets the matrix-rain canvas behind
+     #R-body show through the hero. The fog scrim still darkens the lower band
+     where the copy sits, so text stays legible while the rain reads up top. */
   --wf-stage:           rgba( 1, 8, 5, .10 );
   --wf-stage-fg:        #9FFFC0;
   --wf-stage-chrome:    #00C853;
@@ -135,9 +138,8 @@
   --wf-stage-red:       #FF4D4D;
   /* the owl's eyes, beak ridge and chin. Its own token because --wf-stage-fg
      is also the hero HEADLINE, which must stay near-black on a white ground;
-     these are marks inside a drawing and follow different rules. light
-     catching an edge */
-  --wf-stage-mark:      #CFFFE0;
+     these are marks inside a drawing and follow different rules. */
+  --wf-stage-mark:      #CFFFE0;  /* light catching an edge */
   /* CRT scanlines over the hero ground. A UNIFORM texture on purpose: a
      gradient shifts contrast across the panel, so the headline sits on a
      lighter ground at one end than the other and the type reads unevenly.
@@ -171,6 +173,7 @@
   --wf-pad:    1.25rem;
 
   /* ---- RELEARN TOKEN MAP — everything below points at the palette above.
+     ======================================================================
      ---- */
 
   /* ---- brand ---- */
