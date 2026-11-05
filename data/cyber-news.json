@@ -1,21 +1,27 @@
 [
   {
+    "date": "2026-11-05T22:12:46+05:30",
+    "source": "The Hacker News",
+    "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+    "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
+  },
+  {
+    "date": "2026-11-05T22:12:32+05:30",
+    "source": "The Hacker News",
+    "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+    "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html"
+  },
+  {
     "date": "2026-11-05T20:11:10+05:30",
     "source": "The Hacker News",
     "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
     "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
   },
   {
-    "date": "2026-11-05T17:55:00+05:30",
-    "source": "The Hacker News",
-    "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-    "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html"
-  },
-  {
-    "date": "2026-11-05T17:38:54+05:30",
-    "source": "The Hacker News",
-    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html"
+    "date": "2026-11-05T16:30:30-05:00",
+    "source": "BleepingComputer",
+    "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/"
   },
   {
     "date": "2026-11-05T15:15:08-05:00",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
     "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/"
-  },
-  {
-    "date": "2026-11-05T12:45:29-05:00",
-    "source": "BleepingComputer",
-    "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/"
   },
   {
     "date": "2026-11-05T04:36:17+00:00",
