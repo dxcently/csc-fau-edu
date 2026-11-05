@@ -24,6 +24,12 @@
     "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/"
   },
   {
+    "date": "2026-11-05T04:18:29-05:00",
+    "source": "BleepingComputer",
+    "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+    "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/"
+  },
+  {
     "date": "2026-11-04T16:31:18-05:00",
     "source": "BleepingComputer",
     "title": "Vercel rolls out new protection against stolen session cookie attacks",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
     "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/"
-  },
-  {
-    "date": "2026-11-04T14:05:19-05:00",
-    "source": "BleepingComputer",
-    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/"
   },
   {
     "date": "2026-11-03T02:24:31+00:00",
