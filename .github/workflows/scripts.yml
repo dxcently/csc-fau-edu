@@ -1,4 +1,5 @@
-# CI gate for the four Discord/RSS sync scripts (scripts/fetch-*.py).
+# CI gate for the scripts/ directory: the four Discord/RSS sync scripts
+# (scripts/fetch-*.py) and the design-token generator (scripts/gen-tokens.py).
 #
 # These scripts commit and push on their own, using DISCORD_BOT_TOKEN and
 # DISCORD_CHANNEL_ID / DISCORD_JOBS_CHANNEL_ID that only exist on the deploy
@@ -8,13 +9,17 @@
 # file: their side effects sit behind `if __name__ == "__main__":`, so
 # importing them for the unit tests only defines functions.
 #
-# Two gates:
-#   - byte-compile all four scripts, so a syntax-breaking edit fails the PR.
+# Three gates:
+#   - byte-compile all the scripts, so a syntax-breaking edit fails the PR.
 #   - unit tests for the pure text-handling helpers (clean() in
 #     fetch-announcements.py, parse_feed() in fetch-cyber-news.py, the
 #     marker/link/expiry helpers in fetch-postings.py, the queue-line
 #     validation in fetch-schedule-queue.py) — the part that breaks
 #     silently, since a bad regex still "runs."
+#   - gen-tokens.py --check: tokens/tokens.json is the palette's source and
+#     assets/css/theme-*.css (plus tokens/dist/tokens.css) are generated from
+#     it. If someone hand-edited a theme sheet, or edited tokens.json and
+#     forgot to regenerate, the committed files no longer match and this fails.
 name: scripts
 
 on:
@@ -38,7 +43,10 @@ jobs:
           python-version: "3.12"
 
       - name: Byte-compile the sync scripts
-        run: python -m py_compile scripts/fetch-announcements.py scripts/fetch-cyber-news.py scripts/fetch-postings.py scripts/fetch-schedule-queue.py
+        run: python -m py_compile scripts/fetch-announcements.py scripts/fetch-cyber-news.py scripts/fetch-postings.py scripts/fetch-schedule-queue.py scripts/gen-tokens.py
 
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
+
+      - name: Check the generated theme CSS is current
+        run: python scripts/gen-tokens.py --check
