@@ -25,10 +25,11 @@
  *   4. RED IS UNCHANGED AND STILL BUDGETED. FAU red stays the here/now colour,
  *      max 3 instances per viewport. See design-spec §0.1.
  *
- * This file is TOKENS ONLY. Every variant defines every token (the generator
- * checks it, see tokens/README.md): only one variant stylesheet is active at a
- * time, so a token missing here would be undefined. Structural CSS lives in
- * assets/css/custom.css.
+ * This file is TOKENS ONLY. Only one variant stylesheet is active at a time,
+ * so every token must exist here. A literal colour is set for this variant or
+ * marked `inherit` in tokens/tokens.json (the generator refuses it
+ * otherwise); an alias or non-colour token falls back to hacker's. Structural
+ * CSS lives in assets/css/custom.css.
  * (Hugo wraps this file in :root[data-r-theme-variant='cyber'] using native
  *  CSS nesting, so any non-:root selector here becomes a nested descendant.)
  */

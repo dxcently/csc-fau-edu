@@ -37,9 +37,20 @@ name).
   the base's. A token's `variants` block overrides them per variant; a field
   it leaves out is the base's. Root, group and token descriptions all work
   this way, so each variant keeps its own header and comments.
+- **The colour rule.** For a token whose base `$value` is a literal colour
+  (`#hex`, `rgb()`, `rgba()`, `hsl()`), every other variant it applies to must
+  either have its own `variants.<id>.$value` or be listed in
+  `$extensions.csc.inherit` (`"inherit": ["cyber"]`), which says "this variant
+  deliberately uses hacker's colour". Neither is an error naming the token and
+  variant, so a forgotten colour cannot silently keep hacker's. It is also an
+  error to override with the base's own value (use `inherit`), to list a variant
+  in `inherit` that also overrides, or to use `inherit` on anything but a
+  literal colour. Aliases (`{...}`) and non-colour tokens (fonts, sizes,
+  keywords) are not subject to the rule: with no override they take the base's
+  value.
 - **`only`.** `$extensions.csc.only` limits a token to listed variants (today
-  just `--wf-fill-solid`, cyber-only). Every other token must resolve in every
-  variant; the generator refuses to run otherwise.
+  just `--wf-fill-solid`, cyber-only); the colour rule then applies to those
+  variants only. Any other token exists in every variant.
 - **Aliases.** `"{wf.palette.chrome}"` becomes `var( --wf-chrome )`.
 - **Names.** Two top-level groups. `wf` (cssPrefix `wf-`) is the palette;
   `relearn` (no prefix) maps Relearn's own `--*-color` variables onto it. The

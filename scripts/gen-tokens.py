@@ -40,8 +40,8 @@ def ext(node):
     return node.get("$extensions", {}).get(NS, {})
 
 
-def load():
-    data = json.loads(SRC.read_text(encoding="utf-8"))
+def load(src=SRC):
+    data = json.loads(Path(src).read_text(encoding="utf-8"))
     variants = list(ext(data)["variants"])
     tops = {k: v for k, v in data.items() if not k.startswith("$")}
     # css name for every token path, and the flat token list in file order
@@ -66,6 +66,13 @@ def load():
     for top, node in tops.items():
         walk(node, [top], ext(node)["cssPrefix"], [node])
     return data, variants, tops, tokens, byalias
+
+
+LITERAL_COLOR = re.compile(r"#[0-9A-Fa-f]{3,8}|(?:rgb|rgba|hsl|hsla)\(.*\)", re.S)
+
+
+def is_literal_color(value):
+    return isinstance(value, str) and LITERAL_COLOR.fullmatch(value) is not None
 
 
 def applies(tok, variant):
@@ -221,6 +228,40 @@ def dist_css(data, variants, tops, tokens, byalias):
     return "\n".join(lines) + "\n"
 
 
+def colour_rule(variants, tok):
+    """A literal colour (#hex, rgb(), rgba(), hsl()) must be decided in every
+    variant it applies to: the variant gives its own `$value`, or is listed in
+    `$extensions.csc.inherit` as deliberately the base's colour. Aliases and
+    non-colour tokens are not subject to this; they fall back to the base."""
+    node, path = tok["node"], tok["path"]
+    live = [v for v in variants if applies(tok, v)]
+    if not live:
+        return []
+    base, rest = live[0], live[1:]
+    over = ext(node).get("variants", {})
+    inherit = ext(node).get("inherit", [])
+    errs = []
+    for v in inherit:
+        if v not in rest:
+            errs.append(f"{path}: inherit lists {v!r}, which is not a non-base variant "
+                        "this token applies to")
+        elif "$value" in over.get(v, {}):
+            errs.append(f"{path}: {v!r} is in inherit but also overrides $value")
+    if not is_literal_color(node["$value"]):
+        if inherit:
+            errs.append(f"{path}: inherit only applies to literal colours")
+        return errs
+    for v in rest:
+        if "$value" in over.get(v, {}):
+            if over[v]["$value"] == node["$value"]:
+                errs.append(f"{path}: {v!r} overrides $value with the base's own value; "
+                            "list it in inherit instead")
+        elif v not in inherit:
+            errs.append(f"{path}: no colour for variant {v!r}; give variants.{v}.$value "
+                        f"or list {v!r} in $extensions.{NS}.inherit")
+    return errs
+
+
 def validate(variants, tokens, byalias):
     errs = []
     for tok in tokens:
@@ -233,6 +274,7 @@ def validate(variants, tokens, byalias):
                 errs.append(f"{path}: overrides {v!r}, which `only` excludes")
         if only is not None and any(v not in variants for v in only):
             errs.append(f"{path}: `only` lists an unknown variant")
+        errs += colour_rule(variants, tok)
     # Per variant: every live token has a value, every alias resolves, and no
     # alias chain loops.
     for v in variants:
@@ -263,8 +305,8 @@ def validate(variants, tokens, byalias):
     return errs
 
 
-def build():
-    data, variants, tops, tokens, byalias = load()
+def build(src=SRC):
+    data, variants, tops, tokens, byalias = load(src)
     errs = validate(variants, tokens, byalias)
     if errs:
         raise TokenError("\n".join(errs))
