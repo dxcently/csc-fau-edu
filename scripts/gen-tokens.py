@@ -6,6 +6,8 @@ tokens/tokens.json is the single source for the palette. This script writes:
   assets/css/theme-<variant>.css   one per variant, consumed by Hugo/Relearn
   tokens/dist/tokens.css           every variant's --wf-* palette in one file,
                                    for consumers outside this repo
+  tokens/dist/authentik.css        the club login / flow pages for Authentik,
+                                   dark by default, light under data-theme
 
     python3 scripts/gen-tokens.py            write the files
     python3 scripts/gen-tokens.py --check    exit 1 if any file on disk differs
@@ -26,6 +28,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "tokens" / "tokens.json"
 CSS_DIR = ROOT / "assets" / "css"
 DIST = ROOT / "tokens" / "dist" / "tokens.css"
+AUTHENTIK = ROOT / "tokens" / "dist" / "authentik.css"
 NS = "csc"            # $extensions key holding everything that is ours
 WIDTH = 78            # comment / font-list wrap column
 TRAIL_MAX = 100       # longest line a trailing /* comment */ may make
@@ -228,6 +231,102 @@ def dist_css(data, variants, tops, tokens, byalias):
     return "\n".join(lines) + "\n"
 
 
+# Authentik branding. Each row: (authentik variable, wf token path, job).
+# Authentik's documented public surface is the semantic --ak-* set
+# (docs.goauthentik.io/brands/custom-css); it bridges those into the
+# PatternFly --pf-* names its components read. The rows follow the four
+# colour jobs: blue is structure (primary action, links, borders), green is
+# identity (accent), pale is reading (text). Red appears ONLY as the danger
+# state, and only the lifted red-text, never the fill red as text.
+AK_VARS = [
+    ("--ak-color-accent",        "wf.palette.primary",     "identity green"),
+    ("--ak-color-primary",       "wf.palette.chrome",      "structure blue: primary action"),
+    ("--ak-color-link",          "wf.palette.chrome-hi",   "structure blue, lifted: links"),
+    ("--ak-color-text",          "wf.palette.text",        "reading"),
+    ("--ak-color-text-muted",    "wf.palette.text-muted",  "meta"),
+    ("--ak-color-surface",       "wf.palette.bg-raised",   "the card and inputs"),
+    ("--ak-color-surface-muted", "wf.palette.bg",          "the page ground"),
+    ("--ak-color-border",        "wf.palette.chrome",      None),
+    ("--ak-color-danger",        "wf.palette.red-text",    "the one red: errors, as text"),
+]
+# Authentik variants of the club variants: dark is the default.
+AK_THEMES = [("hacker", ":root,\nhtml[data-theme='dark']"),
+             ("hacker-light", "html[data-theme='light']")]
+# PatternFly 4 names Authentik's components read. Not part of its stable API
+# (its docs say --pf-* may change), so they sit apart from the --ak-* rows.
+AK_PF = [
+    ("--pf-c-login__main--BackgroundColor", "var( --ak-color-surface )"),
+    ("--pf-c-button--m-primary--BackgroundColor", "var( --ak-color-primary )"),
+    ("--pf-c-button--m-primary--Color", "var( --ak-on-primary )"),
+    ("--pf-c-form-control--BackgroundColor", "var( --ak-color-surface-muted )"),
+    ("--pf-c-form-control--Color", "var( --ak-color-text )"),
+    ("--pf-global--BorderColor--100", "var( --ak-color-border )"),
+    ("--pf-global--link--Color", "var( --ak-color-link )"),
+    ("--pf-global--link--Color--hover", "var( --ak-color-text-strong )"),
+    ("--pf-global--primary-color--100", "var( --ak-color-primary )"),
+    ("--pf-global--Color--100", "var( --ak-color-text )"),
+]
+
+
+def resolve(tokens, byalias, variants, variant, path):
+    """The literal value of one token in one variant, following aliases."""
+    if path not in byalias:
+        raise TokenError(f"authentik.css needs token {path}, which tokens.json lacks")
+    tok = byalias[path]
+    while True:
+        val = pick(tok["node"], variants, variant, "$value")
+        m = re.fullmatch(r"\{([^{}]+)\}", val) if isinstance(val, str) else None
+        if not m:
+            return val
+        tok = byalias[m.group(1)]
+
+
+def authentik_css(data, variants, tokens, byalias):
+    lines = [
+        "/* FAU Cybersecurity Club sign-in pages: Authentik brand custom CSS.",
+        " *",
+        " * " + BANNER,
+        " *",
+        " * Paste into System > Brands > Custom CSS. Dark is the default (set the",
+        " * brand attribute settings.theme.base: dark to enforce it); the light block",
+        " * answers html[data-theme='light'] and is the club's daylight palette.",
+        " * It sets Authentik's own --ak-* variables, which its docs call the public",
+        " * surface, then the PatternFly --pf-* names its components read. The",
+        " * --pf-* block is the fragile half: check it after every Authentik upgrade.",
+        " * Colour jobs as on the site: blue is structure, green is identity, pale is",
+        " * reading. Red is only the error state.",
+        " */",
+    ]
+    for variant, sel in AK_THEMES:
+        r = lambda path: resolve(tokens, byalias, variants, variant, path)
+        lines += ["", sel + " {", "  color-scheme: " + ("light" if variant == "hacker-light" else "dark") + ";"]
+        for name, path, note in AK_VARS:
+            lines.append(f"  {name + ':':<27}{r(path)};" + (f"  /* {note} */" if note else ""))
+        lines.append(f"  {'--ak-color-text-strong:':<27}{r('wf.palette.text-strong')};  /* headings, hover */")
+        lines.append(f"  {'--ak-on-primary:':<27}{r('wf.palette.bg')};  /* text on the blue fill */")
+        lines.append(f"  {'--ak-radius-sm:':<27}{r('wf.geometry.radius')};  /* near-square, like the site */")
+        fonts = ", ".join(fmt_value(pick(byalias["wf.type.font-sans"]["node"], variants, variant, "$value"), byalias))
+        lines.append(f"  {'--ak-font-family-sans-serif:':<27} {fonts};")
+        lines.append("")
+        for name, val in AK_PF:
+            lines.append(f"  {name + ':':<46}{val};")
+        lines += ["}"]
+    lines += ["", "/* Keyboard focus: the structure blue, lifted. Document level only; inside",
+              " * Authentik's shadow roots this does not reach, and its own focus colour",
+              " * follows --pf-global--primary-color--100 above. */",
+              ":where(a, button, input, select, textarea, [tabindex]):focus-visible {",
+              "  outline: 2px solid var( --ak-color-link );",
+              "  outline-offset: 2px;",
+              "}",
+              "",
+              "/* Page ground under the card. The flow background image, if the flow sets",
+              " * one, paints over this. */",
+              "html, body {",
+              "  background-color: var( --ak-color-surface-muted );",
+              "}"]
+    return "\n".join(lines) + "\n"
+
+
 def colour_rule(variants, tok):
     """A literal colour (#hex, rgb(), rgba(), hsl()) must be decided in every
     variant it applies to: the variant gives its own `$value`, or is listed in
@@ -314,6 +413,10 @@ def build(src=SRC):
     for v in variants:
         files[CSS_DIR / f"theme-{v}.css"] = theme_css(data, variants, tops, tokens, byalias, v)
     files[DIST] = dist_css(data, variants, tops, tokens, byalias)
+    # The Authentik sheet names real club tokens, so it only makes sense for
+    # the club's own tokens.json (the unit tests build from tiny fixtures).
+    if Path(src).resolve() == SRC:
+        files[AUTHENTIK] = authentik_css(data, variants, tokens, byalias)
     return files
 
 

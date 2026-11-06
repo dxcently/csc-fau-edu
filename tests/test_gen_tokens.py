@@ -88,7 +88,42 @@ class TestColourRule(unittest.TestCase):
 class TestRepoTokens(unittest.TestCase):
     def test_committed_tokens_build(self):
         build_files = gen.build()
-        self.assertEqual(len(build_files), 4)
+        self.assertEqual(len(build_files), 5)
+
+
+class TestAuthentikCss(unittest.TestCase):
+    css = gen.build()[gen.AUTHENTIK]
+
+    def dark(self):
+        return self.css.split("\nhtml[data-theme='light'] {")[0]
+
+    def test_dark_is_the_default_and_light_is_scoped(self):
+        self.assertIn(":root,\nhtml[data-theme='dark'] {", self.css)
+        self.assertIn("html[data-theme='light'] {", self.css)
+        dark = self.dark()
+        self.assertIn("--ak-color-surface-muted:  #030A08;", dark)
+
+    def test_colours_come_from_the_tokens_not_literals(self):
+        data, variants, _t, tokens, byalias = gen.load()
+        for path, var in (("wf.palette.chrome", "--ak-color-primary"),
+                          ("wf.palette.bg", "--ak-color-surface-muted")):
+            want = gen.resolve(tokens, byalias, variants, "hacker", path)
+            self.assertRegex(self.css, rf"{var}:\s+{want};")
+
+    def test_red_is_only_the_danger_text_colour(self):
+        data, variants, _t, tokens, byalias = gen.load()
+        for variant in ("hacker", "hacker-light"):
+            text = gen.resolve(tokens, byalias, variants, variant, "wf.palette.red-text")
+            red = gen.resolve(tokens, byalias, variants, variant, "wf.palette.red")
+            self.assertIn(f"--ak-color-danger:         {text};", self.css)
+        # in the dark default the fill red must not appear at all
+        self.assertNotIn(gen.resolve(tokens, byalias, variants, "hacker", "wf.palette.red"),
+                         self.dark())
+
+    def test_no_club_marks_or_fau_naming_beyond_the_banner(self):
+        body = self.css.split("*/", 1)[1]
+        self.assertNotIn("url(", body)
+        self.assertNotRegex(body, r"(?i)\bfau\b")
 
 
 if __name__ == "__main__":

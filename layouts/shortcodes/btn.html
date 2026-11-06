@@ -1,0 +1,6 @@
+{{- /* A button-shaped link: {{< btn href="https://…" kind="primary" >}}Label{{< /btn >}}.
+     A shortcode because goldmark strips raw HTML. kind is "primary" (default) or
+     "ghost". The wf- prefix keeps it out of the prose-link underline rule. */ -}}
+{{- $href := .Get "href" -}}
+{{- $kind := .Get "kind" | default "primary" -}}
+<a class="wf-btn wf-btn--{{ $kind }}" href="{{ $href }}"{{ if hasPrefix $href "http" }} rel="external noopener"{{ end }}>{{ .Inner | markdownify | plainify }}</a>
