@@ -25,4 +25,4 @@ Each card says who can use it. A link you cannot use will show a sign-in page or
 
 You only use this club VPN for the club ranges. The rest of your traffic goes the way it did before.
 
-Having trouble? Ask in the club Discord.
+Having trouble? Ask in the [club Discord](http://discord.gg/2Yun8WAUuy).

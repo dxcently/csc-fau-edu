@@ -2,25 +2,11 @@
 # No secrets, no internal addresses, no per-person data.
 
 [[service]]
-title = "Dashboard"
-desc  = "The club's status board for officers: what is running and what needs attention."
-who   = "Officers"
-icon  = "fa-solid fa-gauge"
-href  = "https://dashboard.minerva-csc.club"
-
-[[service]]
 title = "Gitea"
 desc  = "Club code and repos: range files, challenge sources, member projects."
 who   = "Members"
 icon  = "fa-brands fa-git-alt"
 href  = "https://git.minerva-csc.club"
-
-[[service]]
-title = "Proxmox range"
-desc  = "The virtual machines of the practice range. Officers manage them here."
-who   = "Officers"
-icon  = "fa-solid fa-server"
-href  = "https://pve.minerva-csc.club"
 
 [[service]]
 title = "Scorers"

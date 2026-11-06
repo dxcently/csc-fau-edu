@@ -31,7 +31,7 @@ Use your school email when you sign up. The club uses it to check you are a stud
 3. An officer reviews the request. This is a person, so it can take a few days.
 4. Once approved, **Sign in** works. Open the [portal](/portal/) to see what you can use.
 
-If nothing happens after a week, ask in the club Discord.
+If nothing happens after a week, ask in the [club Discord](http://discord.gg/2Yun8WAUuy).
 
 ## What you get
 
