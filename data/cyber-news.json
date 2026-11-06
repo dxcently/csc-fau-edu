@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
   },
   {
+    "date": "2026-11-06T15:24:19-05:00",
+    "source": "BleepingComputer",
+    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+    "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/"
+  },
+  {
     "date": "2026-11-06T13:46:52-05:00",
     "source": "BleepingComputer",
     "title": "Fake security tools on GitHub push backdoors and infostealers",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
     "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/"
-  },
-  {
-    "date": "2026-11-06T10:25:31-05:00",
-    "source": "BleepingComputer",
-    "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-    "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/"
   },
   {
     "date": "2026-11-05T04:36:17+00:00",
