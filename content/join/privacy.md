@@ -50,7 +50,7 @@ The club does not share this data with FAU or with anyone else. The exception is
 
 ## Ask for deletion
 
-Email [faucyberclub@gmail.com](mailto:faucyberclub@gmail.com) from the address on your account. Say you want your account and data deleted. An officer deletes it and confirms by email.
+Email [csc@fau.edu](mailto:csc@fau.edu) from the address on your account. Say you want your account and data deleted. An officer deletes it and confirms by email.
 
 Deletion removes your club account. It does not change anything in your school records, because the club has no access to them.
 
