@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-11-06T11:28:54+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+    "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html"
+  },
+  {
+    "date": "2026-11-06T11:09:10+05:30",
+    "source": "The Hacker News",
+    "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+    "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html"
+  },
+  {
     "date": "2026-11-05T22:12:46+05:30",
     "source": "The Hacker News",
     "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
     "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
-  },
-  {
-    "date": "2026-11-05T22:12:32+05:30",
-    "source": "The Hacker News",
-    "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-    "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html"
-  },
-  {
-    "date": "2026-11-05T20:11:10+05:30",
-    "source": "The Hacker News",
-    "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-    "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
   },
   {
     "date": "2026-11-05T19:56:44-05:00",
