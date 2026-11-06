@@ -29,6 +29,11 @@ The club does not use this data for advertising. It does not sell it.
 
 On servers the club runs itself. It is not stored on FAU systems.
 
+Two outside services handle part of it:
+
+- **Gmail** sends the verification and password-reset emails from the club's account, so Google sees your email address and keeps a copy of those emails.
+- **Discord** holds the officers' sign-up notice described above.
+
 ## Who sees it
 
 Club officers. The club sets up its services so that members do not get a list of other members' email addresses or sign-in records. The club cannot promise more than how it configured its own servers.
@@ -40,7 +45,8 @@ The club does not share this data with FAU or with anyone else. The exception is
 - An approved account: until you leave the club. You leave when you ask for deletion, or when an officer removes inactive accounts after the academic year.
 - A request that is still pending: until an officer handles it.
 - A rejected request: deleted within 30 days.
-- Sign-in records: as long as the account exists.
+- A sign-up that never verifies its email: deleted after 48 hours.
+- Sign-in records and the sign-up log: 365 days. The sign-up log records the username, display name and email address entered on the sign-up form, including attempts that were refused. Passwords are never recorded.
 
 ## Ask for deletion
 
