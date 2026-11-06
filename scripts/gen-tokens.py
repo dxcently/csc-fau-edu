@@ -241,7 +241,7 @@ def dist_css(data, variants, tops, tokens, byalias):
 AK_VARS = [
     ("--ak-color-accent",        "wf.palette.primary",     "identity green"),
     ("--ak-color-primary",       "wf.palette.chrome",      "structure blue: primary action"),
-    ("--ak-color-link",          "wf.palette.chrome-hi",   "structure blue, lifted: links"),
+    ("--ak-color-link",          "wf.palette.chrome-hi",   "structure blue: links (lifted on dark, deepened on light)"),
     ("--ak-color-text",          "wf.palette.text",        "reading"),
     ("--ak-color-text-muted",    "wf.palette.text-muted",  "meta"),
     ("--ak-color-surface",       "wf.palette.bg-raised",   "the card and inputs"),
@@ -252,20 +252,6 @@ AK_VARS = [
 # Authentik variants of the club variants: dark is the default.
 AK_THEMES = [("hacker", ":root,\nhtml[data-theme='dark']"),
              ("hacker-light", "html[data-theme='light']")]
-# PatternFly 4 names Authentik's components read. Not part of its stable API
-# (its docs say --pf-* may change), so they sit apart from the --ak-* rows.
-AK_PF = [
-    ("--pf-c-login__main--BackgroundColor", "var( --ak-color-surface )"),
-    ("--pf-c-button--m-primary--BackgroundColor", "var( --ak-color-primary )"),
-    ("--pf-c-button--m-primary--Color", "var( --ak-on-primary )"),
-    ("--pf-c-form-control--BackgroundColor", "var( --ak-color-surface-muted )"),
-    ("--pf-c-form-control--Color", "var( --ak-color-text )"),
-    ("--pf-global--BorderColor--100", "var( --ak-color-border )"),
-    ("--pf-global--link--Color", "var( --ak-color-link )"),
-    ("--pf-global--link--Color--hover", "var( --ak-color-text-strong )"),
-    ("--pf-global--primary-color--100", "var( --ak-color-primary )"),
-    ("--pf-global--Color--100", "var( --ak-color-text )"),
-]
 
 
 def resolve(tokens, byalias, variants, variant, path):
@@ -287,43 +273,23 @@ def authentik_css(data, variants, tokens, byalias):
         " *",
         " * " + BANNER,
         " *",
-        " * Paste into System > Brands > Custom CSS. Dark is the default (set the",
-        " * brand attribute settings.theme.base: dark to enforce it); the light block",
-        " * answers html[data-theme='light'] and is the club's daylight palette.",
-        " * It sets Authentik's own --ak-* variables, which its docs call the public",
-        " * surface, then the PatternFly --pf-* names its components read. The",
-        " * --pf-* block is the fragile half: check it after every Authentik upgrade.",
+        " * Paste into System > Brands > Custom CSS. It sets only Authentik's",
+        " * documented semantic colour variables (--ak-color-*), nothing else.",
+        " * Force dark: set the brand attribute settings.theme.base: dark. The dark",
+        " * block is the default; the light block answers html[data-theme='light'].",
+        " * Test both themes, including an error state (a wrong password), on a",
+        " * staging flow before this goes to production. Check again after each",
+        " * Authentik upgrade.",
         " * Colour jobs as on the site: blue is structure, green is identity, pale is",
         " * reading. Red is only the error state.",
         " */",
     ]
     for variant, sel in AK_THEMES:
         r = lambda path: resolve(tokens, byalias, variants, variant, path)
-        lines += ["", sel + " {", "  color-scheme: " + ("light" if variant == "hacker-light" else "dark") + ";"]
+        lines += ["", sel + " {"]
         for name, path, note in AK_VARS:
             lines.append(f"  {name + ':':<27}{r(path)};" + (f"  /* {note} */" if note else ""))
-        lines.append(f"  {'--ak-color-text-strong:':<27}{r('wf.palette.text-strong')};  /* headings, hover */")
-        lines.append(f"  {'--ak-on-primary:':<27}{r('wf.palette.bg')};  /* text on the blue fill */")
-        lines.append(f"  {'--ak-radius-sm:':<27}{r('wf.geometry.radius')};  /* near-square, like the site */")
-        fonts = ", ".join(fmt_value(pick(byalias["wf.type.font-sans"]["node"], variants, variant, "$value"), byalias))
-        lines.append(f"  {'--ak-font-family-sans-serif:':<27} {fonts};")
-        lines.append("")
-        for name, val in AK_PF:
-            lines.append(f"  {name + ':':<46}{val};")
         lines += ["}"]
-    lines += ["", "/* Keyboard focus: the structure blue, lifted. Document level only; inside",
-              " * Authentik's shadow roots this does not reach, and its own focus colour",
-              " * follows --pf-global--primary-color--100 above. */",
-              ":where(a, button, input, select, textarea, [tabindex]):focus-visible {",
-              "  outline: 2px solid var( --ak-color-link );",
-              "  outline-offset: 2px;",
-              "}",
-              "",
-              "/* Page ground under the card. The flow background image, if the flow sets",
-              " * one, paints over this. */",
-              "html, body {",
-              "  background-color: var( --ak-color-surface-muted );",
-              "}"]
     return "\n".join(lines) + "\n"
 
 

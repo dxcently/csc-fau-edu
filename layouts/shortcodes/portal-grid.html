@@ -14,6 +14,7 @@
       <i class="{{ .icon }}" aria-hidden="true"></i>
       <span class="wf-card-title">{{ .title }}</span>
       <span class="wf-card-desc">{{ .desc }}</span>
+      {{- with .note }}<span class="wf-note">{{ . }}</span>{{ end }}
       <span class="wf-kicker wf-who">{{ .who }}{{ with .status }} · {{ . }}{{ end }}</span>
   {{- if .href }}
     </a>

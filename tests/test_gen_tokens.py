@@ -99,31 +99,37 @@ class TestAuthentikCss(unittest.TestCase):
 
     def test_dark_is_the_default_and_light_is_scoped(self):
         self.assertIn(":root,\nhtml[data-theme='dark'] {", self.css)
-        self.assertIn("html[data-theme='light'] {", self.css)
-        dark = self.dark()
-        self.assertIn("--ak-color-surface-muted:  #030A08;", dark)
+        self.assertIn("\nhtml[data-theme='light'] {", self.css)
+        self.assertIn("--ak-color-surface-muted:  #030A08;", self.dark())
 
-    def test_colours_come_from_the_tokens_not_literals(self):
+    def test_every_colour_comes_from_the_tokens_in_both_variants(self):
         data, variants, _t, tokens, byalias = gen.load()
-        for path, var in (("wf.palette.chrome", "--ak-color-primary"),
-                          ("wf.palette.bg", "--ak-color-surface-muted")):
-            want = gen.resolve(tokens, byalias, variants, "hacker", path)
-            self.assertRegex(self.css, rf"{var}:\s+{want};")
+        for variant, block in (("hacker", self.dark()),
+                               ("hacker-light", self.css.split("\nhtml[data-theme='light'] {")[1])):
+            for var, path in (("--ak-color-primary", "wf.palette.chrome"),
+                              ("--ak-color-surface-muted", "wf.palette.bg"),
+                              ("--ak-color-text", "wf.palette.text"),
+                              ("--ak-color-danger", "wf.palette.red-text")):
+                want = gen.resolve(tokens, byalias, variants, variant, path)
+                self.assertRegex(block, rf"{var}:\s+{want};")
 
-    def test_red_is_only_the_danger_text_colour(self):
+    def test_only_colour_variables_and_no_element_rules(self):
+        body = self.css.split("*/", 1)[1]
+        self.assertNotIn("url(", body)
+        self.assertNotRegex(body, r"--pf-")
+        for line in body.splitlines():
+            if line.startswith("  "):
+                self.assertTrue(line.strip().startswith("--ak-color-"), line)
+        # no rule outside the two theme blocks
+        self.assertEqual(body.count("{"), 2)
+
+    def test_fill_red_never_in_the_dark_default(self):
         data, variants, _t, tokens, byalias = gen.load()
-        for variant in ("hacker", "hacker-light"):
-            text = gen.resolve(tokens, byalias, variants, variant, "wf.palette.red-text")
-            red = gen.resolve(tokens, byalias, variants, variant, "wf.palette.red")
-            self.assertIn(f"--ak-color-danger:         {text};", self.css)
-        # in the dark default the fill red must not appear at all
         self.assertNotIn(gen.resolve(tokens, byalias, variants, "hacker", "wf.palette.red"),
                          self.dark())
 
-    def test_no_club_marks_or_fau_naming_beyond_the_banner(self):
-        body = self.css.split("*/", 1)[1]
-        self.assertNotIn("url(", body)
-        self.assertNotRegex(body, r"(?i)\bfau\b")
+    def test_no_fau_naming_beyond_the_banner(self):
+        self.assertNotRegex(self.css.split("*/", 1)[1], r"(?i)\bfau\b")
 
 
 if __name__ == "__main__":

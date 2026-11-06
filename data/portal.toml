@@ -26,7 +26,7 @@ href  = "https://pve.minerva-csc.club"
 title = "Scorers"
 desc  = "The scoreboards for club events and competitions."
 who   = "Everyone at an event"
-status = "during events"
+note  = "Open during events."
 icon  = "fa-solid fa-ranking-star"
 
 [[service]]

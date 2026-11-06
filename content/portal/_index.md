@@ -17,7 +17,7 @@ Each card says who can use it. A link you cannot use will show a sign-in page or
 
 **Coming soon.** The VPN is not open to members yet. These steps are what it will look like.
 
-1. Install Tailscale on your computer or phone. Tailscale is free, open-source client software.
+1. Install Tailscale on your computer or phone. Tailscale is free client software.
 2. Open its settings and choose **Use a custom coordination server**. On some systems this is called "alternate server" or "login server".
 3. Enter `https://vpn.minerva-csc.club`.
 4. Sign in with your club account. The account must be approved first.

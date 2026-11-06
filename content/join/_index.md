@@ -14,7 +14,7 @@ The club is open. You do not need experience. You need to show up and try.
 
 ## What membership is
 
-A club account gives you the club's own services. These are the practice range, the club code repos, and the private network that reaches them. The wiki stays public. You do not need an account to read it.
+A club account gives you the club's own services. These are the practice range, the club code repos, and a private network (VPN, coming soon) that reaches them. The wiki stays public. You do not need an account to read it.
 
 An account is free. It has nothing to do with your FAU student account or your grades.
 
@@ -37,7 +37,7 @@ If nothing happens after a week, ask in the club Discord.
 
 | Level | What you can use |
 | ----- | ---------------- |
-| Member | The practice range. The club code repos on Gitea. The VPN to the member ranges. |
+| Member | The practice range. The club code repos on Gitea. The VPN to the member ranges (coming soon). |
 | Officer | Everything a member has. Also the club dashboard, the range controls, and the approval queue. |
 
 The practice range is a set of machines you are allowed to attack. Nowhere else is that allowed. Read [Club Lab](/lab/) for the rules.

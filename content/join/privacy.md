@@ -15,6 +15,8 @@ This is the privacy notice for the club's sign-up. It covers the club accounts o
 - Your **school name and state**. The club looks these up from the domain of your email address. For example, the part after the `@`. It uses the U.S. Department of Education College Scorecard API, or the Hipo university list. Only the domain goes to these lookups. Your full address does not.
 - **Sign-in records**: when you signed in, from which network address, and whether it worked.
 
+When you sign up, the club also posts a notice to a private channel that only officers can read. The notice holds your username, your display name, the domain of your email address (the part after the `@`, not the full address) and the school the club looked up. This channel is on Discord. Discord is a third party and keeps its own copy of the messages. An officer deletes the notice when your request is handled, or when you ask for deletion.
+
 ## Why
 
 - Username, display name and email identify your account and let officers contact you.
@@ -29,13 +31,16 @@ On servers the club runs itself. It is not stored on FAU systems.
 
 ## Who sees it
 
-Club officers. Other members cannot see your email address or your sign-in records.
+Club officers. The club sets up its services so that members do not get a list of other members' email addresses or sign-in records. The club cannot promise more than how it configured its own servers.
 
 The club does not share this data with FAU or with anyone else. The exception is a legal duty to do so. If you break the club's rules on the range, officers may pass the relevant records to the school.
 
 ## How long the club keeps it
 
-Until you ask for deletion, or until you leave the club. Sign-in records are kept for as long as the account exists.
+- An approved account: until you leave the club. You leave when you ask for deletion, or when an officer removes inactive accounts after the academic year.
+- A request that is still pending: until an officer handles it.
+- A rejected request: deleted within 30 days.
+- Sign-in records: as long as the account exists.
 
 ## Ask for deletion
 
