@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
   },
   {
+    "date": "2026-11-05T19:56:44-05:00",
+    "source": "BleepingComputer",
+    "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/"
+  },
+  {
     "date": "2026-11-05T16:30:30-05:00",
     "source": "BleepingComputer",
     "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
     "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/"
-  },
-  {
-    "date": "2026-11-05T14:24:26-05:00",
-    "source": "BleepingComputer",
-    "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
-    "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/"
   },
   {
     "date": "2026-11-05T04:36:17+00:00",
