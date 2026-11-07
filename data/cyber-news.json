@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-07T12:14:17+05:30",
+    "source": "The Hacker News",
+    "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+    "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
+  },
+  {
     "date": "2026-11-06T21:38:38+05:30",
     "source": "The Hacker News",
     "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
     "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
-  },
-  {
-    "date": "2026-11-06T20:28:32+05:30",
-    "source": "The Hacker News",
-    "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-    "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
   },
   {
     "date": "2026-11-06T19:00:55-05:00",
