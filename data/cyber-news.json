@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-08T10:43:08-05:00",
+    "source": "BleepingComputer",
+    "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+    "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/"
+  },
+  {
     "date": "2026-11-07T12:14:17+05:30",
     "source": "The Hacker News",
     "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
@@ -28,12 +34,6 @@
     "source": "The Hacker News",
     "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
     "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
-  },
-  {
-    "date": "2026-11-06T19:00:55-05:00",
-    "source": "BleepingComputer",
-    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
   },
   {
     "date": "2026-11-05T04:36:17+00:00",
