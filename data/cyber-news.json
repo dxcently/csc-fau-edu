@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-09T11:45:10+05:30",
+    "source": "The Hacker News",
+    "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+    "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html"
+  },
+  {
     "date": "2026-11-09T11:35:24+05:30",
     "source": "The Hacker News",
     "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
     "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/"
-  },
-  {
-    "date": "2026-11-06T21:38:38+05:30",
-    "source": "The Hacker News",
-    "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-    "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html"
   },
   {
     "date": "2026-11-05T04:36:17+00:00",
