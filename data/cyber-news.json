@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-09T18:58:25+05:30",
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+    "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html"
+  },
+  {
     "date": "2026-11-09T16:57:53+05:30",
     "source": "The Hacker News",
     "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
     "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html"
-  },
-  {
-    "date": "2026-11-09T15:31:21+05:30",
-    "source": "The Hacker News",
-    "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-    "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html"
   },
   {
     "date": "2026-11-09T08:28:56-05:00",
