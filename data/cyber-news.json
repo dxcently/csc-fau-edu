@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-09T20:01:29+05:30",
+    "source": "The Hacker News",
+    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+    "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html"
+  },
+  {
     "date": "2026-11-09T18:58:25+05:30",
     "source": "The Hacker News",
     "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
     "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html"
-  },
-  {
-    "date": "2026-11-09T16:26:25+05:30",
-    "source": "The Hacker News",
-    "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
-    "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html"
   },
   {
     "date": "2026-11-09T10:05:15-05:00",
