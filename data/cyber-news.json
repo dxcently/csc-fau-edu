@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-10T15:32:40+05:30",
+    "source": "The Hacker News",
+    "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+    "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html"
+  },
+  {
     "date": "2026-11-10T14:38:20+05:30",
     "source": "The Hacker News",
     "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
@@ -12,10 +18,10 @@
     "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html"
   },
   {
-    "date": "2026-11-10T12:22:54+05:30",
-    "source": "The Hacker News",
-    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-    "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+    "date": "2026-11-10T05:04:32-05:00",
+    "source": "BleepingComputer",
+    "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+    "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/"
   },
   {
     "date": "2026-11-10T03:51:25-05:00",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Fireworks AI discloses new breach after cloud provider hack",
     "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/"
-  },
-  {
-    "date": "2026-11-09T18:52:12-05:00",
-    "source": "BleepingComputer",
-    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-    "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/"
   },
   {
     "date": "2026-11-05T04:36:17+00:00",
