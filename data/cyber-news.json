@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html"
   },
   {
+    "date": "2026-11-10T13:33:26-05:00",
+    "source": "BleepingComputer",
+    "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/"
+  },
+  {
     "date": "2026-11-10T11:17:16-05:00",
     "source": "BleepingComputer",
     "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
     "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/"
-  },
-  {
-    "date": "2026-11-10T10:01:11-05:00",
-    "source": "BleepingComputer",
-    "title": "Ransomware recovery is now a client retention metric",
-    "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/"
   },
   {
     "date": "2026-11-05T04:36:17+00:00",
