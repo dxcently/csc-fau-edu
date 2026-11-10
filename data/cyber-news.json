@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
   },
   {
+    "date": "2026-11-10T21:55:03+00:00",
+    "source": "Krebs on Security",
+    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+    "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/"
+  },
+  {
     "date": "2026-11-10T15:54:55-05:00",
     "source": "BleepingComputer",
     "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
@@ -46,11 +52,5 @@
     "source": "Krebs on Security",
     "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
     "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
-  },
-  {
-    "date": "2026-10-21T15:26:07+00:00",
-    "source": "Krebs on Security",
-    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-    "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
   }
 ]
