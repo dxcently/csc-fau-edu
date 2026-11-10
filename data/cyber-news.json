@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-10T12:01:42+05:30",
+    "source": "The Hacker News",
+    "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+    "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html"
+  },
+  {
     "date": "2026-11-09T23:21:21+05:30",
     "source": "The Hacker News",
     "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
     "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html"
-  },
-  {
-    "date": "2026-11-09T20:01:29+05:30",
-    "source": "The Hacker News",
-    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-    "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html"
   },
   {
     "date": "2026-11-09T18:52:12-05:00",
