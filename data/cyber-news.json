@@ -1,21 +1,27 @@
 [
   {
-    "date": "2026-11-10T21:30:55+05:30",
+    "date": "2026-11-11T00:53:10+05:30",
     "source": "The Hacker News",
-    "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-    "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html"
+    "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+    "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html"
   },
   {
-    "date": "2026-11-10T21:28:44+05:30",
+    "date": "2026-11-11T00:49:39+05:30",
     "source": "The Hacker News",
-    "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-    "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html"
+    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+    "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"
   },
   {
-    "date": "2026-11-10T21:03:59+05:30",
+    "date": "2026-11-10T23:42:21+05:30",
     "source": "The Hacker News",
-    "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
-    "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html"
+    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+  },
+  {
+    "date": "2026-11-10T14:31:11-05:00",
+    "source": "BleepingComputer",
+    "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/"
   },
   {
     "date": "2026-11-10T14:07:36-05:00",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/"
-  },
-  {
-    "date": "2026-11-10T11:17:16-05:00",
-    "source": "BleepingComputer",
-    "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/"
   },
   {
     "date": "2026-11-05T04:36:17+00:00",
