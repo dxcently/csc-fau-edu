@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html"
   },
   {
+    "date": "2026-11-10T10:01:11-05:00",
+    "source": "BleepingComputer",
+    "title": "Ransomware recovery is now a client retention metric",
+    "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/"
+  },
+  {
     "date": "2026-11-10T07:07:03-05:00",
     "source": "BleepingComputer",
     "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/"
-  },
-  {
-    "date": "2026-11-10T05:04:32-05:00",
-    "source": "BleepingComputer",
-    "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-    "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/"
   },
   {
     "date": "2026-11-05T04:36:17+00:00",
