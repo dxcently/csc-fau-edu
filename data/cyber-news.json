@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-10T17:08:13+05:30",
+    "source": "The Hacker News",
+    "title": "Beyond the Alert: The Case for Rich Network Data",
+    "url": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html"
+  },
+  {
     "date": "2026-11-10T15:46:51+05:30",
     "source": "The Hacker News",
     "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
     "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"
-  },
-  {
-    "date": "2026-11-10T15:32:40+05:30",
-    "source": "The Hacker News",
-    "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-    "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html"
   },
   {
     "date": "2026-11-10T05:10:20-05:00",
