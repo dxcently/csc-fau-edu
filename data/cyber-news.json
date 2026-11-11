@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-11T19:31:00+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+    "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
+  },
+  {
     "date": "2026-11-11T17:49:40+05:30",
     "source": "The Hacker News",
     "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
     "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
-  },
-  {
-    "date": "2026-11-11T17:30:53+05:30",
-    "source": "The Hacker News",
-    "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-    "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html"
   },
   {
     "date": "2026-11-11T07:32:27-05:00",
