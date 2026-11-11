@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
   },
   {
+    "date": "2026-11-11T10:12:59-05:00",
+    "source": "BleepingComputer",
+    "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
+  },
+  {
     "date": "2026-11-11T10:01:11-05:00",
     "source": "BleepingComputer",
     "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "N-able releases security hotfixes for zero-day vulnerabilities",
     "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/"
-  },
-  {
-    "date": "2026-11-11T06:18:36-05:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft fixes audio issues caused by September security updates",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/"
   },
   {
     "date": "2026-11-10T21:55:03+00:00",
