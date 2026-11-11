@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
   },
   {
+    "date": "2026-11-11T18:06:01+00:00",
+    "source": "Krebs on Security",
+    "title": "Who Runs the Ransomware Group Qilin?",
+    "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/"
+  },
+  {
     "date": "2026-11-11T11:24:18-05:00",
     "source": "BleepingComputer",
     "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
@@ -46,11 +52,5 @@
     "source": "Krebs on Security",
     "title": "Want to Rent an Internet Address at the White House?",
     "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/"
-  },
-  {
-    "date": "2026-11-03T02:24:31+00:00",
-    "source": "Krebs on Security",
-    "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-    "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
   }
 ]
