@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-11T21:42:46+05:30",
+    "source": "The Hacker News",
+    "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+    "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html"
+  },
+  {
     "date": "2026-11-11T21:04:27+05:30",
     "source": "The Hacker News",
     "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
     "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
-  },
-  {
-    "date": "2026-11-11T17:49:40+05:30",
-    "source": "The Hacker News",
-    "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-    "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
   },
   {
     "date": "2026-11-11T11:24:18-05:00",
