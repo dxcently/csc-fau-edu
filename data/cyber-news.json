@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-11T11:34:02+05:30",
+    "source": "The Hacker News",
+    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+  },
+  {
     "date": "2026-11-11T00:53:10+05:30",
     "source": "The Hacker News",
     "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
     "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"
-  },
-  {
-    "date": "2026-11-10T23:42:21+05:30",
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
   },
   {
     "date": "2026-11-10T21:55:03+00:00",
