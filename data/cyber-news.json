@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-11-11T11:34:02+05:30",
+    "date": "2026-11-11T13:47:53+05:30",
     "source": "The Hacker News",
-    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-    "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+    "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+    "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
   },
   {
-    "date": "2026-11-11T00:53:10+05:30",
+    "date": "2026-11-11T13:19:04+05:30",
     "source": "The Hacker News",
-    "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-    "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html"
+    "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+    "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
   },
   {
-    "date": "2026-11-11T00:49:39+05:30",
+    "date": "2026-11-11T12:51:05+05:30",
     "source": "The Hacker News",
-    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-    "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"
+    "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+    "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html"
   },
   {
     "date": "2026-11-10T21:55:03+00:00",
