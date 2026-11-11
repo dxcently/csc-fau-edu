@@ -24,6 +24,12 @@
     "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/"
   },
   {
+    "date": "2026-11-11T16:27:40-05:00",
+    "source": "BleepingComputer",
+    "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+    "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/"
+  },
+  {
     "date": "2026-11-11T15:54:20-05:00",
     "source": "BleepingComputer",
     "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
     "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/"
-  },
-  {
-    "date": "2026-11-11T10:12:59-05:00",
-    "source": "BleepingComputer",
-    "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
   },
   {
     "date": "2026-11-10T21:55:03+00:00",
