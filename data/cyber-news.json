@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-11T21:04:27+05:30",
+    "source": "The Hacker News",
+    "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+    "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html"
+  },
+  {
     "date": "2026-11-11T19:31:00+05:30",
     "source": "The Hacker News",
     "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
     "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
-  },
-  {
-    "date": "2026-11-11T17:31:59+05:30",
-    "source": "The Hacker News",
-    "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-    "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
   },
   {
     "date": "2026-11-11T10:12:59-05:00",
