@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
   },
   {
+    "date": "2026-11-11T10:01:11-05:00",
+    "source": "BleepingComputer",
+    "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+    "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/"
+  },
+  {
     "date": "2026-11-11T07:32:27-05:00",
     "source": "BleepingComputer",
     "title": "N-able releases security hotfixes for zero-day vulnerabilities",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft fixes audio issues caused by September security updates",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/"
-  },
-  {
-    "date": "2026-11-11T05:12:08-05:00",
-    "source": "BleepingComputer",
-    "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/"
   },
   {
     "date": "2026-11-10T21:55:03+00:00",
