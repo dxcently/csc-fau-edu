@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-12T12:12:47+05:30",
+    "source": "The Hacker News",
+    "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+    "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html"
+  },
+  {
     "date": "2026-11-12T10:42:26+05:30",
     "source": "The Hacker News",
     "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
     "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
-  },
-  {
-    "date": "2026-11-11T21:42:46+05:30",
-    "source": "The Hacker News",
-    "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-    "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
