@@ -66,6 +66,7 @@ name).
 
 - `assets/css/theme-<variant>.css`: one file per variant, all groups. The
   header comment is the variant's root description.
+- `dist/authentik.css`: Authentik brand custom CSS built from the same tokens; see the header comment in the file.
 - `dist/tokens.css`: every variant's `wf` group in one file, as
   `:root[data-r-theme-variant='<id>']` blocks, the same attribute the site's
   switcher sets on `<html>`, so any page sharing that switcher matches. The

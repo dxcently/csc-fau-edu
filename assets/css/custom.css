@@ -1471,3 +1471,33 @@ body #R-body-inner a[class*="wf-"] :is(span, i) {
   pointer-events: none;
   opacity: .18;
 }
+
+/* ---------- 6.7 buttons and the portal's "who" label ----------
+ * Join page call to action. Blue is structure, so a button is blue: the
+ * primary is a solid fill, the ghost an outline. No red here; the page
+ * already spends red on card hover. Text on the fill is the page ground, the
+ * one pairing every variant measures. */
+.wf-btn {
+  display: inline-block;
+  margin: 0 .75rem .75rem 0;
+  padding: .6rem 1.4rem;
+  font-family: var(--wf-font-mono);
+  font-size: .9375rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  border: 1px solid var(--wf-chrome);
+  border-radius: var(--wf-radius);
+}
+body #R-body-inner a.wf-btn { text-shadow: none; }
+body #R-body-inner a.wf-btn--primary { background: var(--wf-chrome); color: var(--wf-bg); }
+body #R-body-inner a.wf-btn--ghost   { background: transparent;     color: var(--wf-chrome); }
+body #R-body-inner a.wf-btn:hover,
+body #R-body-inner a.wf-btn:focus-visible {
+  border-color: var(--wf-chrome-hi);
+  box-shadow: 0 0 14px -4px var(--wf-glow);
+}
+body #R-body-inner a.wf-btn--primary:hover,
+body #R-body-inner a.wf-btn--primary:focus-visible { background: var(--wf-chrome-hi); color: var(--wf-bg); }
+body #R-body-inner a.wf-btn--ghost:hover,
+body #R-body-inner a.wf-btn--ghost:focus-visible { color: var(--wf-chrome-hi); }
+.wf-grid .wf-who { margin: auto 0 0; padding-top: .5rem; }

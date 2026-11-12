@@ -1,0 +1,26 @@
+{{- /* The portal launcher. One card per [[service]] in data/portal.toml:
+     title, desc, who (who can use it), icon, and either href (a link) or
+     note (shown instead, for a service with no public address yet). `status`
+     is an optional short tag such as "coming soon". Links only: no secrets
+     and no internal addresses belong in the data file. */ -}}
+<ul class="wf-grid">
+{{- range site.Data.portal.service }}
+  <li>
+  {{- if .href }}
+    <a class="wf-panel wf-panel--link wf-scanlines" href="{{ .href }}"{{ if hasPrefix .href "http" }} rel="external noopener"{{ end }}>
+  {{- else }}
+    <div class="wf-panel wf-scanlines">
+  {{- end }}
+      <i class="{{ .icon }}" aria-hidden="true"></i>
+      <span class="wf-card-title">{{ .title }}</span>
+      <span class="wf-card-desc">{{ .desc }}</span>
+      {{- with .note }}<span class="wf-note">{{ . }}</span>{{ end }}
+      <span class="wf-kicker wf-who">{{ .who }}{{ with .status }} · {{ . }}{{ end }}</span>
+  {{- if .href }}
+    </a>
+  {{- else }}
+    </div>
+  {{- end }}
+  </li>
+{{- end }}
+</ul>

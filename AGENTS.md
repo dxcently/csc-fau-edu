@@ -278,6 +278,7 @@ before suspecting any content.
 | `assets/css/theme-hacker-light.css` | Light palette — GENERATED, do not edit |
 | `assets/css/theme-cyber.css` | Neon green palette — GENERATED, do not edit |
 | `tokens/dist/tokens.css` | The `--wf-*` palette of every variant in one file, for other repos — GENERATED |
+| `tokens/dist/authentik.css` | Authentik brand custom CSS (login and flow pages), dark default, light under `data-theme` — GENERATED. Paste into System > Brands > Custom CSS |
 | `assets/css/custom.css` | Structure. No colour literals; every value is a `--wf-*` token |
 
 `baseURL` in `hugo.toml` is still the placeholder `https://example.org/`. It

@@ -1,0 +1,31 @@
+# The portal launcher cards (layouts/shortcodes/portal-grid.html). Links only.
+# No secrets, no internal addresses, no per-person data.
+
+[[service]]
+title = "Gitea"
+desc  = "Club code and repos: range files, challenge sources, member projects."
+who   = "Members"
+icon  = "fa-brands fa-git-alt"
+href  = "https://git.minerva-csc.club"
+
+[[service]]
+title = "Scorers"
+desc  = "The scoreboards for club events and competitions."
+who   = "Everyone at an event"
+note  = "Open during events."
+icon  = "fa-solid fa-ranking-star"
+
+[[service]]
+title = "VPN"
+desc  = "A private connection to the member practice ranges. Setup steps are below."
+who   = "Members"
+status = "coming soon"
+icon  = "fa-solid fa-shield-halved"
+href  = "/portal/#connect-to-the-vpn"
+
+[[service]]
+title = "Account"
+desc  = "Change your password and set up multi-factor sign-in."
+who   = "Everyone with an account"
+icon  = "fa-solid fa-user-gear"
+href  = "https://auth.minerva-csc.club/if/user/"
