@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-12T13:50:37+05:30",
+    "source": "The Hacker News",
+    "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+    "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html"
+  },
+  {
     "date": "2026-11-12T12:12:47+05:30",
     "source": "The Hacker News",
     "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
     "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
-  },
-  {
-    "date": "2026-11-12T10:09:48+05:30",
-    "source": "The Hacker News",
-    "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-    "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
