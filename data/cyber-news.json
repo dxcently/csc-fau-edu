@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
   },
   {
+    "date": "2026-11-12T04:38:00-05:00",
+    "source": "BleepingComputer",
+    "title": "Hackers plant GSocket on Linux servers for persistent access",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/"
+  },
+  {
     "date": "2026-11-11T18:06:01+00:00",
     "source": "Krebs on Security",
     "title": "Who Runs the Ransomware Group Qilin?",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
     "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/"
-  },
-  {
-    "date": "2026-11-11T16:27:40-05:00",
-    "source": "BleepingComputer",
-    "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-    "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/"
   },
   {
     "date": "2026-11-10T21:55:03+00:00",
