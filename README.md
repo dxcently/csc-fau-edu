@@ -149,29 +149,19 @@ text-handling helpers, with no Discord token and no live feed.
 | Script | Writes | Env vars |
 | --- | --- | --- |
 | `fetch-announcements.py` | `data/announcements.json` | `DISCORD_BOT_TOKEN`, `DISCORD_CHANNEL_ID` |
-| `fetch-postings.py` | `data/discord-postings.json` | `DISCORD_BOT_TOKEN`, `DISCORD_JOBS_CHANNEL_ID`, `DISCORD_OFFICER_CHANNEL_ID` (optional), `DISCORD_OFFICER_ROLE_IDS` (optional) |
+| `fetch-postings.py` | `data/discord-postings.json` | `DISCORD_BOT_TOKEN`, `DISCORD_JOBS_CHANNEL_ID` |
 | `fetch-cyber-news.py` | `data/cyber-news.json` | none — reads public RSS feeds |
 | `fetch-schedule-queue.py` | `data/discord-schedule.json` | `SCHEDULE_QUEUE_PATH` |
 
-`DISCORD_OFFICER_CHANNEL_ID` is optional: when set, `fetch-postings.py` also
-posts a warning to that channel for each unparseable `deadline:` line,
-alongside the stderr line it always prints — deduped against that channel's
-own recent messages instead of a state file, since the sync keeps no state
-between runs.
-
-`DISCORD_OFFICER_ROLE_IDS` is optional too: a comma-separated list of guild
-role ids that, when set, restricts a 💼/🎓 marker to counting only if one of
-its reactors holds one of those roles — anyone else's marker is silently
-ignored, not published.
-
-`fetch-postings.py` classifies a `#jobs` message by its reactions (💼 → job,
-🎓 → internship; both or neither reaction means it is not published) and
-sets `expires` from a `deadline:` line in the raw message body — several
-date formats and a `start - end` range are accepted, see the module
-docstring — with no `deadline:` line leaving the posting with no expiry at
-all. A `deadline:` line present but unparseable also leaves it with no
-expiry, but prints a warning to stderr, since that's a poster's typo worth
-surfacing.
+`fetch-postings.py` publishes every message in `#jobs` (newest 50, no
+reaction needed; deleting the Discord message unpublishes it), skipping only
+Discord system messages and messages with no text. It sets `expires` from a
+`deadline:` line in the raw message body — several date formats and a
+`start - end` range are accepted, see the module docstring — with no
+`deadline:` line leaving the posting with no expiry at all. A `deadline:`
+line present but unparseable also leaves it with no expiry, but prints a
+warning to stdout, since that's a poster's typo worth surfacing. Output
+entries carry no `kind`: the board shows one Jobs & Internships list.
 
 The card's `url` (what "Open →" points at) is picked in order: an `apply:`
 line's link, same convention as `deadline:`; else the first link in the
@@ -189,7 +179,7 @@ for the officer-facing version of this workflow.
 
 `data/discord-schedule.json` is bot-owned like the files above, but with a
 different lifecycle: it never rebuilds from scratch. `fetch-postings.py`
-re-derives its whole output from Discord's live reaction state on every run,
+re-derives its whole output from the live `#jobs` channel on every run,
 but a schedule entry has no equivalent live state to re-scan — there is only
 a one-shot queue drain — so `discord-schedule.json` only ever grows on its
 own; an `op: "update"` or `op: "delete"` line can still change or remove an

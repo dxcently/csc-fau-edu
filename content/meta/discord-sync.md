@@ -17,20 +17,13 @@ up on the home page.
 
 ## Jobs & internships
 
-Post in **#jobs** however you like. Then react to your own message with one
-of two emoji:
+Post in **#jobs** however you like. Everything posted there shows up on the
+Jobs & Internships board, newest first. No reaction, no keyword, nothing to
+do.
 
-- 💼 (briefcase) — publishes it as a job.
-- 🎓 (graduation cap) — publishes it as an internship.
-
-Nothing publishes without one of these two reactions. React with both and the
-post is skipped — the bot cannot tell which board it belongs on, so it
-publishes neither.
-
-Only a reaction from an officer publishes a post, so an officer can also
-publish a member's post by reacting to it themselves.
-
-Remove the reaction later and the post drops off the board on the next sync.
+Delete the Discord message and the post drops off the board on the next
+sync. Discord system messages (pins, joins) and posts with no text are
+ignored.
 
 ## Setting a deadline
 
@@ -53,8 +46,8 @@ on the board until newer postings push it off, not for a fixed number of
 days. Type a `deadline:` line the bot can't read and the posting behaves
 the same way — no closing date — so get the date right if you want one.
 
-A deadline the bot can't read also gets flagged in **#officer-chat**, with a
-link straight to the post, so someone catches the typo.
+The bot does not warn anyone about a deadline it can't read, so check the
+post on the board after you send it.
 
 ## Pointing "Open ->" at the right link
 
@@ -78,13 +71,13 @@ the post.
 
 Edit the Discord message, not the wiki. Every sync rebuilds the board from
 the channel, so a wiki edit gets overwritten on the next run anyway. Fix the
-typo, fix the date, fix the reaction — in Discord.
+typo or fix the date — in Discord.
 
 ## Limits and timing
 
-- The board shows the newest 50 postings. Older ones still exist in Discord,
+- The board shows the newest 50 posts from #jobs. Older ones still exist in Discord,
   they just do not get a page.
-- A sync runs every few minutes, so a post, a reaction, or an edit shows up
+- A sync runs every few minutes, so a post, a deletion, or an edit shows up
   on the wiki within about five minutes.
 
 ## The hand-edited list

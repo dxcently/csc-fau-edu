@@ -4,7 +4,7 @@
 # The Jobs and Internships pages read this file; a posting whose `expires`
 # date has passed is not shown, so nothing needs deleting.
 #
-#   kind     "job" or "internship" — picks which page it appears on
+#   kind     optional label, e.g. "job" or "internship" — shown beside the date
 #   title    the role
 #   org      the company or agency
 #   text     one or two plain sentences: location, pay if known, who to ask

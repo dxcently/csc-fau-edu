@@ -38,14 +38,21 @@
     {{- end }}
   </section>
 
-  {{- /* Conferences: the page's own body, inline. */ -}}
-  {{- with site.GetPage "/board/conferences" }}
+  {{- /* Conferences: the "## Conferences" section of the Club News page,
+         inline. It is the last section of board/news/_index.md, so take the
+         rendered body from its <h2 id="conferences"> to the end and drop that
+         heading (this block has its own). Keep Conferences last on that page,
+         or this cut will pull in whatever follows it. */ -}}
+  {{- with $news }}
+  {{- $conf := index (findRE `(?s)<h2 id="conferences".*` .Content 1) 0 | default "" }}
+  {{- if $conf }}
   <section class="wf-ann" aria-labelledby="wf-board-conf">
-    <h2 id="wf-board-conf"><a href="{{ .RelPermalink }}">Conferences</a> <span class="wf-kicker">where we show up</span></h2>
+    <h2 id="wf-board-conf"><a href="{{ .RelPermalink }}#conferences">Conferences</a> <span class="wf-kicker">where we show up</span></h2>
     <div class="wf-panel wf-scanlines">
-      {{ .Content }}
+      {{ replaceRE `(?s)^<h2 id="conferences".*?</h2>` "" $conf | safeHTML }}
     </div>
   </section>
+  {{- end }}
   {{- end }}
 
   <section class="wf-ann" aria-labelledby="wf-board-jobs">
