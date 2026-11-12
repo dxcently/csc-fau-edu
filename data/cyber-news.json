@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html"
   },
   {
+    "date": "2026-11-12T17:25:30-05:00",
+    "source": "BleepingComputer",
+    "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/"
+  },
+  {
     "date": "2026-11-12T15:15:16-05:00",
     "source": "BleepingComputer",
     "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
     "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/"
-  },
-  {
-    "date": "2026-11-12T14:12:55-05:00",
-    "source": "BleepingComputer",
-    "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
