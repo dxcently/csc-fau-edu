@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html"
   },
   {
+    "date": "2026-11-12T05:24:07-05:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft confirms Windows security updates installation issues",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/"
+  },
+  {
     "date": "2026-11-12T04:38:00-05:00",
     "source": "BleepingComputer",
     "title": "Hackers plant GSocket on Linux servers for persistent access",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "Baker Tilly notifies clients of data breach at third-party provider",
     "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/"
-  },
-  {
-    "date": "2026-11-11T17:56:21-05:00",
-    "source": "BleepingComputer",
-    "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-    "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/"
   },
   {
     "date": "2026-11-10T21:55:03+00:00",
