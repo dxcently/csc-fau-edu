@@ -160,7 +160,7 @@ Discord system messages and messages with no text. It sets `expires` from a
 `start - end` range are accepted, see the module docstring — with no
 `deadline:` line leaving the posting with no expiry at all. A `deadline:`
 line present but unparseable also leaves it with no expiry, but prints a
-warning to stdout, since that's a poster's typo worth surfacing. Output
+warning to stderr, since that's a poster's typo worth surfacing. Output
 entries carry no `kind`: the board shows one Jobs & Internships list.
 
 The card's `url` (what "Open →" points at) is picked in order: an `apply:`

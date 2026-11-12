@@ -25,7 +25,7 @@ handful of formats — see DATE_FORMATS_WITH_YEAR and DATE_FORMATS_NO_YEAR
 below. No `deadline:` line means no `expires` key at all, and the item
 rides the board until it ages out of the channel or the 50-item cap. A
 `deadline:` line that is present but unparseable also omits `expires`,
-but — unlike a missing line — it prints a warning to stdout, since that is
+but — unlike a missing line — it prints a warning to stderr, since that is
 a poster's typo the sync should surface rather than silently swallow.
 
 The card's "Open ->" link is picked in order: an `apply:` line's URL, if
@@ -263,7 +263,7 @@ def build_item(message, guild, channel):
     """Build one data/discord-postings.json entry from a fetched message, or None to skip it.
 
     Skips Discord system messages and messages with no text once cleaned.
-    An unparseable `deadline:` line prints a warning to stdout; the item is
+    An unparseable `deadline:` line prints a warning to stderr; the item is
     still built, just without `expires`.
     """
     if message.get("type") not in (0, 19):          # skip system messages
@@ -276,7 +276,7 @@ def build_item(message, guild, channel):
            or f"https://discord.com/channels/{guild}/{channel}/{message['id']}")
     fields, bad = deadline_fields(raw, datetime.fromisoformat(message["timestamp"]))
     if bad is not None:
-        print(f"deadline unparseable in message {message.get('id')}: {bad!r}")
+        print(f"deadline unparseable in message {message.get('id')}: {bad!r}", file=sys.stderr)
     return {
         "date": message["timestamp"],
         "text": text,

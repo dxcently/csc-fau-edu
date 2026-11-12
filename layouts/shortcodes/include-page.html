@@ -1,0 +1,2 @@
+{{- /* {{< include-page "/board/news/conferences" >}} prints another page's rendered body, so text shared by two pages lives in one file. */ -}}
+{{- with site.GetPage (.Get 0) }}{{ .Content }}{{ else }}{{ warnf "include-page: no page %q (in %q)" ($.Get 0) $.Page.File.Filename }}{{ end -}}

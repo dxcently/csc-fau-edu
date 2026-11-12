@@ -1,6 +1,6 @@
 import io
 import unittest
-from contextlib import redirect_stdout
+from contextlib import redirect_stderr, redirect_stdout
 from datetime import datetime
 
 from loadscript import load
@@ -248,7 +248,7 @@ class TestBuildItemDeadlineWarnings(unittest.TestCase):
     def _run(self, content, timestamp="2026-08-01T15:04:23.512000+00:00"):
         m = message(content, timestamp=timestamp)
         out = io.StringIO()
-        with redirect_stdout(out):
+        with redirect_stderr(out):
             item = build_item(m, GUILD, CHANNEL)
         return item, out.getvalue()
 
@@ -262,6 +262,12 @@ class TestBuildItemDeadlineWarnings(unittest.TestCase):
         self.assertNotIn("expires", item)
         self.assertIn("1111122222333334444", out)
         self.assertIn("sometime soon", out)
+
+    def test_warning_goes_to_stderr_not_stdout(self):
+        out = io.StringIO()
+        with redirect_stdout(out):
+            self._run("Hiring now.\ndeadline: sometime soon")
+        self.assertEqual(out.getvalue(), "")
 
     def test_valid_deadline_does_not_warn(self):
         item, out = self._run("Hiring now.\ndeadline: 2026-10-05")
