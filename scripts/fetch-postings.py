@@ -43,7 +43,8 @@ from datetime import datetime
 
 API  = "https://discord.com/api/v10"
 WANT = 50    # postings to publish
-SCAN = 100   # Discord's per-request max; the whole channel fits one page
+SCAN = 100   # Discord's per-request max
+MAX_PAGES = 5  # at most this many pages of SCAN messages per run
 OUT  = "data/discord-postings.json"
 
 LINK_RE = re.compile(r"https?://\S+")
@@ -262,11 +263,13 @@ def deadline_fields(raw, ref):
 def build_item(message, guild, channel):
     """Build one data/discord-postings.json entry from a fetched message, or None to skip it.
 
-    Skips Discord system messages and messages with no text once cleaned.
+    Skips anything that is not a plain message (system messages, and replies,
+    which are chatter rather than postings) and messages with no text once
+    cleaned.
     An unparseable `deadline:` line prints a warning to stderr; the item is
     still built, just without `expires`.
     """
-    if message.get("type") not in (0, 19):          # skip system messages
+    if message.get("type") != 0:                    # plain messages only: no system messages, no replies
         return None
     raw = message.get("content", "")
     text = clean(raw)
@@ -287,12 +290,21 @@ def build_item(message, guild, channel):
 def build_items(jobs_channel, api):
     """Fetch #jobs and build the postings list: newest first, at most WANT.
 
-    `api` is injected so tests can stub Discord out entirely.
+    Pages back through the channel (`before=<oldest id seen>`) until WANT
+    postings are collected, the channel runs out, or MAX_PAGES pages have been
+    read, so replies and other skipped messages do not eat into the cap while
+    API calls stay bounded. `api` is injected so tests can stub Discord out.
     """
     guild = api(f"/channels/{jobs_channel}")["guild_id"]
-    messages = api(f"/channels/{jobs_channel}/messages?limit={SCAN}")
-    items = [i for i in (build_item(m, guild, jobs_channel) for m in messages) if i]
-    items.sort(key=lambda i: i["date"], reverse=True)
+    items, before = [], None
+    for _ in range(MAX_PAGES):
+        page = api(f"/channels/{jobs_channel}/messages?limit={SCAN}"
+                   + (f"&before={before}" if before else ""))
+        items += [i for i in (build_item(m, guild, jobs_channel) for m in page) if i]
+        if len(page) < SCAN or len(items) >= WANT:
+            break
+        before = min(page, key=lambda m: int(m["id"]))["id"]
+    items.sort(key=lambda i: datetime.fromisoformat(i["date"]), reverse=True)
     del items[WANT:]
     return items
 

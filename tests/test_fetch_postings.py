@@ -304,9 +304,22 @@ class TestBuildItem(unittest.TestCase):
         m = message("Someone pinned a message", msg_type=6)
         self.assertIsNone(build_item(m, GUILD, CHANNEL))
 
-    def test_reply_message_is_built(self):
+    def test_reply_message_is_skipped(self):
         m = message("Reply with more details.", msg_type=19)
-        self.assertIsNotNone(build_item(m, GUILD, CHANNEL))
+        self.assertIsNone(build_item(m, GUILD, CHANNEL))
+
+    def test_output_keys_are_exactly_the_allowed_set(self):
+        plain = build_item(message("Hiring."), GUILD, CHANNEL)
+        self.assertEqual(set(plain), {"date", "text", "url"})
+        ranged = build_item(message("Hiring.\ndeadline: 03/30/2026 - 04/05/2026"), GUILD, CHANNEL)
+        self.assertEqual(set(ranged), {"date", "text", "url", "starts", "expires"})
+        single = build_item(message("Hiring.\ndeadline: 2026-10-05"), GUILD, CHANNEL)
+        self.assertEqual(set(single), {"date", "text", "url", "expires"})
+
+    def test_mentions_are_stripped_from_text(self):
+        item = build_item(message("Hi @everyone and @here, <@123456789> <@&987654321> apply now"), GUILD, CHANNEL)
+        for bad in ("@everyone", "@here", "<@123456789>", "<@&987654321>"):
+            self.assertNotIn(bad, item["text"])
 
     def test_empty_text_is_not_built(self):
         m = message("   ")
@@ -363,10 +376,13 @@ class TestBuildItem(unittest.TestCase):
 
 
 class FakeApi:
-    """Stands in for fetch-postings.py's `api()` closure, no network involved."""
+    """Stands in for fetch-postings.py's `api()` closure, no network involved.
+
+    Serves `jobs_messages` (newest first) honouring `limit` and `before`, like Discord.
+    """
 
     def __init__(self, jobs_messages=()):
-        self.jobs_messages = list(jobs_messages)
+        self.jobs_messages = sorted(jobs_messages, key=lambda m: int(m["id"]), reverse=True)
         self.calls = []
 
     def __call__(self, path):
@@ -374,7 +390,11 @@ class FakeApi:
         if path == f"/channels/{CHANNEL}":
             return {"guild_id": GUILD}
         if path.startswith(f"/channels/{CHANNEL}/messages?"):
-            return self.jobs_messages
+            q = dict(kv.split("=") for kv in path.split("?", 1)[1].split("&"))
+            msgs = self.jobs_messages
+            if "before" in q:
+                msgs = [m for m in msgs if int(m["id"]) < int(q["before"])]
+            return msgs[:int(q["limit"])]
         raise AssertionError(f"unexpected path {path!r}")
 
 
@@ -397,6 +417,31 @@ class TestBuildItems(unittest.TestCase):
         items = build_items(CHANNEL, FakeApi(msgs))
         self.assertEqual(len(items), WANT)
         self.assertEqual(items[0]["text"], f"Post {WANT + 9}")
+
+    def test_pages_back_past_skipped_messages_to_fill_the_cap(self):
+        # 150 replies are newer than 60 real postings; one page of 100 has none.
+        replies = [message(f"Reply {n}", message_id=str(1000 + n), msg_type=19,
+                           timestamp="2026-09-01T00:00:00+00:00") for n in range(150)]
+        posts = [message(f"Post {n}", message_id=str(n + 1),
+                         timestamp=f"2026-08-01T00:{n // 60:02d}:{n % 60:02d}+00:00")
+                 for n in range(60)]
+        api = FakeApi(replies + posts)
+        items = build_items(CHANNEL, api)
+        self.assertEqual(len(items), WANT)
+        self.assertEqual(items[0]["text"], "Post 59")
+        self.assertEqual(len(api.calls), 1 + 2)   # channel lookup + 2 message pages
+
+    def test_scan_is_bounded(self):
+        replies = [message(f"Reply {n}", message_id=str(n + 1), msg_type=19) for n in range(1000)]
+        api = FakeApi(replies)
+        self.assertEqual(build_items(CHANNEL, api), [])
+        self.assertEqual(len(api.calls), 1 + fetch_postings.MAX_PAGES)
+
+    def test_sorts_by_parsed_timestamp(self):
+        a = message("A", message_id="1", timestamp="2026-08-01T10:00:00+00:00")
+        b = message("B", message_id="2", timestamp="2026-08-01T11:00:00+02:00")  # 09:00 UTC, earlier
+        items = build_items(CHANNEL, FakeApi([a, b]))
+        self.assertEqual([i["text"] for i in items], ["A", "B"])
 
     def test_system_and_empty_messages_are_dropped(self):
         msgs = [message("Real posting.", message_id="1"),

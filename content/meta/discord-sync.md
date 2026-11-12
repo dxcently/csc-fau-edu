@@ -22,8 +22,9 @@ Jobs & Internships board, newest first. No reaction, no keyword, nothing to
 do.
 
 Delete the Discord message and the post drops off the board on the next
-sync. Discord system messages (pins, joins) and posts with no text are
-ignored.
+sync. Anything posted in #jobs is public on the site within minutes. Replies,
+Discord system messages (pins, joins) and embed-only posts (no text) are not
+published, and the board shows the newest 50 postings.
 
 ## Setting a deadline
 
