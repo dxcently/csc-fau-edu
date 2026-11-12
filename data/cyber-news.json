@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-12T10:09:48+05:30",
+    "source": "The Hacker News",
+    "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+    "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
+  },
+  {
     "date": "2026-11-11T21:42:46+05:30",
     "source": "The Hacker News",
     "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
     "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html"
-  },
-  {
-    "date": "2026-11-11T19:31:00+05:30",
-    "source": "The Hacker News",
-    "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-    "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
