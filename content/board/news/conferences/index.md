@@ -8,24 +8,13 @@ description = "Where the club shows up next, and the codes to get in."
 
 Where the club shows up next, and the codes to get in.
 
-### SFISSA Hack-The-Flag — Sept 18–19
-
-South Florida ISSA's conference and CTF. We send a team and run a village.
-Register at [sfissahtf.com](https://www.sfissahtf.com).
-
-- **FAU students, faculty, staff:** code `FAUHTF26` at checkout — free, and it counts FAU heads.
-- Other codes are in the Discord announcement.
-- [Volunteer](https://docs.google.com/forms/d/e/1FAIpQLSei-RDtxQ-Av6f5DQpZaMRcO586Rpdho_R3tpyZsEtC8M9xhw/viewform) · [Rep the club at the village](https://docs.google.com/forms/d/e/1FAIpQLSdPXRz0UIj_8PqnYvJ9LkrZtch3wSpCS1Suaa8Cg1XKVUfL7g/viewform)
-
 ### Upcoming Dates
 
 | Date | Event |
 | ---- | ----- |
-| Oct 3, 2026 | WRCCDC Invitational #1 |
-| Oct 16, 2026 | UB Lockdown — registration deadline |
-| Oct 17–18, 2026 | Horse Plinko CTF (HPCC4) @ UCF |
-| Oct 24, 2026 | UB Lockdown |
-| Oct 31, 2026 | WRCCDC Invitational #2 |
-| Nov 13–14, 2026 | CyberForce Competition @ Tinley Park, IL |
-| Nov 21, 2026 | WRCCDC Invitational #3 |
-| Jan 9, 2027 | WRCCDC Invitational #4 |
+| Nov 13–14, 2026 | [CyberForce Competition](https://cyberforce.energy.gov/events/2026-11-13/) @ Tinley Park, IL |
+| Nov 21, 2026 | [WRCCDC Invitational #3](https://wrccdc.org/seasons/2027/season-schedule/) |
+| Jan 9, 2027 | [WRCCDC Invitational #4](https://wrccdc.org/seasons/2027/season-schedule/) |
+| Feb 6, 2027 | [WRCCDC Qualifier](https://wrccdc.org/seasons/2027/season-schedule/) |
+| Spring 2027 | [National Cyber League](https://nationalcyberleague.org) — dates TBA |
+| Spring 2027 | [Southeast CCDC](https://nationalccdc.org/registration.html) qualifier and regional — dates TBA |
