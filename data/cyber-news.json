@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html"
   },
   {
+    "date": "2026-11-12T14:51:16-05:00",
+    "source": "BleepingComputer",
+    "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+    "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/"
+  },
+  {
     "date": "2026-11-12T14:12:55-05:00",
     "source": "BleepingComputer",
     "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
     "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/"
-  },
-  {
-    "date": "2026-11-12T10:07:20-05:00",
-    "source": "BleepingComputer",
-    "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-    "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
