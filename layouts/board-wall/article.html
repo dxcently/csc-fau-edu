@@ -38,10 +38,11 @@
     {{- end }}
   </section>
 
-  {{- /* Conferences: the page's own body, inline. */ -}}
-  {{- with site.GetPage "/board/conferences" }}
+  {{- /* Conferences: the headless bundle board/news/conferences, also
+         rendered by the Club News page, so the text lives in one place. */ -}}
+  {{- with site.GetPage "/board/news/conferences" }}
   <section class="wf-ann" aria-labelledby="wf-board-conf">
-    <h2 id="wf-board-conf"><a href="{{ .RelPermalink }}">Conferences</a> <span class="wf-kicker">where we show up</span></h2>
+    <h2 id="wf-board-conf"><a href="{{ $news.RelPermalink }}#conferences">Conferences</a> <span class="wf-kicker">where we show up</span></h2>
     <div class="wf-panel wf-scanlines">
       {{ .Content }}
     </div>

@@ -13,7 +13,7 @@
 #   - byte-compile all the scripts, so a syntax-breaking edit fails the PR.
 #   - unit tests for the pure text-handling helpers (clean() in
 #     fetch-announcements.py, parse_feed() in fetch-cyber-news.py, the
-#     marker/link/expiry helpers in fetch-postings.py, the queue-line
+#     link/expiry/filter helpers in fetch-postings.py, the queue-line
 #     validation in fetch-schedule-queue.py) — the part that breaks
 #     silently, since a bad regex still "runs."
 #   - gen-tokens.py --check: tokens/tokens.json is the palette's source and

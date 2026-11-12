@@ -1,49 +1,30 @@
 import io
-import json
-import sys
 import unittest
-import urllib.parse
-from contextlib import redirect_stderr
+from contextlib import redirect_stderr, redirect_stdout
 from datetime import datetime
 
 from loadscript import load
 
-fetch_postings          = load("fetch-postings.py")
-classify                = fetch_postings.classify
-first_link              = fetch_postings.first_link
-apply_url               = fetch_postings.apply_url
-pick_link               = fetch_postings.pick_link
-deadline_fields         = fetch_postings.deadline_fields
-build_item              = fetch_postings.build_item
-format_warning          = fetch_postings.format_warning
-notify_officer_channel  = fetch_postings.notify_officer_channel
-build_items             = fetch_postings.build_items
+fetch_postings  = load("fetch-postings.py")
+first_link      = fetch_postings.first_link
+apply_url       = fetch_postings.apply_url
+pick_link       = fetch_postings.pick_link
+deadline_fields = fetch_postings.deadline_fields
+build_item      = fetch_postings.build_item
+build_items     = fetch_postings.build_items
+WANT            = fetch_postings.WANT
 
 GUILD   = "555000111222333444"
 CHANNEL = "666000111222333444"
 
-BRIEFCASE      = "\U0001F4BC"
-GRADUATION_CAP = "\U0001F393"
-
 REF = datetime.fromisoformat("2026-08-01T15:04:23.512000+00:00")
 
 
-def reaction(name, count=1):
-    return {
-        "emoji": {"id": None, "name": name},
-        "count": count,
-        "count_details": {"burst": 0, "normal": count},
-        "burst_colors": [],
-        "me_burst": False,
-        "me": False,
-    }
-
-
-def message(content, reactions=(), message_id="1111122222333334444", timestamp="2026-08-01T15:04:23.512000+00:00"):
+def message(content, message_id="1111122222333334444", timestamp="2026-08-01T15:04:23.512000+00:00", msg_type=0):
     """A message payload shaped like Discord's actual GET messages response."""
     return {
         "id": message_id,
-        "type": 0,
+        "type": msg_type,
         "content": content,
         "channel_id": CHANNEL,
         "author": {
@@ -62,34 +43,10 @@ def message(content, reactions=(), message_id="1111122222333334444", timestamp="
         "mention_roles": [],
         "attachments": [],
         "embeds": [],
-        "reactions": list(reactions),
         "pinned": False,
         "flags": 0,
         "components": [],
     }
-
-
-class TestClassify(unittest.TestCase):
-    def test_briefcase_reaction_is_job(self):
-        m = message("Hiring a SOC analyst.", reactions=[reaction(BRIEFCASE)])
-        self.assertEqual(classify(m), "job")
-
-    def test_graduation_cap_reaction_is_internship(self):
-        m = message("Summer internship open.", reactions=[reaction(GRADUATION_CAP)])
-        self.assertEqual(classify(m), "internship")
-
-    def test_no_reactions_excluded(self):
-        m = message("Just chatting, no marker here.", reactions=[])
-        self.assertIsNone(classify(m))
-
-    def test_unrelated_reaction_excluded(self):
-        m = message("Nice meme.", reactions=[reaction("\U0001F44D")])  # 👍
-        self.assertIsNone(classify(m))
-
-    def test_both_markers_excluded(self):
-        m = message("Is this a job or an internship?",
-                     reactions=[reaction(BRIEFCASE), reaction(GRADUATION_CAP)])
-        self.assertIsNone(classify(m))
 
 
 class TestFirstLink(unittest.TestCase):
@@ -289,38 +246,43 @@ class TestDeadlineFieldsMalformed(unittest.TestCase):
 
 class TestBuildItemDeadlineWarnings(unittest.TestCase):
     def _run(self, content, timestamp="2026-08-01T15:04:23.512000+00:00"):
-        m = message(content, reactions=[reaction(BRIEFCASE)], timestamp=timestamp)
-        stderr = io.StringIO()
-        with redirect_stderr(stderr):
+        m = message(content, timestamp=timestamp)
+        out = io.StringIO()
+        with redirect_stderr(out):
             item = build_item(m, GUILD, CHANNEL)
-        return item, stderr.getvalue()
+        return item, out.getvalue()
 
     def test_no_deadline_line_does_not_warn(self):
-        item, err = self._run("Hiring now, apply on our site.")
+        item, out = self._run("Hiring now, apply on our site.")
         self.assertNotIn("expires", item)
-        self.assertEqual(err, "")
+        self.assertEqual(out, "")
 
     def test_malformed_deadline_warns_and_omits_expires(self):
-        item, err = self._run("Hiring now.\ndeadline: sometime soon")
+        item, out = self._run("Hiring now.\ndeadline: sometime soon")
         self.assertNotIn("expires", item)
-        self.assertIn("1111122222333334444", err)
-        self.assertIn("sometime soon", err)
+        self.assertIn("1111122222333334444", out)
+        self.assertIn("sometime soon", out)
+
+    def test_warning_goes_to_stderr_not_stdout(self):
+        out = io.StringIO()
+        with redirect_stdout(out):
+            self._run("Hiring now.\ndeadline: sometime soon")
+        self.assertEqual(out.getvalue(), "")
 
     def test_valid_deadline_does_not_warn(self):
-        item, err = self._run("Hiring now.\ndeadline: 2026-10-05")
+        item, out = self._run("Hiring now.\ndeadline: 2026-10-05")
         self.assertEqual(item["expires"], "2026-10-05")
-        self.assertEqual(err, "")
+        self.assertEqual(out, "")
 
 
 class TestBuildItem(unittest.TestCase):
     def test_job_item_uses_raw_link_and_cleaned_text(self):
         m = message(
             "💼 **Hiring**: SOC analyst intern, apply at https://example.com/apply now @everyone",
-            reactions=[reaction(BRIEFCASE)],
-            timestamp="2026-08-01T15:04:23.512000+00:00",
+                        timestamp="2026-08-01T15:04:23.512000+00:00",
         )
         item = build_item(m, GUILD, CHANNEL)
-        self.assertEqual(item["kind"], "job")
+        self.assertNotIn("kind", item)
         self.assertEqual(item["url"], "https://example.com/apply")
         self.assertEqual(item["date"], "2026-08-01T15:04:23.512000+00:00")
         self.assertNotIn("expires", item)
@@ -329,21 +291,42 @@ class TestBuildItem(unittest.TestCase):
         self.assertIn("💼", item["text"])
 
     def test_no_link_falls_back_to_permalink(self):
-        m = message("🎓 Internship posting, DM me for details", reactions=[reaction(GRADUATION_CAP)],
+        m = message("🎓 Internship posting, DM me for details",
                      message_id="777788889999000011")
         item = build_item(m, GUILD, CHANNEL)
         self.assertEqual(item["url"], f"https://discord.com/channels/{GUILD}/{CHANNEL}/777788889999000011")
 
-    def test_message_with_neither_marker_is_not_built(self):
-        m = message("Random chatter with no marker.", reactions=[])
+    def test_message_without_any_reaction_is_published(self):
+        m = message("Hiring a SOC analyst.")
+        self.assertEqual(build_item(m, GUILD, CHANNEL)["text"], "Hiring a SOC analyst.")
+
+    def test_system_message_is_not_built(self):
+        m = message("Someone pinned a message", msg_type=6)
         self.assertIsNone(build_item(m, GUILD, CHANNEL))
 
-    def test_message_with_both_markers_is_not_built(self):
-        m = message("Ambiguous post.", reactions=[reaction(BRIEFCASE), reaction(GRADUATION_CAP)])
+    def test_reply_message_is_skipped(self):
+        m = message("Reply with more details.", msg_type=19)
+        self.assertIsNone(build_item(m, GUILD, CHANNEL))
+
+    def test_output_keys_are_exactly_the_allowed_set(self):
+        plain = build_item(message("Hiring."), GUILD, CHANNEL)
+        self.assertEqual(set(plain), {"date", "text", "url"})
+        ranged = build_item(message("Hiring.\ndeadline: 03/30/2026 - 04/05/2026"), GUILD, CHANNEL)
+        self.assertEqual(set(ranged), {"date", "text", "url", "starts", "expires"})
+        single = build_item(message("Hiring.\ndeadline: 2026-10-05"), GUILD, CHANNEL)
+        self.assertEqual(set(single), {"date", "text", "url", "expires"})
+
+    def test_mentions_are_stripped_from_text(self):
+        item = build_item(message("Hi @everyone and @here, <@123456789> <@&987654321> apply now"), GUILD, CHANNEL)
+        for bad in ("@everyone", "@here", "<@123456789>", "<@&987654321>"):
+            self.assertNotIn(bad, item["text"])
+
+    def test_empty_text_is_not_built(self):
+        m = message("   ")
         self.assertIsNone(build_item(m, GUILD, CHANNEL))
 
     def test_unicode_emoji_in_body_survive_cleaning(self):
-        m = message("🚨 Job posting 📢 apply now 🎓", reactions=[reaction(BRIEFCASE)])
+        m = message("🚨 Job posting 📢 apply now 🎓")
         item = build_item(m, GUILD, CHANNEL)
         self.assertIn("🚨", item["text"])
         self.assertIn("📢", item["text"])
@@ -352,8 +335,7 @@ class TestBuildItem(unittest.TestCase):
     def test_range_deadline_sets_starts_and_expires(self):
         m = message(
             "Career fair booth sign-ups.\ndeadline: 03/30/2026 - 04/05/2026",
-            reactions=[reaction(BRIEFCASE)],
-        )
+                    )
         item = build_item(m, GUILD, CHANNEL)
         self.assertEqual(item["starts"], "2026-03-30")
         self.assertEqual(item["expires"], "2026-04-05")
@@ -370,7 +352,7 @@ class TestBuildItem(unittest.TestCase):
             "apply: https://example.com/careers/nnci-intern\n\n"
             "https://www.linkedin.com/jobs/view/4461193427/"
         )
-        m = message(raw, reactions=[reaction(GRADUATION_CAP)])
+        m = message(raw)
         item = build_item(m, GUILD, CHANNEL)
         self.assertEqual(item["url"], "https://example.com/careers/nnci-intern")
 
@@ -388,289 +370,84 @@ class TestBuildItem(unittest.TestCase):
             "Apply ASAP — DM me with questions.\n\n"
             "https://www.linkedin.com/jobs/view/4461193427/"
         )
-        m = message(raw, reactions=[reaction(GRADUATION_CAP)])
+        m = message(raw)
         item = build_item(m, GUILD, CHANNEL)
         self.assertEqual(item["url"], "https://www.linkedin.com/jobs/view/4461193427/")
-
-
-OFFICER_CHANNEL = "777000111222333444"
-BOT_ID          = "888000111222333444"
 
 
 class FakeApi:
     """Stands in for fetch-postings.py's `api()` closure, no network involved.
 
-    Routes by path prefix the same way the real Discord endpoints split: the jobs
-    channel's own metadata and messages, the bot's own identity, and the officer
-    channel's messages — a GET (`data=None`) returning `officer_history`, a POST
-    (`data` set) recording the payload in `posted` and, if `fail_post`, raising
-    instead.
+    Serves `jobs_messages` (newest first) honouring `limit` and `before`, like Discord.
     """
 
-    def __init__(self, jobs_messages=(), officer_history=(), bot_id=BOT_ID,
-                 fail_history=False, fail_post=False):
-        self.jobs_messages = list(jobs_messages)
-        self.officer_history = list(officer_history)
-        self.bot_id = bot_id
-        self.fail_history = fail_history
-        self.fail_post = fail_post
-        self.posted = []
+    def __init__(self, jobs_messages=()):
+        self.jobs_messages = sorted(jobs_messages, key=lambda m: int(m["id"]), reverse=True)
+        self.calls = []
 
-    def __call__(self, path, data=None):
+    def __call__(self, path):
+        self.calls.append(path)
         if path == f"/channels/{CHANNEL}":
             return {"guild_id": GUILD}
-        if path.startswith(f"/channels/{CHANNEL}/messages"):
-            return self.jobs_messages
-        if path == "/users/@me":
-            return {"id": self.bot_id}
-        if path.startswith(f"/channels/{OFFICER_CHANNEL}/messages"):
-            if data is not None:
-                if self.fail_post:
-                    raise RuntimeError("boom post")
-                self.posted.append(json.loads(data))
-                return {"id": "999999999999999999"}
-            if self.fail_history:
-                raise RuntimeError("boom history")
-            return self.officer_history
+        if path.startswith(f"/channels/{CHANNEL}/messages?"):
+            q = dict(kv.split("=") for kv in path.split("?", 1)[1].split("&"))
+            msgs = self.jobs_messages
+            if "before" in q:
+                msgs = [m for m in msgs if int(m["id"]) < int(q["before"])]
+            return msgs[:int(q["limit"])]
         raise AssertionError(f"unexpected path {path!r}")
-
-
-def bot_message(content, author_id=BOT_ID):
-    return {"id": "1", "author": {"id": author_id}, "content": content}
-
-
-class TestFormatWarning(unittest.TestCase):
-    def test_exact_message_body(self):
-        body = format_warning(GUILD, CHANNEL, "1111122222333334444", "999000111222333444", "October 5):")
-        self.assertEqual(
-            body,
-            "⚠️ Couldn't read the deadline on "
-            f"https://discord.com/channels/{GUILD}/{CHANNEL}/1111122222333334444 "
-            "by <@999000111222333444>\n"
-            "It says: `October 5):`\n"
-            "Write it as `deadline: 2026-10-05` (or a range: `deadline: 03/30/2026 - 04/05/2026`)",
-        )
-
-
-class TestNotifyOfficerChannel(unittest.TestCase):
-    def test_warning_posted_with_right_shape_and_allowed_mentions(self):
-        api = FakeApi()
-        warnings = [("1111122222333334444", "999000111222333444", "October 5):")]
-        notify_officer_channel(warnings, GUILD, CHANNEL, OFFICER_CHANNEL, api)
-        self.assertEqual(len(api.posted), 1)
-        sent = api.posted[0]
-        self.assertEqual(sent["content"], format_warning(GUILD, CHANNEL, *warnings[0]))
-        self.assertEqual(sent["allowed_mentions"], {"parse": [], "users": ["999000111222333444"]})
-
-    def test_already_warned_id_is_skipped(self):
-        api = FakeApi(officer_history=[
-            bot_message("Couldn't read the deadline on a post: 1111122222333334444 ..."),
-        ])
-        warnings = [("1111122222333334444", "999000111222333444", "October 5):")]
-        notify_officer_channel(warnings, GUILD, CHANNEL, OFFICER_CHANNEL, api)
-        self.assertEqual(api.posted, [])
-
-    def test_warning_from_a_different_author_is_not_treated_as_already_warned(self):
-        api = FakeApi(officer_history=[
-            bot_message("some unrelated message", author_id="not-the-bot"),
-        ])
-        warnings = [("1111122222333334444", "999000111222333444", "October 5):")]
-        notify_officer_channel(warnings, GUILD, CHANNEL, OFFICER_CHANNEL, api)
-        self.assertEqual(len(api.posted), 1)
-
-    def test_no_warnings_makes_no_calls(self):
-        api = FakeApi()
-        notify_officer_channel([], GUILD, CHANNEL, OFFICER_CHANNEL, api)
-        self.assertEqual(api.posted, [])
-
-    def test_failing_history_lookup_does_not_raise_and_skips_posting(self):
-        api = FakeApi(fail_history=True)
-        warnings = [("1111122222333334444", "999000111222333444", "October 5):")]
-        stderr = io.StringIO()
-        with redirect_stderr(stderr):
-            notify_officer_channel(warnings, GUILD, CHANNEL, OFFICER_CHANNEL, api)
-        self.assertEqual(api.posted, [])
-        self.assertIn("officer channel", stderr.getvalue())
-
-    def test_failing_post_does_not_raise(self):
-        api = FakeApi(fail_post=True)
-        warnings = [("1111122222333334444", "999000111222333444", "October 5):")]
-        stderr = io.StringIO()
-        with redirect_stderr(stderr):
-            notify_officer_channel(warnings, GUILD, CHANNEL, OFFICER_CHANNEL, api)
-        self.assertIn("officer channel", stderr.getvalue())
-
-
-OFFICER_ROLE = "111222333444555666"
-
-
-class ReactionApi:
-    """Stands in for `api()` when testing DISCORD_OFFICER_ROLE_IDS gating.
-
-    Same jobs-channel shape as FakeApi, plus the two endpoints the gated path
-    adds: a message's reactors for one marker, and a guild member's roles.
-    `reactors` maps (message_id, emoji) -> [user_id, ...]; a pair with no
-    entry means nobody reacted with that marker. `members` maps user_id ->
-    [role_id, ...]; a user_id with no entry means the member lookup 404s.
-    `fail_reactors=True` makes every reactors fetch raise, to exercise the
-    "reactors fetch failed" fallback.
-    """
-
-    def __init__(self, jobs_messages=(), reactors=None, members=None, fail_reactors=False):
-        self.jobs_messages = list(jobs_messages)
-        self.reactors = reactors or {}
-        self.members = members or {}
-        self.fail_reactors = fail_reactors
-        self.reactor_calls = []
-        self.member_calls = []
-
-    def __call__(self, path, data=None):
-        if path == f"/channels/{CHANNEL}":
-            return {"guild_id": GUILD}
-        if path.startswith(f"/channels/{CHANNEL}/messages/") and "/reactions/" in path:
-            message_id, _, emoji_enc = path.removeprefix(f"/channels/{CHANNEL}/messages/").partition("/reactions/")
-            self.reactor_calls.append((message_id, emoji_enc))
-            if self.fail_reactors:
-                raise RuntimeError("boom reactors")
-            emoji = urllib.parse.unquote(emoji_enc)
-            user_ids = self.reactors.get((message_id, emoji), [])
-            return [{"id": uid, "username": f"user{uid}"} for uid in user_ids]
-        if path.startswith(f"/channels/{CHANNEL}/messages"):
-            return self.jobs_messages
-        if path.startswith(f"/guilds/{GUILD}/members/"):
-            user_id = path.rsplit("/", 1)[1]
-            self.member_calls.append(user_id)
-            if user_id not in self.members:
-                raise RuntimeError("404 Not Found")
-            return {"user": {"id": user_id}, "roles": self.members[user_id]}
-        raise AssertionError(f"unexpected path {path!r}")
-
-
-class TestBuildItemsOfficerRoleGating(unittest.TestCase):
-    def test_env_unset_any_reactor_publishes(self):
-        m = message("Hiring now.", reactions=[reaction(BRIEFCASE)])
-        api = ReactionApi(jobs_messages=[m])
-        items = build_items(CHANNEL, "", api)
-        self.assertEqual(len(items), 1)
-        self.assertEqual(api.reactor_calls, [])
-        self.assertEqual(api.member_calls, [])
-
-    def test_marker_from_non_officer_is_ignored(self):
-        m = message("Hiring now.", reactions=[reaction(BRIEFCASE)])
-        api = ReactionApi(
-            jobs_messages=[m],
-            reactors={(m["id"], BRIEFCASE): ["u1"]},
-            members={"u1": []},
-        )
-        items = build_items(CHANNEL, "", api, officer_role_ids={OFFICER_ROLE})
-        self.assertEqual(items, [])
-
-    def test_marker_from_officer_publishes(self):
-        m = message("Hiring now.", reactions=[reaction(BRIEFCASE)])
-        api = ReactionApi(
-            jobs_messages=[m],
-            reactors={(m["id"], BRIEFCASE): ["u1"]},
-            members={"u1": [OFFICER_ROLE]},
-        )
-        items = build_items(CHANNEL, "", api, officer_role_ids={OFFICER_ROLE})
-        self.assertEqual(len(items), 1)
-        self.assertEqual(items[0]["kind"], "job")
-
-    def test_officer_briefcase_and_non_officer_cap_publishes_as_job(self):
-        m = message("Hiring now.", reactions=[reaction(BRIEFCASE), reaction(GRADUATION_CAP)])
-        api = ReactionApi(
-            jobs_messages=[m],
-            reactors={
-                (m["id"], BRIEFCASE): ["u1"],
-                (m["id"], GRADUATION_CAP): ["u2"],
-            },
-            members={"u1": [OFFICER_ROLE], "u2": []},
-        )
-        items = build_items(CHANNEL, "", api, officer_role_ids={OFFICER_ROLE})
-        self.assertEqual(len(items), 1)
-        self.assertEqual(items[0]["kind"], "job")
-
-    def test_officer_briefcase_and_officer_cap_is_ambiguous(self):
-        m = message("Hiring now.", reactions=[reaction(BRIEFCASE), reaction(GRADUATION_CAP)])
-        api = ReactionApi(
-            jobs_messages=[m],
-            reactors={
-                (m["id"], BRIEFCASE): ["u1"],
-                (m["id"], GRADUATION_CAP): ["u2"],
-            },
-            members={"u1": [OFFICER_ROLE], "u2": [OFFICER_ROLE]},
-        )
-        stderr = io.StringIO()
-        with redirect_stderr(stderr):
-            items = build_items(CHANNEL, "", api, officer_role_ids={OFFICER_ROLE})
-        self.assertEqual(items, [])
-        self.assertIn("both job and internship markers", stderr.getvalue())
-
-    def test_member_fetch_404_counts_as_non_officer(self):
-        m = message("Hiring now.", reactions=[reaction(BRIEFCASE)])
-        api = ReactionApi(
-            jobs_messages=[m],
-            reactors={(m["id"], BRIEFCASE): ["u-left-server"]},
-        )
-        items = build_items(CHANNEL, "", api, officer_role_ids={OFFICER_ROLE})
-        self.assertEqual(items, [])
-
-    def test_no_marker_triggers_no_reactor_or_member_fetch(self):
-        m = message("Just chatting, no marker here.", reactions=[])
-        api = ReactionApi(jobs_messages=[m])
-        items = build_items(CHANNEL, "", api, officer_role_ids={OFFICER_ROLE})
-        self.assertEqual(items, [])
-        self.assertEqual(api.reactor_calls, [])
-        self.assertEqual(api.member_calls, [])
-
-    def test_member_lookup_is_cached_across_messages(self):
-        m1 = message("First posting.", reactions=[reaction(BRIEFCASE)], message_id="1000000000000000001")
-        m2 = message("Second posting.", reactions=[reaction(BRIEFCASE)], message_id="1000000000000000002")
-        api = ReactionApi(
-            jobs_messages=[m1, m2],
-            reactors={
-                (m1["id"], BRIEFCASE): ["u1"],
-                (m2["id"], BRIEFCASE): ["u1"],
-            },
-            members={"u1": [OFFICER_ROLE]},
-        )
-        items = build_items(CHANNEL, "", api, officer_role_ids={OFFICER_ROLE})
-        self.assertEqual(len(items), 2)
-        self.assertEqual(api.member_calls, ["u1"])
-
-    def test_failing_reactors_fetch_is_swallowed(self):
-        m = message("Hiring now.", reactions=[reaction(BRIEFCASE)])
-        api = ReactionApi(jobs_messages=[m], fail_reactors=True)
-        stderr = io.StringIO()
-        with redirect_stderr(stderr):
-            items = build_items(CHANNEL, "", api, officer_role_ids={OFFICER_ROLE})
-        self.assertEqual(items, [])
-        self.assertIn("reactors fetch failed", stderr.getvalue())
 
 
 class TestBuildItems(unittest.TestCase):
-    def _bad_deadline_message(self):
-        return message("Hiring now.\ndeadline: sometime soon", reactions=[reaction(BRIEFCASE)])
+    def test_every_message_is_published_newest_first(self):
+        old = message("Older.", message_id="1", timestamp="2026-07-01T00:00:00+00:00")
+        new = message("Newer.", message_id="2", timestamp="2026-08-01T00:00:00+00:00")
+        items = build_items(CHANNEL, FakeApi([old, new]))
+        self.assertEqual([i["text"] for i in items], ["Newer.", "Older."])
 
-    def test_unset_officer_channel_posts_nothing(self):
-        api = FakeApi(jobs_messages=[self._bad_deadline_message()])
-        items = build_items(CHANNEL, "", api)
-        self.assertEqual(len(items), 1)
-        self.assertEqual(api.posted, [])
+    def test_only_channel_endpoints_are_called(self):
+        api = FakeApi([message("Hiring.")])
+        build_items(CHANNEL, api)
+        self.assertEqual(len(api.calls), 2)
 
-    def test_set_officer_channel_posts_warning_and_still_returns_items(self):
-        api = FakeApi(jobs_messages=[self._bad_deadline_message()])
-        items = build_items(CHANNEL, OFFICER_CHANNEL, api)
-        self.assertEqual(len(items), 1)
-        self.assertEqual(len(api.posted), 1)
+    def test_capped_at_want(self):
+        msgs = [message(f"Post {n}", message_id=str(n),
+                        timestamp=f"2026-01-01T00:{n // 60:02d}:{n % 60:02d}+00:00")
+                for n in range(WANT + 10)]
+        items = build_items(CHANNEL, FakeApi(msgs))
+        self.assertEqual(len(items), WANT)
+        self.assertEqual(items[0]["text"], f"Post {WANT + 9}")
 
-    def test_failing_officer_channel_call_does_not_raise_and_items_are_returned(self):
-        api = FakeApi(jobs_messages=[self._bad_deadline_message()], fail_history=True)
-        stderr = io.StringIO()
-        with redirect_stderr(stderr):
-            items = build_items(CHANNEL, OFFICER_CHANNEL, api)
-        self.assertEqual(len(items), 1)
-        self.assertEqual(api.posted, [])
+    def test_pages_back_past_skipped_messages_to_fill_the_cap(self):
+        # 150 replies are newer than 60 real postings; one page of 100 has none.
+        replies = [message(f"Reply {n}", message_id=str(1000 + n), msg_type=19,
+                           timestamp="2026-09-01T00:00:00+00:00") for n in range(150)]
+        posts = [message(f"Post {n}", message_id=str(n + 1),
+                         timestamp=f"2026-08-01T00:{n // 60:02d}:{n % 60:02d}+00:00")
+                 for n in range(60)]
+        api = FakeApi(replies + posts)
+        items = build_items(CHANNEL, api)
+        self.assertEqual(len(items), WANT)
+        self.assertEqual(items[0]["text"], "Post 59")
+        self.assertEqual(len(api.calls), 1 + 2)   # channel lookup + 2 message pages
+
+    def test_scan_is_bounded(self):
+        replies = [message(f"Reply {n}", message_id=str(n + 1), msg_type=19) for n in range(1000)]
+        api = FakeApi(replies)
+        self.assertEqual(build_items(CHANNEL, api), [])
+        self.assertEqual(len(api.calls), 1 + fetch_postings.MAX_PAGES)
+
+    def test_sorts_by_parsed_timestamp(self):
+        a = message("A", message_id="1", timestamp="2026-08-01T10:00:00+00:00")
+        b = message("B", message_id="2", timestamp="2026-08-01T11:00:00+02:00")  # 09:00 UTC, earlier
+        items = build_items(CHANNEL, FakeApi([a, b]))
+        self.assertEqual([i["text"] for i in items], ["A", "B"])
+
+    def test_system_and_empty_messages_are_dropped(self):
+        msgs = [message("Real posting.", message_id="1"),
+                message("joined", message_id="2", msg_type=7),
+                message("", message_id="3")]
+        self.assertEqual(len(build_items(CHANNEL, FakeApi(msgs))), 1)
 
 
 if __name__ == "__main__":

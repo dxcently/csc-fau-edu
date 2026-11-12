@@ -7,10 +7,4 @@ icon = "fa-solid fa-briefcase"
 
 Apply early — most close before the date they list.
 
-## Internships
-
-{{< board-feed data="postings,discord-postings" kind="internship" >}}
-
-## Jobs
-
-{{< board-feed data="postings,discord-postings" kind="job" >}}
+{{< board-feed data="postings,discord-postings" >}}

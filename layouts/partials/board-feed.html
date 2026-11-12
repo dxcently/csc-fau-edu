@@ -64,7 +64,7 @@
         {{- if and .kind (not $kind) }}<span>· {{ .kind }}</span>{{ end }}
         {{- with or .org .source .school }}<span>· {{ . }}</span>{{ end }}
         {{- if not $window }}{{ with .expires }}<span>· closes {{ dateFormat "Jan 2" (time.AsTime (printf "%sT12:00:00Z" .)) }}</span>{{ end }}{{ end }}
-        {{- with .url }}<a class="wf-ann__link" href="{{ . }}" rel="external">Open →</a>{{ end }}
+        {{- with .url }}<a class="wf-ann__link" href="{{ . }}" rel="external ugc nofollow noopener">Open →</a>{{ end }}
       </p>
       {{- with or .title .name }}<p class="wf-ann__text"><strong>{{ . }}</strong></p>{{ end }}
       {{- with or .text .message }}
@@ -88,7 +88,7 @@
           supported: the first `)` always ends the match.
         */ -}}
         {{- $escaped := htmlEscape . }}
-        {{- $linked := replaceRE `(https?://(?:&amp;|[^\s&<>"'])*(?:&amp;|[^\s&<>"'.,;:!?)\]]))` `<a href="$1" rel="external">$1</a>` $escaped }}
+        {{- $linked := replaceRE `(https?://(?:&amp;|[^\s&<>"'])*(?:&amp;|[^\s&<>"'.,;:!?)\]]))` `<a href="$1" rel="external ugc nofollow noopener">$1</a>` $escaped }}
         <p class="wf-ann__text">{{ $linked | safeHTML }}</p>
       {{- end }}
     </li>
