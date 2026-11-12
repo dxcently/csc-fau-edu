@@ -30,6 +30,12 @@ theme = 'relearn'
     url = "mailto:csc@fau.edu"
     weight = 40
 
+  [[menus.shortcuts]]
+    name = "<i class='fa-solid fa-right-to-bracket'></i> Sign in"
+    identifier = "signin"
+    url = "https://auth.minerva-csc.club/"
+    weight = 50
+
 [params]
   # Use the custom hacker terminal theme.
   #

@@ -3,6 +3,7 @@ title = "Sign-up Privacy"
 weight = 10
 description = "What the club keeps when you sign up, why, who sees it, and how to have it deleted."
 icon = "fa-solid fa-user-shield"
+hidden = true
 +++
 
 This is the privacy notice for the club's sign-up. It covers the club accounts only. It is short on purpose. Read all of it before you sign up.
@@ -12,15 +13,14 @@ This is the privacy notice for the club's sign-up. It covers the club accounts o
 - Your **username**.
 - Your **display name**.
 - Your **email address**.
-- Your **school name and state**. The club looks these up from the domain of your email address. For example, the part after the `@`. It uses the U.S. Department of Education College Scorecard API, or the Hipo university list. Only the domain goes to these lookups. Your full address does not.
 - **Sign-in records**: when you signed in, from which network address, and whether it worked.
 
-When you sign up, the club also posts a notice to a private channel that only officers can read. The notice holds your username, your display name, the domain of your email address (the part after the `@`, not the full address) and the school the club looked up. This channel is on Discord. Discord is a third party and keeps its own copy of the messages. An officer deletes the notice when your request is handled, or when you ask for deletion.
+When you sign up, the club also posts a notice to a private channel that only officers can read. The notice holds your username, your display name, the domain of your email address (the part after the `@`, not the full address) and whether that address is an FAU address, another `.edu` address, or a non-school address. This channel is on Discord. Discord is a third party and keeps its own copy of the messages. An officer deletes the notice when your request is handled, or when you ask for deletion.
 
 ## Why
 
 - Username, display name and email identify your account and let officers contact you.
-- School name and state let an officer confirm you are a student, and tell the club which schools its members come from.
+- The email domain tells an officer whether you signed up with a school address.
 - Sign-in records help officers find abuse and fix problems.
 
 The club does not use this data for advertising. It does not sell it.

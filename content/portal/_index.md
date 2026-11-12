@@ -3,11 +3,10 @@ title = "Portal"
 weight = 70
 description = "Every club service in one place, with who can use each one."
 icon = "fa-solid fa-table-cells-large"
+hidden = true
 +++
 
-The club's own services. You need a club account for most of them. Do not have one? [Join first](/join/).
-
-Each card says who can use it. A link you cannot use will show a sign-in page or refuse you. That is normal.
+The club's own services. You need a club account for most of them. Each card says who can use it.
 
 {{< portal-grid >}}
 
