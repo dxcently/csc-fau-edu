@@ -1,12 +1,12 @@
 +++
 title = "Conferences"
-description = "Where the club shows up next, and the codes to get in."
+description = "Where the club shows up next."
 [build]
   render = "never"
   list = "never"
 +++
 
-Where the club shows up next, and the codes to get in.
+Where the club shows up next.
 
 ### Upcoming Dates
 
