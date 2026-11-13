@@ -14,14 +14,23 @@ This is the privacy notice for the club's sign-up. It covers the club accounts o
 - Your **display name**.
 - Your **email address**.
 - **Sign-in records**: when you signed in, from which network address, and whether it worked.
+- If you sign up or sign in with **Discord**: your Discord user ID and Discord username. Your email address is still required, and the club confirms it with its own email; it is not taken on trust from Discord.
 
 When you sign up, the club also posts a notice to a private channel that only officers can read. The notice holds your username, your display name, the domain of your email address (the part after the `@`, not the full address) and whether that address is an FAU address, another `.edu` address, or a non-school address. This channel is on Discord. Discord is a third party and keeps its own copy of the messages. An officer deletes the notice when your request is handled, or when you ask for deletion.
+
+If you use Discord with your club account:
+
+- Each time you sign up or sign in with Discord, the club asks Discord whether you are in the club server. Signing in with Discord only works if you are. The answer is not stored.
+- Once you are an approved member with Discord connected, the club's bot gives your Discord account the Member role in the club server. It takes that role back if you leave the club. It changes no other roles.
+
+Officers also get alerts in a private Discord channel for some sign-in events: an admin signing in, repeated failed sign-ins, changes to officer or admin groups, and a Discord account being connected, changed or disconnected. An alert holds the username and the network address. It never holds an email address or anything typed in the password box.
 
 ## Why
 
 - Username, display name and email identify your account and let officers contact you.
 - The email domain tells an officer whether you signed up with a school address.
-- Sign-in records help officers find abuse and fix problems.
+- Sign-in records and sign-in alerts help officers find abuse and fix problems.
+- The Discord user ID ties your Discord account to your club account, for signing in and for the Member role.
 
 The club does not use this data for advertising. It does not sell it.
 
@@ -32,7 +41,7 @@ On servers the club runs itself. It is not stored on FAU systems.
 Two outside services handle part of it:
 
 - **Gmail** sends the verification and password-reset emails from the club's account, so Google sees your email address and keeps a copy of those emails.
-- **Discord** holds the officers' sign-up notice described above.
+- **Discord** holds the officers' sign-up notices and sign-in alerts described above. If you sign in with Discord, Discord also sees that you signed in to the club.
 
 ## Who sees it
 
@@ -45,14 +54,14 @@ The club does not share this data with FAU or with anyone else. The exception is
 - An approved account: until you leave the club. You leave when you ask for deletion, or when an officer removes inactive accounts after the academic year.
 - A request that is still pending: until an officer handles it.
 - A rejected request: deleted within 30 days.
-- A sign-up that never verifies its email: deleted after 48 hours.
+- A sign-up that never confirms its email: deleted the next time an officer runs the cleanup, which is not on a fixed schedule. The confirmation link expires after 30 minutes; if it does, sign up again.
 - Sign-in records and the sign-up log: 365 days. The sign-up log records the username, display name and email address entered on the sign-up form, including attempts that were refused. Passwords are never recorded.
 
 ## Ask for deletion
 
 Email [csc@fau.edu](mailto:csc@fau.edu) from the address on your account. Say you want your account and data deleted. An officer deletes it and confirms by email.
 
-Deletion removes your club account. It does not change anything in your school records, because the club has no access to them.
+Deletion removes your club account and its Discord connection, and the bot takes back the Member role it gave. It does not change anything in your school records, because the club has no access to them.
 
 ## Changes
 
