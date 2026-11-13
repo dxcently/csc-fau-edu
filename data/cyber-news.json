@@ -1,21 +1,27 @@
 [
   {
+    "date": "2026-11-13T19:58:58+05:30",
+    "source": "The Hacker News",
+    "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+    "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+  },
+  {
+    "date": "2026-11-13T19:24:20+05:30",
+    "source": "The Hacker News",
+    "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+    "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
+  },
+  {
     "date": "2026-11-13T17:22:31+05:30",
     "source": "The Hacker News",
     "title": "When an AI Agent Goes Wrong, Can You Stop It?",
     "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
   },
   {
-    "date": "2026-11-13T16:40:40+05:30",
-    "source": "The Hacker News",
-    "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-    "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
-  },
-  {
-    "date": "2026-11-13T16:25:03+05:30",
-    "source": "The Hacker News",
-    "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-    "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
+    "date": "2026-11-13T10:01:11-05:00",
+    "source": "BleepingComputer",
+    "title": "How one AI agent exposed five critical enterprise security gaps",
+    "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/"
   },
   {
     "date": "2026-11-13T07:27:40-05:00",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Check Point warns of zero-day flaw exploited for root access",
     "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
-  },
-  {
-    "date": "2026-11-13T04:36:18-05:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft confirms Windows activation failures after November updates",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
