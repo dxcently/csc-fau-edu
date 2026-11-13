@@ -12,6 +12,12 @@
     "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html"
   },
   {
+    "date": "2026-11-13T05:44:22-05:00",
+    "source": "BleepingComputer",
+    "title": "Check Point warns of zero-day flaw exploited for root access",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
+  },
+  {
     "date": "2026-11-13T04:36:18-05:00",
     "source": "BleepingComputer",
     "title": "Microsoft confirms Windows activation failures after November updates",
@@ -28,12 +34,6 @@
     "source": "The Hacker News",
     "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
     "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html"
-  },
-  {
-    "date": "2026-11-12T17:53:10-05:00",
-    "source": "BleepingComputer",
-    "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
