@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-13T22:23:08+05:30",
+    "source": "The Hacker News",
+    "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+    "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
+  },
+  {
     "date": "2026-11-13T20:57:05+05:30",
     "source": "The Hacker News",
     "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
@@ -12,10 +18,10 @@
     "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
   },
   {
-    "date": "2026-11-13T19:24:20+05:30",
-    "source": "The Hacker News",
-    "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-    "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
+    "date": "2026-11-13T12:31:56-05:00",
+    "source": "BleepingComputer",
+    "title": "German military drone operations disrupted by cyberattack",
+    "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/"
   },
   {
     "date": "2026-11-13T11:21:43-05:00",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "How one AI agent exposed five critical enterprise security gaps",
     "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/"
-  },
-  {
-    "date": "2026-11-13T07:27:40-05:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft says November security updates cause printing issues",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
