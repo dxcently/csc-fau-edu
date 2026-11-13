@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
   },
   {
+    "date": "2026-11-13T11:21:43-05:00",
+    "source": "BleepingComputer",
+    "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/"
+  },
+  {
     "date": "2026-11-13T10:01:11-05:00",
     "source": "BleepingComputer",
     "title": "How one AI agent exposed five critical enterprise security gaps",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft says November security updates cause printing issues",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/"
-  },
-  {
-    "date": "2026-11-13T05:44:22-05:00",
-    "source": "BleepingComputer",
-    "title": "Check Point warns of zero-day flaw exploited for root access",
-    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
