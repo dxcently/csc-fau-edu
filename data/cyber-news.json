@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-14T18:08:35+05:30",
+    "source": "The Hacker News",
+    "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
+  },
+  {
     "date": "2026-11-13T22:23:08+05:30",
     "source": "The Hacker News",
     "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
     "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html"
-  },
-  {
-    "date": "2026-11-13T19:58:58+05:30",
-    "source": "The Hacker News",
-    "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-    "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
   },
   {
     "date": "2026-11-13T14:38:36-05:00",
