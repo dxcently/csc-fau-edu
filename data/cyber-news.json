@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-15T13:52:04+05:30",
+    "source": "The Hacker News",
+    "title": "Stolen Fireworks AI Key Led to Cursor Data Breach and Trojanized Claude Code Extension",
+    "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
+  },
+  {
     "date": "2026-11-14T18:08:35+05:30",
     "source": "The Hacker News",
     "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
@@ -22,12 +28,6 @@
     "source": "The Hacker News",
     "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
     "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
-  },
-  {
-    "date": "2026-11-13T20:57:05+05:30",
-    "source": "The Hacker News",
-    "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
-    "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html"
   },
   {
     "date": "2026-11-13T14:38:36-05:00",
