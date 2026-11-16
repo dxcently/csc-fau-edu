@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-16T15:02:57+05:30",
+    "source": "The Hacker News",
+    "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+    "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
+  },
+  {
     "date": "2026-11-16T13:04:21+05:30",
     "source": "The Hacker News",
     "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
@@ -12,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
   },
   {
+    "date": "2026-11-16T06:00:00-05:00",
+    "source": "BleepingComputer",
+    "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/"
+  },
+  {
     "date": "2026-11-16T04:30:04-05:00",
     "source": "BleepingComputer",
     "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
@@ -22,18 +34,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft pushes Windows emergency updates to fix activation failures",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/"
-  },
-  {
-    "date": "2026-11-15T16:57:31+05:30",
-    "source": "The Hacker News",
-    "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-    "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
-  },
-  {
-    "date": "2026-11-15T13:29:53-05:00",
-    "source": "BleepingComputer",
-    "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
