@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-11-16T18:04:21+05:30",
+    "source": "The Hacker News",
+    "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+    "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
+  },
+  {
+    "date": "2026-11-16T18:03:18+05:30",
+    "source": "The Hacker News",
+    "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+    "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
+  },
+  {
     "date": "2026-11-16T15:02:57+05:30",
     "source": "The Hacker News",
     "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
     "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
-  },
-  {
-    "date": "2026-11-16T13:04:21+05:30",
-    "source": "The Hacker News",
-    "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-    "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html"
-  },
-  {
-    "date": "2026-11-16T12:23:34+05:30",
-    "source": "The Hacker News",
-    "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-    "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
   },
   {
     "date": "2026-11-16T07:53:18-05:00",
