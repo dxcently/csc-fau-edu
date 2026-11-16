@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
   },
   {
+    "date": "2026-11-16T06:18:09-05:00",
+    "source": "BleepingComputer",
+    "title": "Australian retail giant Coles investigates cybersecurity incident",
+    "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/"
+  },
+  {
     "date": "2026-11-16T06:00:00-05:00",
     "source": "BleepingComputer",
     "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
     "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/"
-  },
-  {
-    "date": "2026-11-16T03:26:52-05:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft pushes Windows emergency updates to fix activation failures",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
