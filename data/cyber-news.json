@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-11-16T19:30:00+05:30",
+    "source": "The Hacker News",
+    "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+    "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
+  },
+  {
+    "date": "2026-11-16T18:57:20+05:30",
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+    "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html"
+  },
+  {
     "date": "2026-11-16T18:04:21+05:30",
     "source": "The Hacker News",
     "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
     "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
-  },
-  {
-    "date": "2026-11-16T18:03:18+05:30",
-    "source": "The Hacker News",
-    "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-    "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
-  },
-  {
-    "date": "2026-11-16T15:02:57+05:30",
-    "source": "The Hacker News",
-    "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-    "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
   },
   {
     "date": "2026-11-16T11:43:24-05:00",
