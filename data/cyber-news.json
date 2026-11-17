@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html"
   },
   {
+    "date": "2026-11-17T18:04:21-05:00",
+    "source": "BleepingComputer",
+    "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
+  },
+  {
     "date": "2026-11-17T16:27:17-05:00",
     "source": "BleepingComputer",
     "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
     "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/"
-  },
-  {
-    "date": "2026-11-17T14:24:07-05:00",
-    "source": "BleepingComputer",
-    "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
-    "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
