@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-16T21:12:17-05:00",
+    "source": "BleepingComputer",
+    "title": "Optimizely supply chain attack infects major brands' sites with malware",
+    "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/"
+  },
+  {
     "date": "2026-11-16T19:30:00+05:30",
     "source": "The Hacker News",
     "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
     "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/"
-  },
-  {
-    "date": "2026-11-16T15:59:44-05:00",
-    "source": "BleepingComputer",
-    "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-    "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
