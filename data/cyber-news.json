@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-18T01:04:20+05:30",
+    "source": "The Hacker News",
+    "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+    "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html"
+  },
+  {
     "date": "2026-11-17T20:47:36+05:30",
     "source": "The Hacker News",
     "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
     "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html"
-  },
-  {
-    "date": "2026-11-17T17:55:06+05:30",
-    "source": "The Hacker News",
-    "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-    "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
   },
   {
     "date": "2026-11-17T14:24:07-05:00",
