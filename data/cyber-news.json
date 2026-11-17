@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-11-17T17:55:06+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+    "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
+  },
+  {
+    "date": "2026-11-17T17:44:36+05:30",
+    "source": "The Hacker News",
+    "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+    "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html"
+  },
+  {
     "date": "2026-11-17T16:50:18+05:30",
     "source": "The Hacker News",
     "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
     "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html"
-  },
-  {
-    "date": "2026-11-17T16:37:31+05:30",
-    "source": "The Hacker News",
-    "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-    "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html"
-  },
-  {
-    "date": "2026-11-17T12:42:13+05:30",
-    "source": "The Hacker News",
-    "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-    "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
   },
   {
     "date": "2026-11-17T06:19:51-05:00",
