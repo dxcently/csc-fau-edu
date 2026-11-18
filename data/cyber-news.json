@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-18T02:52:04+00:00",
+    "source": "Krebs on Security",
+    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+    "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/"
+  },
+  {
     "date": "2026-11-18T01:04:20+05:30",
     "source": "The Hacker News",
     "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
@@ -46,11 +52,5 @@
     "source": "Krebs on Security",
     "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
     "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/"
-  },
-  {
-    "date": "2026-11-05T04:36:17+00:00",
-    "source": "Krebs on Security",
-    "title": "Want to Rent an Internet Address at the White House?",
-    "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/"
   }
 ]
