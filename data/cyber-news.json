@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-18T11:28:04+05:30",
+    "source": "The Hacker News",
+    "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+    "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html"
+  },
+  {
     "date": "2026-11-18T09:57:41+05:30",
     "source": "The Hacker News",
     "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
@@ -16,12 +22,6 @@
     "source": "The Hacker News",
     "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
     "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html"
-  },
-  {
-    "date": "2026-11-17T20:47:36+05:30",
-    "source": "The Hacker News",
-    "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-    "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
   },
   {
     "date": "2026-11-17T18:04:21-05:00",
