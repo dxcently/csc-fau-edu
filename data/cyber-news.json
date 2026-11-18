@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
   },
   {
+    "date": "2026-11-18T03:24:18-05:00",
+    "source": "BleepingComputer",
+    "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+    "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/"
+  },
+  {
     "date": "2026-11-18T02:52:04+00:00",
     "source": "Krebs on Security",
     "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
     "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/"
-  },
-  {
-    "date": "2026-11-17T15:51:21-05:00",
-    "source": "BleepingComputer",
-    "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
