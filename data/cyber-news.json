@@ -14,7 +14,7 @@
   {
     "date": "2026-11-18T09:57:41+05:30",
     "source": "The Hacker News",
-    "title": "Critical Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+    "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
     "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
   },
   {
