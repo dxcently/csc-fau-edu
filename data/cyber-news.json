@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-18T19:41:28+05:30",
+    "source": "The Hacker News",
+    "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+    "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
+  },
+  {
     "date": "2026-11-18T17:58:30+05:30",
     "source": "The Hacker News",
     "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
@@ -12,10 +18,10 @@
     "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html"
   },
   {
-    "date": "2026-11-18T17:25:49+05:30",
-    "source": "The Hacker News",
-    "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-    "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+    "date": "2026-11-18T10:00:10-05:00",
+    "source": "BleepingComputer",
+    "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+    "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/"
   },
   {
     "date": "2026-11-18T06:50:25-05:00",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/"
-  },
-  {
-    "date": "2026-11-18T04:24:31-05:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft announces Windows Server 2028 with hardened security",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/"
   },
   {
     "date": "2026-11-18T02:52:04+00:00",
