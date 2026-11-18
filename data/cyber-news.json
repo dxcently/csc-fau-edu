@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-11-18T13:54:31+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+    "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
+  },
+  {
+    "date": "2026-11-18T13:54:23+05:30",
+    "source": "The Hacker News",
+    "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+    "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
+  },
+  {
     "date": "2026-11-18T12:15:26+05:30",
     "source": "The Hacker News",
     "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
     "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
-  },
-  {
-    "date": "2026-11-18T11:28:04+05:30",
-    "source": "The Hacker News",
-    "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
-    "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html"
-  },
-  {
-    "date": "2026-11-18T09:57:41+05:30",
-    "source": "The Hacker News",
-    "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-    "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
   },
   {
     "date": "2026-11-18T04:24:31-05:00",
