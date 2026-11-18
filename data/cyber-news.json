@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
   },
   {
+    "date": "2026-11-18T04:24:31-05:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft announces Windows Server 2028 with hardened security",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/"
+  },
+  {
     "date": "2026-11-18T03:24:18-05:00",
     "source": "BleepingComputer",
     "title": "British Scattered Spider hacker sentenced to 6 years in prison",
@@ -34,12 +40,6 @@
     "source": "BleepingComputer",
     "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
     "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
-  },
-  {
-    "date": "2026-11-17T16:27:17-05:00",
-    "source": "BleepingComputer",
-    "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-    "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
