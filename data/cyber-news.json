@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-18T17:58:30+05:30",
+    "source": "The Hacker News",
+    "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+    "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
+  },
+  {
     "date": "2026-11-18T17:45:00+05:30",
     "source": "The Hacker News",
     "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
     "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
-  },
-  {
-    "date": "2026-11-18T16:33:57+05:30",
-    "source": "The Hacker News",
-    "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
-    "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html"
   },
   {
     "date": "2026-11-18T06:50:25-05:00",
