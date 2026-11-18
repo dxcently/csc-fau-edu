@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
   },
   {
+    "date": "2026-11-18T05:35:05-05:00",
+    "source": "BleepingComputer",
+    "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/"
+  },
+  {
     "date": "2026-11-18T04:24:31-05:00",
     "source": "BleepingComputer",
     "title": "Microsoft announces Windows Server 2028 with hardened security",
@@ -34,12 +40,6 @@
     "source": "Krebs on Security",
     "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
     "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/"
-  },
-  {
-    "date": "2026-11-17T18:04:21-05:00",
-    "source": "BleepingComputer",
-    "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
   },
   {
     "date": "2026-11-11T18:06:01+00:00",
