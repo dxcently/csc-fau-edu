@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-18T09:57:41+05:30",
+    "source": "The Hacker News",
+    "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+    "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+  },
+  {
     "date": "2026-11-18T02:52:04+00:00",
     "source": "Krebs on Security",
     "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
@@ -16,12 +22,6 @@
     "source": "The Hacker News",
     "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
     "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
-  },
-  {
-    "date": "2026-11-17T20:47:28+05:30",
-    "source": "The Hacker News",
-    "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-    "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html"
   },
   {
     "date": "2026-11-17T18:04:21-05:00",
