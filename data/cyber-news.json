@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-11-19T17:22:23+05:30",
+    "date": "2026-11-19T20:41:06+05:30",
     "source": "The Hacker News",
-    "title": "Everything Is a Web Application, Including Your Firewall",
-    "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html"
+    "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+    "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
   },
   {
-    "date": "2026-11-19T15:01:26+05:30",
+    "date": "2026-11-19T20:15:06+05:30",
     "source": "The Hacker News",
-    "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-    "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
+    "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+    "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
   },
   {
-    "date": "2026-11-19T14:12:11+05:30",
+    "date": "2026-11-19T20:03:06+05:30",
     "source": "The Hacker News",
-    "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
-    "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html"
+    "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+    "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html"
   },
   {
     "date": "2026-11-19T10:00:10-05:00",
