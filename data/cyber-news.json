@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-19T17:22:23+05:30",
+    "source": "The Hacker News",
+    "title": "Everything Is a Web Application, Including Your Firewall",
+    "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html"
+  },
+  {
     "date": "2026-11-19T15:01:26+05:30",
     "source": "The Hacker News",
     "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
     "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html"
-  },
-  {
-    "date": "2026-11-19T13:44:00+05:30",
-    "source": "The Hacker News",
-    "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-    "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html"
   },
   {
     "date": "2026-11-19T06:46:00-05:00",
