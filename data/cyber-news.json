@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-20T00:17:58+05:30",
+    "source": "The Hacker News",
+    "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+    "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html"
+  },
+  {
     "date": "2026-11-19T22:29:56+05:30",
     "source": "The Hacker News",
     "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
     "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
-  },
-  {
-    "date": "2026-11-19T20:41:06+05:30",
-    "source": "The Hacker News",
-    "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
-    "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
   },
   {
     "date": "2026-11-19T13:20:01-05:00",
