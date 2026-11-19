@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
   },
   {
+    "date": "2026-11-19T13:20:01-05:00",
+    "source": "BleepingComputer",
+    "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+    "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/"
+  },
+  {
     "date": "2026-11-19T11:28:23-05:00",
     "source": "BleepingComputer",
     "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Five warning signs of ransomware breach before encryption or data theft",
     "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/"
-  },
-  {
-    "date": "2026-11-19T09:57:24-05:00",
-    "source": "BleepingComputer",
-    "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/"
   },
   {
     "date": "2026-11-18T02:52:04+00:00",
