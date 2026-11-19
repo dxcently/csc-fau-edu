@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
   },
   {
+    "date": "2026-11-19T17:25:42-05:00",
+    "source": "BleepingComputer",
+    "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
+  },
+  {
     "date": "2026-11-19T16:15:59-05:00",
     "source": "BleepingComputer",
     "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Transport for London breach exposes 265,000 Oyster card users' data",
     "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/"
-  },
-  {
-    "date": "2026-11-19T11:28:23-05:00",
-    "source": "BleepingComputer",
-    "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
-    "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/"
   },
   {
     "date": "2026-11-18T02:52:04+00:00",
