@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html"
   },
   {
+    "date": "2026-11-19T08:08:08-05:00",
+    "source": "BleepingComputer",
+    "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+    "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/"
+  },
+  {
     "date": "2026-11-19T06:46:00-05:00",
     "source": "BleepingComputer",
     "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft confirms app installation, launch issues after hotpatch",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/"
-  },
-  {
-    "date": "2026-11-19T04:23:21-05:00",
-    "source": "BleepingComputer",
-    "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-    "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
   },
   {
     "date": "2026-11-18T02:52:04+00:00",
