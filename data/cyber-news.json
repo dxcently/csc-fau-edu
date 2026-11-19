@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html"
   },
   {
+    "date": "2026-11-19T11:28:23-05:00",
+    "source": "BleepingComputer",
+    "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+    "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/"
+  },
+  {
     "date": "2026-11-19T10:00:10-05:00",
     "source": "BleepingComputer",
     "title": "Five warning signs of ransomware breach before encryption or data theft",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
     "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/"
-  },
-  {
-    "date": "2026-11-19T08:08:08-05:00",
-    "source": "BleepingComputer",
-    "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
-    "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/"
   },
   {
     "date": "2026-11-18T02:52:04+00:00",
