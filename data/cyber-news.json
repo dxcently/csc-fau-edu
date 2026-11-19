@@ -1,15 +1,15 @@
 [
   {
+    "date": "2026-11-19T20:48:07+05:30",
+    "source": "The Hacker News",
+    "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+    "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
+  },
+  {
     "date": "2026-11-19T20:41:06+05:30",
     "source": "The Hacker News",
     "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
     "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
-  },
-  {
-    "date": "2026-11-19T20:15:06+05:30",
-    "source": "The Hacker News",
-    "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-    "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
   },
   {
     "date": "2026-11-19T20:03:06+05:30",
