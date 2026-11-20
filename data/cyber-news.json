@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"
   },
   {
+    "date": "2026-11-20T05:57:43-05:00",
+    "source": "BleepingComputer",
+    "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/"
+  },
+  {
     "date": "2026-11-20T04:25:35-05:00",
     "source": "BleepingComputer",
     "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "VMware patches vCenter zero-day exploited in attacks since September",
     "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
-  },
-  {
-    "date": "2026-11-19T17:25:42-05:00",
-    "source": "BleepingComputer",
-    "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
   },
   {
     "date": "2026-11-18T02:52:04+00:00",
