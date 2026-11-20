@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html"
   },
   {
+    "date": "2026-11-20T10:00:10-05:00",
+    "source": "BleepingComputer",
+    "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+    "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/"
+  },
+  {
     "date": "2026-11-20T08:18:36-05:00",
     "source": "BleepingComputer",
     "title": "N-able says recent security breach led to major service outage",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/"
-  },
-  {
-    "date": "2026-11-20T05:57:43-05:00",
-    "source": "BleepingComputer",
-    "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-    "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/"
   },
   {
     "date": "2026-11-18T02:52:04+00:00",
