@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-20T12:03:31+05:30",
+    "source": "The Hacker News",
+    "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+    "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
+  },
+  {
     "date": "2026-11-20T11:00:01+05:30",
     "source": "The Hacker News",
     "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
     "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html"
-  },
-  {
-    "date": "2026-11-19T22:29:56+05:30",
-    "source": "The Hacker News",
-    "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-    "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html"
   },
   {
     "date": "2026-11-19T19:26:25-05:00",
