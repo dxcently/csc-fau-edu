@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-20T11:00:01+05:30",
+    "source": "The Hacker News",
+    "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+    "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"
+  },
+  {
     "date": "2026-11-20T00:17:58+05:30",
     "source": "The Hacker News",
     "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
     "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html"
-  },
-  {
-    "date": "2026-11-19T20:48:07+05:30",
-    "source": "The Hacker News",
-    "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-    "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
   },
   {
     "date": "2026-11-19T19:26:25-05:00",
