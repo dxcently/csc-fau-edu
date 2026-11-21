@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-21T14:19:20+05:30",
+    "source": "The Hacker News",
+    "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+    "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"
+  },
+  {
+    "date": "2026-11-21T14:19:13+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
+  },
+  {
     "date": "2026-11-21T00:36:39+00:00",
     "source": "Krebs on Security",
     "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
@@ -10,18 +22,6 @@
     "source": "The Hacker News",
     "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
     "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
-  },
-  {
-    "date": "2026-11-20T22:28:16+05:30",
-    "source": "The Hacker News",
-    "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-    "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
-  },
-  {
-    "date": "2026-11-20T17:50:00+05:30",
-    "source": "The Hacker News",
-    "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-    "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
   },
   {
     "date": "2026-11-20T13:51:43-05:00",
