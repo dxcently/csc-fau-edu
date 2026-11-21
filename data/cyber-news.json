@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
   },
   {
+    "date": "2026-11-21T13:01:58-05:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+  },
+  {
     "date": "2026-11-21T10:17:27-05:00",
     "source": "BleepingComputer",
     "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
@@ -34,12 +40,6 @@
     "source": "Krebs on Security",
     "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
     "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
-  },
-  {
-    "date": "2026-11-20T13:51:43-05:00",
-    "source": "BleepingComputer",
-    "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-    "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/"
   },
   {
     "date": "2026-11-18T02:52:04+00:00",
