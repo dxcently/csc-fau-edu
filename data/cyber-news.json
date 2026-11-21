@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-21T17:59:58-05:00",
+    "source": "BleepingComputer",
+    "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+    "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
+  },
+  {
     "date": "2026-11-21T17:23:07+05:30",
     "source": "The Hacker News",
     "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
     "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/"
-  },
-  {
-    "date": "2026-11-21T09:26:04-05:00",
-    "source": "BleepingComputer",
-    "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
