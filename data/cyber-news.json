@@ -1,27 +1,27 @@
 [
   {
+    "date": "2026-11-21T16:35:53+05:30",
+    "source": "The Hacker News",
+    "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+    "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
+  },
+  {
+    "date": "2026-11-21T16:33:17+05:30",
+    "source": "The Hacker News",
+    "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+    "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+  },
+  {
     "date": "2026-11-21T14:19:20+05:30",
     "source": "The Hacker News",
     "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
     "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"
   },
   {
-    "date": "2026-11-21T14:19:13+05:30",
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
-  },
-  {
     "date": "2026-11-21T00:36:39+00:00",
     "source": "Krebs on Security",
     "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
     "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
-  },
-  {
-    "date": "2026-11-20T23:27:20+05:30",
-    "source": "The Hacker News",
-    "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-    "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
   },
   {
     "date": "2026-11-20T13:51:43-05:00",
