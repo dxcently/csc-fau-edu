@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-21T17:23:07+05:30",
+    "source": "The Hacker News",
+    "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+    "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
+  },
+  {
     "date": "2026-11-21T16:35:53+05:30",
     "source": "The Hacker News",
     "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
-  },
-  {
-    "date": "2026-11-21T14:19:20+05:30",
-    "source": "The Hacker News",
-    "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-    "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
