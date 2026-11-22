@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-22T13:45:37-05:00",
+    "source": "BleepingComputer",
+    "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
+  },
+  {
     "date": "2026-11-22T10:43:04-05:00",
     "source": "BleepingComputer",
     "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
@@ -22,12 +28,6 @@
     "source": "BleepingComputer",
     "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
     "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"
-  },
-  {
-    "date": "2026-11-21T17:59:58-05:00",
-    "source": "BleepingComputer",
-    "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-    "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
   },
   {
     "date": "2026-11-21T17:23:07+05:30",
