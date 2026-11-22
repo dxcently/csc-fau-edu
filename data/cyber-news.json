@@ -12,6 +12,12 @@
     "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
   },
   {
+    "date": "2026-11-22T10:15:25-05:00",
+    "source": "BleepingComputer",
+    "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+    "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"
+  },
+  {
     "date": "2026-11-21T17:59:58-05:00",
     "source": "BleepingComputer",
     "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
     "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
-  },
-  {
-    "date": "2026-11-21T10:17:27-05:00",
-    "source": "BleepingComputer",
-    "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-    "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
