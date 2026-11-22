@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-22T10:43:04-05:00",
+    "source": "BleepingComputer",
+    "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+    "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"
+  },
+  {
     "date": "2026-11-22T10:36:55+05:30",
     "source": "The Hacker News",
     "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
@@ -28,12 +34,6 @@
     "source": "The Hacker News",
     "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
     "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
-  },
-  {
-    "date": "2026-11-21T13:01:58-05:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
