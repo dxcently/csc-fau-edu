@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-22T10:36:55+05:30",
+    "source": "The Hacker News",
+    "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+    "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
+  },
+  {
+    "date": "2026-11-22T10:33:41+05:30",
+    "source": "The Hacker News",
+    "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+    "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
+  },
+  {
     "date": "2026-11-21T17:59:58-05:00",
     "source": "BleepingComputer",
     "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
@@ -10,18 +22,6 @@
     "source": "The Hacker News",
     "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
     "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
-  },
-  {
-    "date": "2026-11-21T16:35:53+05:30",
-    "source": "The Hacker News",
-    "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-    "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
-  },
-  {
-    "date": "2026-11-21T16:33:17+05:30",
-    "source": "The Hacker News",
-    "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-    "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
   },
   {
     "date": "2026-11-21T13:01:58-05:00",
