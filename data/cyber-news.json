@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-23T23:15:15+05:30",
+    "source": "The Hacker News",
+    "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+    "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
+  },
+  {
     "date": "2026-11-23T20:40:48+05:30",
     "source": "The Hacker News",
     "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
     "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html"
-  },
-  {
-    "date": "2026-11-23T18:11:04+05:30",
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
   },
   {
     "date": "2026-11-23T11:50:01-05:00",
