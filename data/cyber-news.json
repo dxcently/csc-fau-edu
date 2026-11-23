@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-23T20:40:48+05:30",
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+    "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
+  },
+  {
     "date": "2026-11-23T18:52:20+05:30",
     "source": "The Hacker News",
     "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
-  },
-  {
-    "date": "2026-11-23T17:58:09+05:30",
-    "source": "The Hacker News",
-    "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-    "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
   },
   {
     "date": "2026-11-23T10:00:10-05:00",
