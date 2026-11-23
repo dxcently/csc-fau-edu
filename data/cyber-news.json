@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-23T02:44:19-05:00",
+    "source": "BleepingComputer",
+    "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
+  },
+  {
     "date": "2026-11-22T13:45:37-05:00",
     "source": "BleepingComputer",
     "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
@@ -22,12 +28,6 @@
     "source": "The Hacker News",
     "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
     "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
-  },
-  {
-    "date": "2026-11-22T10:15:25-05:00",
-    "source": "BleepingComputer",
-    "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-    "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"
   },
   {
     "date": "2026-11-21T17:23:07+05:30",
