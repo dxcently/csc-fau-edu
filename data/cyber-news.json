@@ -6,6 +6,12 @@
     "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html"
   },
   {
+    "date": "2026-11-23T04:11:15-05:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/"
+  },
+  {
     "date": "2026-11-23T02:44:19-05:00",
     "source": "BleepingComputer",
     "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
@@ -16,12 +22,6 @@
     "source": "BleepingComputer",
     "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
-  },
-  {
-    "date": "2026-11-22T10:43:04-05:00",
-    "source": "BleepingComputer",
-    "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-    "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"
   },
   {
     "date": "2026-11-22T10:36:55+05:30",
