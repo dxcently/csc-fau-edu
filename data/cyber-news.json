@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-23T14:41:56+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
+  },
+  {
+    "date": "2026-11-23T14:34:08+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+    "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html"
+  },
+  {
     "date": "2026-11-23T13:54:15+05:30",
     "source": "The Hacker News",
     "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
@@ -22,18 +34,6 @@
     "source": "BleepingComputer",
     "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
-  },
-  {
-    "date": "2026-11-22T10:36:55+05:30",
-    "source": "The Hacker News",
-    "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-    "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
-  },
-  {
-    "date": "2026-11-22T10:33:41+05:30",
-    "source": "The Hacker News",
-    "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-    "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
