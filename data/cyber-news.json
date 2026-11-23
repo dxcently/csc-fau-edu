@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-23T13:54:15+05:30",
+    "source": "The Hacker News",
+    "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+    "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html"
+  },
+  {
     "date": "2026-11-23T02:44:19-05:00",
     "source": "BleepingComputer",
     "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
@@ -28,12 +34,6 @@
     "source": "The Hacker News",
     "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
     "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
-  },
-  {
-    "date": "2026-11-21T17:23:07+05:30",
-    "source": "The Hacker News",
-    "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-    "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
