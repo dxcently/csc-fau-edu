@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-24T14:04:20+05:30",
+    "source": "The Hacker News",
+    "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+    "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html"
+  },
+  {
     "date": "2026-11-24T11:32:57+05:30",
     "source": "The Hacker News",
     "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
     "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
-  },
-  {
-    "date": "2026-11-23T23:15:15+05:30",
-    "source": "The Hacker News",
-    "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-    "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
   },
   {
     "date": "2026-11-23T15:54:51-05:00",
