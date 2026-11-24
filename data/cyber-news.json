@@ -1,21 +1,21 @@
 [
   {
+    "date": "2026-11-24T11:32:57+05:30",
+    "source": "The Hacker News",
+    "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+    "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
+  },
+  {
+    "date": "2026-11-24T11:32:45+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
+  },
+  {
     "date": "2026-11-23T23:15:15+05:30",
     "source": "The Hacker News",
     "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
     "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
-  },
-  {
-    "date": "2026-11-23T20:40:48+05:30",
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-    "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
-  },
-  {
-    "date": "2026-11-23T18:52:20+05:30",
-    "source": "The Hacker News",
-    "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
-    "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html"
   },
   {
     "date": "2026-11-23T15:54:51-05:00",
