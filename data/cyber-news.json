@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-24T22:24:07+05:30",
+    "source": "The Hacker News",
+    "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+    "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
+  },
+  {
     "date": "2026-11-24T18:58:26+05:30",
     "source": "The Hacker News",
     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
     "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html"
-  },
-  {
-    "date": "2026-11-24T18:12:09+05:30",
-    "source": "The Hacker News",
-    "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-    "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
   },
   {
     "date": "2026-11-24T11:30:19-05:00",
