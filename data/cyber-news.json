@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-25T11:51:12+05:30",
+    "source": "The Hacker News",
+    "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+    "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html"
+  },
+  {
     "date": "2026-11-24T22:24:07+05:30",
     "source": "The Hacker News",
     "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
     "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
-  },
-  {
-    "date": "2026-11-24T18:58:21+05:30",
-    "source": "The Hacker News",
-    "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-    "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html"
   },
   {
     "date": "2026-11-24T16:37:30-05:00",
