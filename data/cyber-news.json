@@ -18,22 +18,22 @@
     "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html"
   },
   {
+    "date": "2026-11-25T10:00:10-05:00",
+    "source": "BleepingComputer",
+    "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+    "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/"
+  },
+  {
+    "date": "2026-11-25T10:00:00-05:00",
+    "source": "BleepingComputer",
+    "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+    "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/"
+  },
+  {
     "date": "2026-11-25T06:16:32-05:00",
     "source": "BleepingComputer",
     "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/"
-  },
-  {
-    "date": "2026-11-25T05:10:20-05:00",
-    "source": "BleepingComputer",
-    "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/"
-  },
-  {
-    "date": "2026-11-25T04:02:57-05:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft confirms authentication issues after November updates",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
