@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-25T14:36:59+05:30",
+    "source": "The Hacker News",
+    "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+    "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html"
+  },
+  {
     "date": "2026-11-25T12:20:19+05:30",
     "source": "The Hacker News",
     "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
     "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html"
-  },
-  {
-    "date": "2026-11-25T11:51:12+05:30",
-    "source": "The Hacker News",
-    "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
-    "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html"
   },
   {
     "date": "2026-11-25T04:02:57-05:00",
