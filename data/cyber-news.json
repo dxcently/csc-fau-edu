@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
   },
   {
+    "date": "2026-11-25T06:16:32-05:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/"
+  },
+  {
     "date": "2026-11-25T05:10:20-05:00",
     "source": "BleepingComputer",
     "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft confirms authentication issues after November updates",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/"
-  },
-  {
-    "date": "2026-11-25T02:45:03-05:00",
-    "source": "BleepingComputer",
-    "title": "Hackers reportedly breached CIA intelligence analysis system",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
