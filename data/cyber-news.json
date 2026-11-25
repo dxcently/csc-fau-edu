@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-25T16:13:07+05:30",
+    "source": "The Hacker News",
+    "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+    "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html"
+  },
+  {
     "date": "2026-11-25T14:36:59+05:30",
     "source": "The Hacker News",
     "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
     "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
-  },
-  {
-    "date": "2026-11-25T12:07:06+05:30",
-    "source": "The Hacker News",
-    "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-    "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html"
   },
   {
     "date": "2026-11-25T05:10:20-05:00",
