@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-26T09:18:52+05:30",
+    "source": "The Hacker News",
+    "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+    "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html"
+  },
+  {
     "date": "2026-11-25T18:18:54+05:30",
     "source": "The Hacker News",
     "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
     "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
-  },
-  {
-    "date": "2026-11-25T17:21:48+05:30",
-    "source": "The Hacker News",
-    "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
-    "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html"
   },
   {
     "date": "2026-11-25T17:05:09-05:00",
