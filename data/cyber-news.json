@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
   },
   {
+    "date": "2026-11-26T10:23:28-05:00",
+    "source": "BleepingComputer",
+    "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+    "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/"
+  },
+  {
     "date": "2026-11-26T06:50:17-05:00",
     "source": "BleepingComputer",
     "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
     "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/"
-  },
-  {
-    "date": "2026-11-25T16:33:33-05:00",
-    "source": "BleepingComputer",
-    "title": "1Password customer data stolen after employee GitHub account breach",
-    "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
