@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-26T09:50:22+05:30",
+    "source": "The Hacker News",
+    "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+    "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+  },
+  {
     "date": "2026-11-26T09:18:52+05:30",
     "source": "The Hacker News",
     "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
@@ -10,12 +16,6 @@
     "source": "The Hacker News",
     "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
     "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
-  },
-  {
-    "date": "2026-11-25T18:00:08+05:30",
-    "source": "The Hacker News",
-    "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-    "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
   },
   {
     "date": "2026-11-25T17:05:09-05:00",
