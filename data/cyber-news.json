@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"
   },
   {
+    "date": "2026-11-27T06:18:36-05:00",
+    "source": "BleepingComputer",
+    "title": "Microsoft removes WSUS server role in Windows Server 2028",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/"
+  },
+  {
     "date": "2026-11-27T05:10:15-05:00",
     "source": "BleepingComputer",
     "title": "Drupal warns of new site takeover flaw exploited in attacks",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "SAP confirms security incident after suspicious GitHub activity",
     "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/"
-  },
-  {
-    "date": "2026-11-27T04:08:16-05:00",
-    "source": "BleepingComputer",
-    "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
