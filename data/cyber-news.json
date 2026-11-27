@@ -12,6 +12,12 @@
     "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
   },
   {
+    "date": "2026-11-27T05:10:15-05:00",
+    "source": "BleepingComputer",
+    "title": "Drupal warns of new site takeover flaw exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/"
+  },
+  {
     "date": "2026-11-27T04:56:36-05:00",
     "source": "BleepingComputer",
     "title": "SAP confirms security incident after suspicious GitHub activity",
@@ -22,12 +28,6 @@
     "source": "BleepingComputer",
     "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
     "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/"
-  },
-  {
-    "date": "2026-11-27T03:06:58-05:00",
-    "source": "BleepingComputer",
-    "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
-    "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/"
   },
   {
     "date": "2026-11-27T01:09:57+05:30",
