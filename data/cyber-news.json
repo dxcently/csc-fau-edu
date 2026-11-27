@@ -18,6 +18,12 @@
     "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html"
   },
   {
+    "date": "2026-11-27T13:57:42-05:00",
+    "source": "BleepingComputer",
+    "title": "New Boston Scientific data breach exposes personal, medical info",
+    "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/"
+  },
+  {
     "date": "2026-11-27T12:06:13-05:00",
     "source": "BleepingComputer",
     "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
     "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/"
-  },
-  {
-    "date": "2026-11-27T10:00:10-05:00",
-    "source": "BleepingComputer",
-    "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
-    "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
