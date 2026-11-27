@@ -12,6 +12,12 @@
     "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
   },
   {
+    "date": "2026-11-27T03:06:58-05:00",
+    "source": "BleepingComputer",
+    "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+    "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/"
+  },
+  {
     "date": "2026-11-27T01:09:57+05:30",
     "source": "The Hacker News",
     "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
@@ -28,12 +34,6 @@
     "source": "BleepingComputer",
     "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
     "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/"
-  },
-  {
-    "date": "2026-11-26T12:15:27-05:00",
-    "source": "BleepingComputer",
-    "title": "Fake paid expert interviews impersonate brands to steal Google logins",
-    "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/"
   },
   {
     "date": "2026-11-21T00:36:39+00:00",
